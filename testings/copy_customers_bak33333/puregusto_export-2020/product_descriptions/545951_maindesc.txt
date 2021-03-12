@@ -1,0 +1,12 @@
+<div class="modal-product-right">
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Funnel &amp; Sieve</span></h1>
+<h2>&nbsp;</h2>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Stainless steel funnel with sieve insert. The generous capacity of the funnel allows for easy preparation. With a convenient handle, the sieve easily connects and disconnects. Perfect for making Espumas as well as straining preparations containing pulp, seeds or kernels.</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Funnel 750 ml, made of top quality 18/10 stainless steel</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Sieve &oslash; 15 cm</span></li>
+<li><strong><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Suitable for all iSi Whippers.</span></strong></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Dishwasher Safe&nbsp;</span></li>
+</ul>
+</div>

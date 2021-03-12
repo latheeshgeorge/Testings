@@ -1,0 +1,65 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">JURA SMART CONNECT</span></h1>
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">JURA BLUETOOTH ADAPTER</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Controlling your automatic coffee machine via your smartphone or tablet is now easier than ever before thanks to JURA Smart Connect, which also enables communication with smart accessories and offers brand new programming options. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The new "JURA Smart Connect" uses Bluetooth&reg;&nbsp;communication, based on a transmitter that is simply plugged into the coffee machine. With the app you can then wirelessly operate and program the machine and link up to various accessories.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Compatible With The Following Jura Models;</span></strong></p>
+<table style="height: 120px; width: 320px;" border="0" align="center">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA X3 / X3c Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA W3 Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA X7 / X7c Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA X8 / X8c Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA X9 / X9c Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">XJ6 Professional</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">WE6</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">WE8</span></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">GIGA 5*</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Z6</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E8</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E80</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E800</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E6</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E60</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E600</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">You can use the&nbsp;<a href="https://uk.jura.com/en/support/jura-apps/jura-connect-app" target="_self"><strong>JURA Connect App</strong></a>&nbsp;to very easily access all relevant information from the preparation, day and maintenance counters via your smartphone. Easy-to-understand graphics and automatic warnings make accounting and maintenance easier than ever before for vending or operating partners.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The&nbsp;<a title="Coffee App Professional" href="https://uk.jura.com/en/support/jura-apps/jura-coffee-app-professional" target="_self"><strong>JURA Coffee App Professional</strong></a>&nbsp;conveniently brings the various setting and programming options of your JURA automatic machine to your tablet. Customise all speciality coffees to your needs, name them as you like and assign an image of your choice to them. The preparation can also be conveniently started via the tablet. The app is also ideal for use in self-service zones as the menu can be locked with a PIN code.&nbsp;</span></p>
+<p><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The JURA Coffee App Professional constantly keeps you informed of the machine data. Preparation, day and maintenance counters can also be accessed, as can the active prompts to take action.&nbsp;</span></p>
+<p>&nbsp;</p>
+<table style="height: 646px; margin-left: auto; margin-right: auto; width: 613px;">
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Customised coffee</strong>&nbsp;</span><br /><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Customise the coffee strength, amount of coffee and water and temperature of your favourite specialities to your preferences and experience customised coffee pleasure every time you prepare a coffee via your tablet or smartphone.</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="https://media.jura.com/images/apps/cofapp_feature1_en.jpg" alt="" width="295" height="183" /></span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="https://media.jura.com/images/apps/cofapp_feature2_en.jpg" alt="" width="295" height="183" /></span></td>
+<td style="text-align: right;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><br />Customised access&nbsp;<br /></strong></span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The app's start screen can be customised. Position your favourite specialities on the start screen and arrange them as you like. Once you launch the app, you are taken to your favourite speciality coffee by the most direct route possible.</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><br />Customised product names</strong>&nbsp;</span><br /><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">"Robert's morning coffee", "My Star" or "Cappuccino special". Give each speciality coffee a different name. The JURA Coffee App allows you to name all products in a few easy steps.</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="https://media.jura.com/images/apps/cofapp_feature3_de.jpg" alt="" width="295" height="183" /></span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="https://media.jura.com/images/apps/cofapp_feature4_de.jpg" alt="" width="295" height="183" /></span></td>
+<td style="text-align: right;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Customised image&nbsp;<br /></strong></span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Are the standard product images for latte macchiato, cappuccino etc. a bit dull for you? No problem, select an image from your gallery or use one of your own photos. Your screen will be given an individual makeover in a flash.</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

@@ -1,0 +1,12 @@
+_type ---- refund-amount-notification 
+timestamp ---- 2009-04-08T11:20:10.981Z 
+google-order-number ---- 971372907071707 
+latest-refund-amount_currency ---- GBP 
+latest-refund-amount ---- 1000.0 
+total-refund-amount ---- 11044.55 
+total-refund-amount_currency ---- GBP 
+serial-number ---- 971372907071707-00013-3
+ 
+Order id 596 
+Status :Paid
+Ref_amt :1000.0 Allowable amt 1000.00

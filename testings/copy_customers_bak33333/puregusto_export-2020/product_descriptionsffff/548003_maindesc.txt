@@ -1,0 +1,107 @@
+<p style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">SIMPLY ORIGINAL CHOCOLATE</span></strong></p>
+<p style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">25% COCOA CONTENT HOT CHOC</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">One of the industries leading beverage manufacturers best selling hot chocolate powders, 25% cocoa content will deliver a seductively sweet and smooth chocolate experience.</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Dissolve 33g powder in 200ml of semi skimmed milk and steam!</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Why not add a flavoured simply syrup to give the drink a real edge</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Storage Instructions<br /></strong>Store in a cool dry place.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Shelf life after opening:</strong></span></p>
+<p><span style="font-size: small;">24 months</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Nutritional Values (tabulate)</strong></span></p>
+<table style="height: 128px; width: 408px;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Energy</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1593</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">kJ/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Energy</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">376</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">kcal/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Total fat</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">5.0</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Saturated fats</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">3.2</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Total carbohydrate</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">78.0</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Of which sugars</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">75.5</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Protein</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">4.8</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Salt</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0.5</span></p>
+</td>
+<td width="193">
+<p class="Default"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">g/100g</span></p>
+</td>
+</tr>
+</tbody>
+</table>

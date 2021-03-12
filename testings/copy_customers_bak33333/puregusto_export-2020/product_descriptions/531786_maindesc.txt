@@ -1,0 +1,10 @@
+<h1 style="text-align: center;"><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">Crunchy Amaretti Biscuits</span></h1>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">These crunchy amaretti biscuits are perfect to accompany any hot beverage such as a cappuccino or a mocha. The amaretti biscuit boasts a rich amaretto flavouring and is individually wrapped to ensure freshness and preserve the delicious taste.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">&nbsp;</span></p>
+<p><strong><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">Key Product Features:</span></strong></p>
+<ul>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">&nbsp;Individually wrapped to ensure freshness</span></li>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">&nbsp;Pack size of 300 to make sure you have plenty to offer</span></li>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">&nbsp;These are vegetarian suitable</span></li>
+</ul>

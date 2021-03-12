@@ -1,0 +1,32 @@
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [CreditRequestID] => 2109510
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)
+Array
+(
+    [CreditRequestID] => 2109510
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)
+Array
+(
+)

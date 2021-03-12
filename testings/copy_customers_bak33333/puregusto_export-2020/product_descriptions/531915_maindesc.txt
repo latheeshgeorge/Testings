@@ -1,0 +1,137 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Expobar Diamant</span></h1>
+<p style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>DIAMANT CONCEPT</strong></span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">We put together a few hand-picked employees for a joint task &ndash; to create the best&nbsp; espresso machine imaginable. They are now done. The result is a machine with properties and technical solutions that would make any barista enviable. When the machine was presented for the first time, the name came naturally. It is a Diamond.&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Diamant is an exclusive espresso machine that is fully-equipped with technical innovations and high-class finishing touches. Diamant is created to draw attention, both for its beautiful design and for its genuine quality. Optionally, Diamant can be ordered in custom colours and with the equipment you want.</span></p>
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The Expobar Diamant, an automatic espresso coffee machine with 2 or 3 groups, electronic switchboard to control the coffee dosages volumetrically and automatic water filling. It boasts a 99.9% copper boiler with 11.5 litres capacity and a 3050 W element (2Grp) . This machine is available in personalised corporate colours.&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong><em>Other features include:</em></strong></span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Automatic back flush program on each group</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Built-in volumetric motor and pump fitted with 2 retention valves and solid particle filter</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">In-built magnetic calcium neutraliser on pump and pre-heat exchangers</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Direct pre-infusion chamber on each group</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Programmable time clock for automatic switch on/off</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Digital Display</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Maintenance management with warning light for programmable service reminders</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Memorises total brewed coffees</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Long stainless steel non-burn steam tubes</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Isolating taps on steam/hot water taps and groups allow the machine to be serviced without turning off the machine</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Each group has a extraction time clock (shot clock and grinder alarm if extraction time is outside set parameters)</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Four programmable volumetric dosages for each group</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Three steam taps, with one equipped heat sensor for automatic control of temperature (no need for jug thermostat)</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Two electronic hot water outlets which can be programmed for different volumes</span></li>
+</ul>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="left" valign="top">
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="left" valign="top">
+<td width="25" height="40"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="25" height="1" border="0" /></span></td>
+<td width="9"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="9" height="1" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="8"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="8" height="1" border="0" /></span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="2" height="87"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="139"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="Picture37" title="2 Group Diamant Keypad" src="http://expobar.co.uk/assets/images/diakeypad.jpg" alt="2 Group Diamant Keypad" width="139" height="87" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="4" height="4"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td id="Text14" class="TextObject normaltext" colspan="3" width="156">
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Individual group temperature control on Barista version</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="left" valign="top">
+<td width="28" height="41"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="28" height="1" border="0" /></span></td>
+<td width="1"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="1" height="1" border="0" /></span></td>
+<td width="138"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="138" height="1" border="0" /></span></td>
+</tr>
+<tr align="left" valign="top">
+<td height="87"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td colspan="2" width="139"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="Picture28" title="2 Group Diamant Hot water tap" src="http://expobar.co.uk/assets/images/diahotwater.jpg" alt="2 Group Diamant Hot water tap" width="139" height="87" border="0" /></span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="3" height="4"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="2"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td id="Text13" class="TextObject normaltext" width="138">
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Automatic hot water dispense</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="left" valign="top">
+<td width="17" height="40"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="17" height="1" border="0" /></span></td>
+<td width="27"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="27" height="1" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="19"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="19" height="1" border="0" /></span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="2" height="87"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="139"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="Picture38" title="2 Group Diamant Steam Arm" src="http://expobar.co.uk/assets/images/diasteam.jpg" alt="2 Group Diamant Steam Arm" width="139" height="87" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="4" height="3"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td id="Text15" class="TextObject normaltext" colspan="3" width="185">
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Steam arm with automatic temperature control</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr align="left" valign="top">
+<td width="14" height="39"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="14" height="1" border="0" /></span></td>
+<td width="27"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="27" height="1" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="19"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img src="http://expobar.co.uk/assets/images/autogen/clearpixel.gif" alt="" width="19" height="1" border="0" /></span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="2" height="87"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td width="139"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="Picture36" title="2 Group Diamant Display" src="http://expobar.co.uk/assets/images/diadisplay.jpg" alt="2 Group Diamant Display" width="139" height="87" border="0" /></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td colspan="4" height="3"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+</tr>
+<tr align="left" valign="top">
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></td>
+<td id="Text16" class="TextObject normaltext" colspan="3" width="185">
+<p class="normaltext"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Full system information presented on large display screen</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,15 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">CLASSIC HOUSE BLEND</span></h1>
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">MEDIUM ROAST FILTER COFFEE</span></h1>
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></h1>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Our Best Selling Filter Coffee, Our classic house blend is ideal for every day all day drinking. A medium roast filter convection roasted and roller ground to perfection.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Medium Roast</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Convection Roasted</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Roller Ground To Perfection</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Packed In A BRC Approved Plant</span></li>
+</ul>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">50 x Preportioned Sachets</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Filter Papers Included</span></li>
+</ul>

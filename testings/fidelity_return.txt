@@ -1,0 +1,1685 @@
+Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34741836
+    [xref] => 19022711TF58QZ31RL73VPX
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 4195
+    [currencyExponent] => 2
+    [orderRef] => 308219
+    [transactionUnique] => 5c767b2a74f05
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDE4MzY=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUttugzAM/RXUDyAXoEDlRqJjlz606ta+7JEFb0Url4awtfv6JVDWNVIkHzs+
+to8Du71CTLcoO4UCVti22Qc6RT6fBDKchm/TUPLI4xMBm+QFjwK+ULVFXQnmUpcD
+GaFJVXKfVVpAJo+L5Vow7vnBFMgFQolqmQpqThybxAFClZUoHoocD0WTnR0v3To7
+bLWTSFl3FZA+DtbW6iwibghHAJ06iL3WzYyQ955Bnw1HiZV2Ze12n0DsCyDX1jad
+tVrDeCpysUqT75v78+yt03t/9fM6B2JfQJ5pFJyymHIeOozNgmjmme57P2SlbUU8
+LjaOz9w4MMMOHmhsoWQAPrOR/x4waius5DjQiABPTV2Z/oUp8WdDjq0UHo04i01l
+C4BcJ7l7spJLbdT0KeOUMuqFzGeMcSt+H7DEhZGMxWxgtgCITSWXvZLL7o118yd+
+AZqAsc4=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 11:58:31
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:667444
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c767b67ad18d
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 667444
+    [responseStatus] => 0
+    [timestamp] => 2019-02-27 11:58:41
+    [amountApproved] => 4195
+    [amountReceived] => 4195
+    [amountRetained] => 4195
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 11:58:41
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP41.95
+    [signature] => 9b6ecd230fd34fdfeb1afcca4e730b1d61dd77a74bb4c9795a2fce744f2f82f3bd0a839deb7695cab2cf033efe0aee0f8906f0cdb42a8138b2d93fba9763d54e
+)
+Array
+(
+    [responseCode] => 1
+    [responseMessage] => CARD REFERRED
+    [responseStatus] => 1
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34744305
+    [xref] => 19022713CY13KY46MY26LKQ
+    [state] => referred
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 9395
+    [currencyExponent] => 2
+    [orderRef] => 308225
+    [transactionUnique] => 5c768cdeee571
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh george
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDQzMDU=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUlluwjAQvUrEAeIlCSFosBQateUDBIUewHKmJSpZcJwWOH3tQEqxbGneLM8z
+z4bdXiNmW1SdRgFLbFv5iV6Rz0aRiseTnMpQ5ZEaCVinb3gU8I26LepKMJ/6HMgA
+balWe1kZAVId54uVYDwIozGQG4QS9SIT1K4ksYVXCJUsUTwXOR6KRp69INt6O2yN
+lypVdxWQPg7ONvosJtwSDgA6fRB7Y5opIR89gzlbjhIr46va776AuAwg99bWnbNa
+y3gqcrHM0p+Hc9kEq2xzWWbvMyAuA3JpUHDKEsp57LFgancYA+n9IEvXiniZr70k
+8JPIDnv1QOMuSq8gCVzkvwes2horNQw0IMBTU1e2f2EF+rMhx1aJgE44tzw9AHKf
+5OnVSa6MVTOkjFPKaBCzkDHGnfh9wBEXVjKWsCuzA0BcKbm9K7m9vbUe/sQvy3ay
+eA==
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 13:13:46
+    [threeDSCheck] => authenticated
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c768d0a3d9b2
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 13:13:54
+    [timestamp] => 2019-02-27 13:13:54
+    [amountRetained] => 0
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP 93.95
+    [signature] => 33b7c7c8e5e8a3519d1d8d261ba1d55689e54daac36b465fd7c636a7f7ee2e12117f0cc064143c0d7cb80f0ee486cf34c65097a20ae331ecca08d63279449a54
+)
+Array
+(
+    [responseCode] => 65803
+    [responseMessage] => 3DS NOT AUTHENTICATED
+    [responseStatus] => 2
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [threeDSCheckPref] => authenticated
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [customerReceiptsRequired] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [eReceiptsStoreID] => 1
+    [surchargeEnabled] => N
+    [customerName] => latheesh george
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [action] => SALE
+    [type] => 1
+    [amount] => 4195
+    [transactionUnique] => 5c768e534f0ee
+    [orderRef] => 308226
+    [currencyCode] => 826
+    [countryCode] => 826
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [remoteAddress] => 49.249.243.243
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [cardCVVMandatory] => Y
+    [currencyExponent] => 2
+    [displayAmount] => GBP 41.95
+    [requestID] => 5c768e70b0ecb
+    [state] => finished
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardTypeCode] => VC
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberMask] => 401200******1112
+    [cardNumberValid] => Y
+    [xref] => 19022713SD19SQ44BQ73DVP
+    [paymentMethod] => card
+    [cardExpiryDate] => 1219
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDQ0Nzk=
+    [threeDSEnrolled] => E
+    [threeDSECI] => 07
+    [transactionID] => 34744479
+    [threeDSResponseCode] => 65803
+    [threeDSResponseMessage] => 3DS NOT AUTHENTICATED
+    [threeDSVETimestamp] => 2019-02-27 13:19:44
+    [threeDSCheck] => not known
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [threeDSErrorCode] => 301
+    [threeDSErrorDescription] => Interrupted.
+    [timestamp] => 2019-02-27 13:20:14
+    [amountRetained] => 0
+    [signature] => 5622e9c4c5a09a1400f38aa3446a1966f32776aa7b5442ec2a2528b68cf6836db7a50d64b65bfe55e75a32c4e5b495a3ccc601b1192059b6e46360581691fb6d
+)
+Array
+(
+    [responseCode] => 65803
+    [responseMessage] => 3DS NOT AUTHENTICATED
+    [responseStatus] => 2
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [threeDSCheckPref] => authenticated
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [customerReceiptsRequired] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [eReceiptsStoreID] => 1
+    [surchargeEnabled] => N
+    [customerName] => latheesh george
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [action] => SALE
+    [type] => 1
+    [amount] => 4195
+    [transactionUnique] => 5c768e534f0ee
+    [orderRef] => 308226
+    [currencyCode] => 826
+    [countryCode] => 826
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [remoteAddress] => 49.249.243.243
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [cardCVVMandatory] => Y
+    [currencyExponent] => 2
+    [displayAmount] => GBP 41.95
+    [requestID] => 5c768e70b0ecb
+    [state] => finished
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardTypeCode] => VC
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberMask] => 401200******1112
+    [cardNumberValid] => Y
+    [xref] => 19022713SD19SQ44BQ73DVP
+    [paymentMethod] => card
+    [cardExpiryDate] => 1219
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDQ0Nzk=
+    [threeDSEnrolled] => E
+    [threeDSECI] => 07
+    [transactionID] => 34744479
+    [threeDSResponseCode] => 65803
+    [threeDSResponseMessage] => 3DS NOT AUTHENTICATED
+    [threeDSVETimestamp] => 2019-02-27 13:19:44
+    [threeDSCheck] => not known
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [threeDSErrorCode] => 301
+    [threeDSErrorDescription] => Interrupted.
+    [timestamp] => 2019-02-27 13:20:14
+    [amountRetained] => 0
+    [signature] => 5622e9c4c5a09a1400f38aa3446a1966f32776aa7b5442ec2a2528b68cf6836db7a50d64b65bfe55e75a32c4e5b495a3ccc601b1192059b6e46360581691fb6d
+)
+Array
+(
+    [responseCode] => 65803
+    [responseMessage] => 3DS NOT AUTHENTICATED
+    [responseStatus] => 2
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [threeDSCheckPref] => authenticated
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [customerReceiptsRequired] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [eReceiptsStoreID] => 1
+    [surchargeEnabled] => N
+    [customerName] => latheesh
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [action] => SALE
+    [type] => 1
+    [amount] => 4195
+    [transactionUnique] => 5c768fb8b3ddc
+    [orderRef] => 308227
+    [currencyCode] => 826
+    [countryCode] => 826
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [remoteAddress] => 49.249.243.243
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [cardCVVMandatory] => Y
+    [currencyExponent] => 2
+    [displayAmount] => GBP 41.95
+    [requestID] => 5c768fe5e99f7
+    [state] => finished
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardTypeCode] => VC
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberMask] => 401200******1112
+    [cardNumberValid] => Y
+    [xref] => 19022713DZ25CM57FX97TDD
+    [paymentMethod] => card
+    [cardExpiryDate] => 1219
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDQ2NTc=
+    [threeDSEnrolled] => E
+    [threeDSECI] => 07
+    [transactionID] => 34744657
+    [threeDSResponseCode] => 65803
+    [threeDSResponseMessage] => 3DS NOT AUTHENTICATED
+    [threeDSVETimestamp] => 2019-02-27 13:25:57
+    [threeDSCheck] => not known
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [threeDSErrorCode] => 301
+    [threeDSErrorDescription] => Interrupted.
+    [timestamp] => 2019-02-27 13:26:28
+    [amountRetained] => 0
+    [signature] => 4e763a89a04d1feed7c1f06b39bac68cab9f08723e44a750b46c1011952eb14f7582273825ad5f5d9f516df671430e6b97e9163d6de2b42b4d3a4ff292db6dce
+)
+orderid=308228  2019-02-27 13:34:21<br/>ord<br/>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34744918
+    [xref] => 19022713GP34GY11PW80CBP
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 4195
+    [currencyExponent] => 2
+    [orderRef] => 308228
+    [transactionUnique] => 5c7691b9232af
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDQ5MTg=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqvFigykcqqbfwAscEFutRANfpBmm6w0y+h7RiRIvnZ8fOz
+HdgdNWKyRdVqlLDCpkkP6OXZfBSqyThimVB7Kj5GEjbxO54lfKFu8qqUzKc+BzJA
+m6rVMS2NhFSdF8u1ZFwE4RhID6FAvUwktSeKbGIHoUwLlM95hqe8Tq+eSLbeDhvj
+xUpVbQnkFgdnG32VU24JBwCtPsmjMfWMkP2NwVwtR4Gl8VXlt59A3Asgd2mb1lmN
+ZbzkmVwl8ffD/XkT6+QtXO0OcyDuBWSpQckpiyjnE4+JmQhmzKq/+SEtnBT5sth4
+AfOj0DbbeaB2heIOBMxF/nvATltjqYaGBgR4qavS6pe2xJ8NGTZKCjrlfGorOwDk
+3snTqxu5MnaaAWWcUkbFhAWMOZ19wBHndmQsYh2zA0BcKun3SvrdW+vhT/wCNh6y
+FA==
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 13:34:11
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:057758
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7691d3c1cf4
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 057758
+    [responseStatus] => 0
+    [timestamp] => 2019-02-27 13:34:21
+    [amountApproved] => 4195
+    [amountReceived] => 4195
+    [amountRetained] => 4195
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 13:34:21
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP41.95
+    [signature] => 9069095d0599e2b569f887425ed6480323b40aa8397fe55bf68888f0aacd413604bca720798bfac9b3ba6375a2ba7783d0291e4780d5dd0ad7da962cd040f4fa
+)
+orderid=308229  2019-02-27 13:42:47<br/>ord<br/>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34745174
+    [xref] => 19022713PZ42JM37TX82VZJ
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308229
+    [transactionUnique] => 5c7693a94bfcd
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDUxNzQ=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqvAg0ykcqqbfwAwWAHqFJvVKMftOkGnH5JS8eIFMnPjp/t
+58D+UCPGO9RtjQpW2DTJJ3pZOh+N9XQihU5TIUM9UrCJ3vCk4BvrJisLxXzqcyAD
+tKm1PiSFUZDo02K5VoyLYDwBcoOQY72MFbVHSpvYQyiSHNVzluIxq5KLJ+Kdt8fG
+eJHWZVsA6eLgbFNfVMgt4QCgrY/qYEw1I+SjYzAXy5FjYXxd+u0XEPcCyL21Teus
+xjKes1St4ujn4V63Yh2/n9fX7RyIewFpYlBxyiTlfOoxMQv4TIRAOj8kuWtFvSw2
+Hpe+HNthew9UrlDUAy5d5L8HrNo1FnoYaECA56os0OUA+bMhxUYrQUPOpa3sAJD7
+JE+vTnJtrJoBZZxSRsWUBYwx7sTvAo44s5IxyXpmB4C4VHLbK7nt3loPf+IXwYOy
+jw==
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 13:42:37
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:696277
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7693cdc50b4
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 696277
+    [responseStatus] => 0
+    [timestamp] => 2019-02-27 13:42:47
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 13:42:46
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 1be8b26b5d8c1c840fb3133d9bafa95a52f95e96456e3efb5b4e189dadeacbf6a533fcc2968eb7a1d52f106f2c53b95a55e8faec386914360b8ab51c71788dfe
+)
+orderid=308230  2019-02-27 13:51:08
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34745418
+    [xref] => 19022713YB51DG00VC99CQB
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308230
+    [transactionUnique] => 5c7695ae1cc1e
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDU0MTg=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZovCgSZSGXVNn6A2GAH6FIPqtEP0nSDnX4JpWNEiuRnx8/2
+c2C7N4jJBnVrUMESmybdYZBns0GkxyMZ6Yi+MyEHCtbxKx4VfKFp8qpULKQhB9JD
+l2r0Pi2tglQf54uVYlwMoxGQK4QCzSJR1B0pXWIHoUwLVI95hoe8Ts+BSDbBFhsb
+xFpXbQnkEgdvW3NWE+4IewCtOai9tfWUkI8Lgz07jgJLG+oqbD+B+BdAbq2tW281
+jvGUZ2qZxN939+dFrJI3utzuZkD8C8hSi4pTJinn44CJacSmlAG5+CEtfCvqab4O
+uAxl5IbtPFD7QnEHuPSR/x5wahssdT9QjwBPdVWizwHyZ0OGjVaCTrigrrIHQG6T
+PDx7ybV1ag4p45QyKsZsyBjjXvxLwBPnTjImWcfsARCfSq57JdfdO+vuT/wChZ6x
+uw==
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 13:51:01
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:235999
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7695c4f0445
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 235999
+    [responseStatus] => 0
+    [timestamp] => 2019-02-27 13:51:08
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 13:51:08
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 8917a810a64e1dd6f61b0b86724e18cc520aa00ed9e7872150a5db5ac9fd2348c8f506328db9ffff4731534172bcc0815b75ddbec65c73178aa632ed444e548f
+)
+orderid=308233  2019-02-27 13:59:54
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34745667
+    [xref] => 19022713YK59WS46HR65MNZ
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308233
+    [transactionUnique] => 5c7697b3c4c66
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ3NDU2Njc=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqPtpQgE6ms2sYPEBvsAFHqjW70gzbdxk6/pKVjRIrkZ8fP
+9nNgf2gQ0x3qrkEJa2xb9YZeni0mkY6nIs640iLkEwnb5BlPEj6xafOqlMynPgcy
+Qpva6IMqjQSlT8vVRjIehNEUyAVCgc0qldQeIWziAKFUBcr7PMNjXquzF6Q7b4+t
+8RKtq64E0sfB2aY5yxm3hCOArjnKgzH1nJDXnsGcLUeBpfF15XcfQNwLINfWtp2z
+Wsv4nWdynSZfN/fnKdikL3zzrhdA3AvIlEHJKROU89hjwTwS8zAG0vtBFa4V+bDc
+elz4IrLDDh6oXaFkAFy4yH8PWLUbLPU40IgAv+uqRJcD5M+GDFstAzrjQWArOwDk
+Osndo5NcG6tmSBmnlNEgZiFjjDvx+4Ajzq1kTLCB2QEgLpVc9kouu7fWzZ/4BRWq
+shk=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-27 13:59:46
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:733576
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7697d29bed8
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 733576
+    [responseStatus] => 0
+    [timestamp] => 2019-02-27 13:59:54
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-27 13:59:54
+    [custom] => custom__ord__tiqr5kfjtsrnbk356qdupch367
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => ed06de8accaa02bf49a5132c63342b4fe4a66d268743518e643039fac1af0ab468bfbbd6727dd0c3bbea0c3f5db0a8246cbb04ab0da3faeceb541777f474efdf
+)
+orderid=308275  2019-02-28 13:38:52
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34818319
+    [xref] => 19022813TW38TM44JJ13DBJ
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 3695
+    [currencyExponent] => 2
+    [orderRef] => 308275
+    [transactionUnique] => 5c77e42b91014
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh george
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [customerPhone] => 565656
+    [customerEmail] => test@test.com
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4MTgzMTk=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUttygjAQ/RXGDyAXIhdnzQyWaesDHVv5ARq2yiioEFr165uA1JqZzOzZy8nu
+2UC2bRCTNaquQQkptm2+Qacs5pOpCgIUvuCfVPgTCav4A08SvrFpy0MtmUtdDmSE
+prRR27zWEnJ1WizfJOOemPpAbhAqbJaJpOZEkSkcINR5hfK5LHBfHvOL4yVrJ8NW
+O7FSh64G0sfB2rq5yJAbwhFA1+zlVuvjjJCvnkFfDEeFtXbVwe12QGwGkHtrq85a
+rWE8l4VMk/jn4V7fRZptrmm2mwOxGVDkGiWnLKKchw7zZl44EwJI74e8sq3Il8XK
+8Xw3mpphBw8c7UPxADzfRv57wKjdYK3GgUYEeD4eatO/NAL92VBgq6RHQx4Ynh4A
+uU/y9GolV9qoKSjjlDLqBUwwxrgVvw9Y4tJIxiI2MFsAxJaS217JbffGevgTvwNj
+sjo=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-02-28 13:38:44
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:508577
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c77e4641a3a2
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 508577
+    [responseStatus] => 0
+    [timestamp] => 2019-02-28 13:38:52
+    [amountApproved] => 3695
+    [amountReceived] => 3695
+    [amountRetained] => 3695
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-02-28 13:38:52
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP36.95
+    [signature] => b3bf1c1075636265354422671b9ce074f195679031c09b8034714b308bb75acd1dd15613195a5e21aa0593ec7b5d04ae8d083cc6c867fafe3e1199c0d69204a0
+)
+orderid=308300  2019-03-01 09:23:02
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34865222
+    [xref] => 19030109DW22JY54GP15LWX
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308300
+    [transactionUnique] => 5c78f9a620fff
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4NjUyMjI=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqPtkCQiVRWbeMHiA12gC41o4x+0KYb3emXtHSMSJH87PjZ
+fg7sDhVitEXVVChhhXUdf6CTJvNRoCbTvUDk+/G7GknYhK94lvCFVZ0WuWQudTmQ
+AZrUSh3iXEuI1XmxXEvGPT8YA7lCyLBaRpKaI4RJ7CHkcYbyMU3wlJZx63jR1tlh
+rZ1QqaLJgXRxsLauWjnlhnAA0FQnedC6nBGy7xh0azgyzLWrCrf5BGJfALm1tmms
+VRvGS5rIVRR+392fF399fGtXx+UciH0BSaxRcsoE9ShzqJhxPgt8IJ0f4sy2Ip8W
+G4cLVwRm2N4DpS0U9oALG/nvAaN2hbkaBhoQ4KUscrQ5QP5sSLBW0qNTj1JT2QIg
+t0kenq3kShs1fco4pYx6E+YzxrgVvwtY4tRIxgTrmS0AYlPJda/kuntj3f2JX4eD
+su4=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 09:22:54
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:370540
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c78f9ee1c97d
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 370540
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 09:23:02
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 09:23:01
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 90ac0a4eefcdf17cfeed20bcfc01501b46b92f0495a3b965247f3392c920fe020bc253c3c773e3d6e4dbf0ecf51f6b9d065286e3bc604adafdfd14cc7ee9b08f
+)
+orderid=308302  2019-03-01 09:29:41
+ord
+>Array
+(
+    [responseCode] => 5
+    [responseMessage] => AVS CV2 DECLINED
+    [responseStatus] => 1
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34865564
+    [xref] => 19030109NZ29XY15VQ90SZH
+    [state] => declined
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 090
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308302
+    [transactionUnique] => 5c78fae17db50
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => a1 sbc
+north floor
+    [customerPostcode] => XX1A
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4NjU1NjQ=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUlluwjAQvUrEAeIlgcRosBQateUDRAs9QHCGEkoWEqeFnr52wlIsWZo3y/PM
+G8N6VyPGK1RtjRLm2DTJJzpZOhkMVRBuN6MNBkHoDSQso3c8SvjGusnKQjKXuhzI
+FZrSWu2SQktI1HE6W0jGPX84AnKBkGM9iyU1RwhT2EMokhzlc5biIauSs+PFK2eN
+jXYipcq2ANLFwdq6PksqKJArgLY+yJ3W1ZiQbcegz4Yjx0K7qnTbLyA2A8i9tWVr
+rcYwnrJUzuPo5+H+vvmL/Qdb7N8mQGwGpIlGySkT1KPMoWLMxZiZoTo/JLltRb5M
+lw4XrhiaYXsPVPahqAdc2Mh/Dxi1ayzUWYbckN0Q4KkqC7Q1QG42pNgo6dHQo8bd
+ASD3SZ5ereRKGzV9yjiljHoB8xlj3IrfBSxxZiRjgvXMFgCxpeSyV3LZvbEe/sQf
+hkSyUQ==
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 09:29:15
+    [threeDSCheck] => authenticated
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c78fb6bd975b
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 634500
+    [cancelReason] => Automatic authorisation void, AVS/CV2 preferences mismatch
+    [amountApproved] => 2995
+    [amountReceived] => 0
+    [avscv2ResponseCode] => 244100
+    [avscv2ResponseMessage] => SECURITY CODE MATCH ONLY
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => not matched
+    [postcodeCheck] => not matched
+    [threeDSCATimestamp] => 2019-03-01 09:29:41
+    [timestamp] => 2019-03-01 09:29:41
+    [amountRetained] => 0
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP0.00
+    [signature] => c8ee2d7027bf4d05162684e9666253e2a8c0360ae7700b4f189801b555c3bb2189dfde0938cc40a6583f8bee215da551413fcaf4de74eae1e2d16c34570fe944
+)
+orderid=308305  2019-03-01 10:13:24
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34867772
+    [xref] => 19030110NH13VG16BV29FLT
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 840
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308305
+    [transactionUnique] => 5c7904da017d6
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh george
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4Njc3NzI=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUlluwjAQvUrEAeIlSYPRYCk0assHiBYuEJxpSUsWHKeFnr52wlIsWZo3y/PM
+G8NmpxHTNapOo4QFtm32gV6RT0eRigWNtiri8TYfSVglb3iQ8I26LepKMp/6HMgF
+2lKtdlllJGTqMJsvJeNBGD0AOUMoUc9TSe0RwhYOEKqsRPlU5LgvmuzkBena22Br
+vESpuquA9HFwttEnOQ4pkAuATu/lzphmQsh7z2BOlqPEyviq9rsvIC4DyK21Vees
+1jIei1wu0uTn7v6+hstPFSx/51MgLgPyzKDklAkaUOYxOmHBhMVAej9kpWtFPs9W
+Hhe+iOywgwca91AyAC5c5L8HrNoaK2UH4lahKwI8NnWFrgbI1YYcWyUDOg6o5ekB
+kNskjy9OcmWsmiFlnFJGg5iFjDHuxO8DjriwkjHBBmYHgLhSct4rOe/eWnd/4g93
+57JS
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 10:13:16
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:031908
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7905bc45526
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 031908
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 10:13:24
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 10:13:24
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 913ef93306fed5c9ac593e5fe28fc4e7ca9d9f91ccbf854120497ee1557e047bc1433e7841936ebc4bfc9018278c9793f17245a7aa4014a816540d86341b9b4c
+)
+orderid=308308  2019-03-01 10:50:17
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34869682
+    [xref] => 19030110RK50PD06MT19SBF
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 144
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308308
+    [transactionUnique] => 5c790e30c48e1
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4Njk2ODI=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUttuwjAM/ZWKD2gubQdBJlJZtY0HGBv8QJV6o4NeSNON7uuXtFxGlEg+dnxi
+Hwe2O42YbFC1GiUssWnST/TybDaK1FhQjDBQirGRhHX8jkcJ36ibvCol86nPgVyg
+TdVql5ZGQqqO88VKMh6E0QOQM4QC9SKR1C4hbOIAoUwLlE95hoe8TjsvSDbeFhvj
+xUpVbQmkj4Ozje4kC0MgFwCtPsidMfWUkI+ewXSWo8DS+Kry2z0QdwPIrbR166zG
+Mp7yTC6T+Ofu/L6Fq689f00WMyDuBmSpQckpEzSgzGN0GtEptU31fkgLV4p8nq89
+LnwR2WYHD9TuoXgAXLjIfw9YtTWWqpMTbsmuCPBUVyW6HCBXGzJslAzoxG77sgNA
+bp08vjjJlbFqhpRxShkNxixkjHEnfh9wxLnTT7CB2QEgLpWc50rOs7fW3Z/4Azz5
+sh8=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 10:50:06
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:059242
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c790e5c3aa68
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 059242
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 10:50:17
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 10:50:17
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 81d655cc8e7e6555f2c005e89c32fbbf0712fae9132220e6f0688e20f998d3f5d1886907d5d6748282da0bbe41c3192ea87656b31a48638ab85e826baadece42
+)
+orderid=308309  2019-03-01 10:54:52
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34869915
+    [xref] => 19030110BV54GF43GP68GVN
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 764
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308309
+    [transactionUnique] => 5c790ec14b93e
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4Njk5MTU=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqkH5QgE6ms2sYPEBvsAFlqRgf9oE03utMvaWGMSJH87PjZ
+fg5s9zViskHV1ihgiU0jP9DJ0tkoVBGnu8h/H6tQjgSs41c8CfjCusnKQjCXuh6Q
+KzSptdrLQguQ6jRfrATz/CAcA7lAyLFeJIKaw7lJHCAUMkfxmKV4zCrZOX6ycbbY
+aCdWqmwLIH0crK3rTkTjAMgVQFsfxV7rakrIrmfQneHIsdCuKt32AMS+AHJrbd1a
+qzGM5ywVyyT+vrs/L8Hq8xAut28zIPYFpFKj8Cjj1KfMYXQaBtPA9ND7Qea2FfE0
+Xzsed3lohh08UNlC8QA8biP/PWDUrrFQnZh4RqE/BHiuygJtDpA/G1JslPDpxKfc
+VLYAyG2Sh2crudJGzYAyj1JG/YgFjDHPit8HLHFmJGOcDcwWALGp5LJXctm9se7+
+xC96I7JS
+    [threeDSPaRes] => eJylVmmTokgT/isdvR+NHg5BZIJ2o7hBQUFA8Bv3IYcCyvHrF3W6p3feiTc2dokwzMp68snMyiQp6s++yF9uYd2kVfn+inyDX1/+XFFGUochuw/9ax2uKCVsGjcOX9Lg/RX3CRKOiLm38HH3dUXtgB42j51z1GMugfqei78RMA6/YbgXvBHBAn9bBHM8CuaLJbYkJpsf7laTt28oBX0sJz+1n7hlu6Jc/0JL6gpB5xi+oKAfS6oIa4ldwdNDkpPhc0lBP+1217vUTDH3abBSWND97TdqmJqdcMUw3ynojqACtw1XKIyQ8BxGXhD4O459xzAKeuip850OFNV14kZJEqegrxpqOp06LP1htUSnID9XVNifqzK821DQp0xBP4M7u+Uji48HQZAJetdShr2i2rT436AmDw891bRue21WDgX9kCjfvd1WCqwbJpebG5NnNdgyTFjdGbm+N+BuSvYBoUI/XcFTFvf/hxXI46pO26S4h/p3BQXdQ4Ee9V1R+zQuJ2d1+DL1S9m8vyZte/4OQV3Xfevm36o6htApEQgmoQkQNGn8x+vTKgykMqpWFOOWVZn6bp6ObjuVWwnbpApePh3+jtLQ76wIpHPM20T75iNY+XbXwHMEn/ih35N+CfefePk18Lpx35rERe4OfiFaUXoYhfcyhy+mLr2//vHPu96o3bKJqrpovsj/Mf9Pnq/yxM+mcdi0/yb5j8S/MnzwWW5+DVcLYyQMm/PPMgf59TKb436hKUtcaJr3D7snkoI+T+vHUX40w+exPoEG0UemsSTDax+JW4VUMEGv2jltZ+qS3R06zZIaowCXtZB5XsFhUh4r7DIf/G1vBW6KVclh6HkE6bh2l2Nu2isXIjkkwLye1uyNduIsmnH+aX72uaDN9NvxUtAzV5C6nD90y42A9HpdzUINtbDMJPbXE9lv/eZ8yk6Ejl+wM4iTK96UuNdLMq0CCcgucnYLchxLftyI5eV6tAKjiTP/qsClc5BxqGbBsEOruFOCPL1wi/VsVkhAFXHP0GPHcdO1rI/Z0mB2M2YeLdoqI3lykyq2sLPrU1ILJDlGXev3vOLx+brIokoShLA6kBVRKhUWnIqkX9rxzoegBK3m140Gnw7t1gkM0ly2QySB9/cv/fujIutweFbAxmGSdVv3KTFh3abR9CJNU0+RJPaaMcx03DHoJBrEEnfIt6E2ApWOT5fklApkB9NAa3jA0qiiNR2jOaylaQLXydZ+5A4KrQkAMTkm7lQF1mITtbLAlnOJp2WL5UKF7p77XWdpBzU72uoocerNK/XBQ7s7fggKa1D0uOPjBzfLAjJx5spVQfVxY9PngMEzD4V73gAGHasWDXyF5fT8WPCIJ2qxhuZwaICQ7+B+y4JeYeNezZS5kqnupBueOudTp4hOz4xAfnI5BsitjaI7HQ8e/tcsgEedoY3jQUX8wozvw1bRsU587m9Y2qIdVM39uTL5Jq+BKN+8O96W0aMt9QILDk9uRWFRPvMHbDyKSusLObwpptwNzlJo5XEudNcpumAVjm01AUOzrq3jU11oKfu1BhwPwJYB2hLc95l4Pckc6Jkzp9rNbiZJVV3heVhdRo6mM4jXeS1f7suylNlbLHXpfu1vxbXlXenjzUyXu1jSLho2M6OQbE6kqYxCW3D64bAPBYZo/eGykbeKugz1ODr3DQIN27UM5KWl4PK4d8PyUHUzdrRAfGH2cHwtnNw+Tug+7ndRxtO9xa7XWaTCpyihAbbUVH9JW3AKgmou5/R5lgN1YL0UKgk8PYmnM8LbtRekGAzNrmrshhiugu6qmtqFG46sU1me5C6cmsdH0QxRU+cagz+hrFPQeFyvibIXSlF0BN7CsHa/0Jea7mNOnkvWMYciGfEKfigyHQBWWt8aZi+Xsqbc9lUkGeztmkBX15nCYWeNmIyaxAIN0BUCOiMDwb2WooZxfKyZi1YPRg8SAwZpw3ZgtLjenJVSk4RTJ3ZTf+hwRtNTL1fg/2JZ8MAaNDA70HE09Lt37lFvDtA2zpkLEtoTXVzOJZzdLbdDyoW5tB3UKNGP0sjBusiTBW4HApwc3T2rLHoQEZeGC7yNlRupjrPT3F7r8T45zhypIdwkwpEDi7PI3tRxR4IXU/8hIjduo8vmYjRnZLNL0jkLC+6tkWa6WUqep+9JUrdcjXFoZrutGH5EGd06pDfNrf3pI0IWDVdfwD6UK397tn2e8UwFddy6MMyuqZzG1FJOy8WBI2YNDiPC4RifJA6281ol8IqRZ/lcTBKmghikxswmzpFZMfCRPlUGG4mBr1m/Y6asqu1JLiMXqFg828HZsYHtxVzz0n6t9fP8RIquCMJxCNyZRwj5Sd2wl0OA8SkYWMY6qheHeAzNXyfiU/OcltDnBP05Wx9X0McV+f4Z/np1/gslQb7k
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 10:54:43
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:891502
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c790f73a2904
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 891502
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 10:54:52
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 10:54:52
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 78a8e43da6c1d053572d4ec44e9c978db1d11936ec1a542b674059c02df27038d11164e45074d98d0b0d3b8114c7282047cdd4fcc1938572041a2f234b4e9263
+)
+orderid=308310  2019-03-01 11:03:28
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34870340
+    [xref] => 19030111FM03QN20PB46XVS
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308310
+    [transactionUnique] => 5c7910a2a7c21
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh george
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4NzAzNDA=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZo4LStBJlJZtY0fIDa4QJV6oxr9oE034PRLWrqNSJH87PjZ
+fg7uDw1RsiPdNaRwTW2bfpCXZ4vJVEcSIJpFmofZROE2fqOTwi9q2rwqFfjcF8hG
+aFMbfUhLozDVp+Vqo0AE4fQB2Q1iQc0qUdweKW3iALFMC1JPeUbHvE4vXpDsvD21
+xou1rroSWR9HZ5vmombCEo4Au+aoDsbUc8beewZzsRwFlcbXld99InMvkP21tu2c
+1VrGc56pdRJ/393ra7i5xtdNEi+QuReYpYaU4CB5wMEDmPNgLgBZ78e0cK2o5+XW
+E9KXUzvs4MHaFYoHIKSL/PegVbuhUo8DjQjpXFcluRxkvzZm1GoV8FkA3FZ2ANnf
+JI8vTnJtrJohB8E58CCCEACEE78POOLcSgYSBmYHkLlUdtsru+3eWnd/4ge4brHp
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 11:03:20
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:134238
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7911786ded1
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 134238
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 11:03:28
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 11:03:28
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 623bcd8f7399badd50be62d3508e918afa272ac68a65f2f555e913242a098c673b5f0e8a989202b2fb74b40b2a8b3f24dffb7a9debaac5c22ef6494d289e773d
+)
+orderid=308314  2019-03-01 11:08:08
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34870679
+    [xref] => 19030111MP07GP55SC40QMV
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308314
+    [transactionUnique] => 5c791248c4bcb
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4NzA2Nzk=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUm1uwjAMvUrFAZqPtpQgE6ms2sYPEBtcoEvNqKAfpOk2OP0SaMeIFMnPjp/t
+58B2rxHTDapOo4Qltm32iV6Rz0aRigXjk4+x2tF4JGGdvONJwhfqtqgryXzqcyAD
+tKla7bPKSMjUab5YScaDMBoD6SGUqBeppPYIYRNvEKqsRPlc5HgsmuzsBenG22Jr
+vESpuquAXOPgbKPPcsIt4QCg00e5N6aZErK7Mpiz5SixMr6q/e4AxL0Acm9t3Tmr
+tYw/RS6XafL9cC9v4eqS8NXlMAPiXkCeGZScMkEDyjzGpjSeRhGQqx+y0rUiX+Zr
+jwtfWH/vgcYVSm6ACxf57wGrtsZKDQMNCPCnqSt0OUD+bMixVTKgk4CFtrIDQO6T
+PL06yZWxaoaUcUoZDWIWMsa4E/8acMSFlYwJdmN2AIhLJf1eSb97az38iV89QLJA
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 11:07:55
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:651821
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c79128b0659f
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 651821
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 11:08:08
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 11:08:08
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 79619cd5bc8d34d1af0c5d0101c00df1cbc77f137eca40c5a2b44ccc7f72eb58d73dd1028d386b8713a59408286b57c496f5a5b0023cea971fe926e8974920e9
+)
+orderid=308315  2019-03-01 11:13:23
+ord
+>Array
+(
+    [merchantID] => 101094
+    [threeDSEnabled] => Y
+    [avscv2CheckEnabled] => Y
+    [riskCheckEnabled] => N
+    [caEnabled] => N
+    [rtsEnabled] => N
+    [cftEnabled] => N
+    [resellerGatewayUrl] => https://gateway.fidelipay.co.uk/paymentform/
+    [eReceiptsEnabled] => N
+    [surchargeEnabled] => N
+    [transactionID] => 34871482
+    [xref] => 19030111FW13RT15NX03FNS
+    [state] => captured
+    [redirectURL] => http://mobility.bshop4.co.uk/fidelity_return.php
+    [callbackURL] => http://mobility.bshop4.co.uk/fidelity_response.php
+    [remoteAddress] => 49.249.243.243
+    [action] => SALE
+    [type] => 1
+    [currencyCode] => 826
+    [countryCode] => 826
+    [amount] => 2995
+    [currencyExponent] => 2
+    [orderRef] => 308315
+    [transactionUnique] => 5c79137b89c32
+    [paymentMethod] => card
+    [cardTypeCode] => VC
+    [cardNumberMask] => 401200******1112
+    [cardExpiryDate] => 1219
+    [cardExpiryMonth] => 12
+    [cardExpiryYear] => 19
+    [customerName] => latheesh
+    [customerAddress] => 16
+    [customerPostcode] => 155
+    [eReceiptsStoreID] => 1
+    [customerReceiptsRequired] => N
+    [cv2CheckPref] => matched
+    [addressCheckPref] => matched
+    [postcodeCheckPref] => matched
+    [threeDSCheckPref] => authenticated
+    [threeDSXID] => MDAwMDAwMDAwMDAwMzQ4NzE0ODI=
+    [threeDSEnrolled] => Y
+    [threeDSACSURL] => https://acs.3ds-pit.com/
+    [threeDSPaReq] => eJxVUttuwjAM/ZWKD2jiXoAgE6msu/AAY4Mf6FJvVKMX2nSDff2S0o4RKZKPHR/b
+x8HdviaKt6TamiSuqGmSD3KydD4K1USAr94gGIdqJHETvdJR4hfVTVYWElzuesgG
+aFJrtU8KLTFRx8VyLcHzg3CMrIeYU72MJTdHCJN4gVgkOcmHLKVDViVnx4+3zo4a
+7URKlW2BrIujtXV9llPPEA4A2/og91pXM8beOwZ9Nhw5FdpVpdt+IrMvkF1b27TW
+agzjKUvlKo6+b+7PS7D+uefP8XKOzL7ANNEkPQ6C+xwcgBn4MwiRdX5MctuKfFxs
+HE+4wvh7D1a2UHQBnrCR/x40atdUqGGgASGdqrIgm4Psz8aUGiV9PvW7yhYgu05y
+92QlV9qoGXDwOAfuTyAAAM+K3wUscWYkAwEXZguQ2VTW75X1uzfWzZ/4BdB8sd4=
+    [threeDSPaRes] => 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
+    [threeDSResponseCode] => 0
+    [threeDSResponseMessage] => Success
+    [threeDSVETimestamp] => 2019-03-01 11:13:15
+    [threeDSCheck] => authenticated
+    [responseCode] => 0
+    [responseMessage] => AUTHCODE:749329
+    [requestMerchantID] => 101094
+    [processMerchantID] => 101094
+    [cardType] => Visa Credit
+    [cardScheme] => Visa 
+    [cardSchemeCode] => VC
+    [cardIssuer] => Unknown
+    [cardIssuerCountry] => Unknown
+    [cardIssuerCountryCode] => XXX
+    [cardFlags] => 8323076
+    [cardNumberValid] => Y
+    [vcsResponseCode] => 0
+    [vcsResponseMessage] => Success - no velocity check rules applied
+    [cardCVVMandatory] => Y
+    [requestID] => 5c7913caf0437
+    [threeDSAuthenticated] => Y
+    [threeDSECI] => 05
+    [threeDSCAVV] => M0RTUElULUFDQ0VTU0NPTlRST0w=
+    [threeDSCAVVAlgorithm] => 2
+    [authorisationCode] => 749329
+    [responseStatus] => 0
+    [timestamp] => 2019-03-01 11:13:23
+    [amountApproved] => 2995
+    [amountReceived] => 2995
+    [amountRetained] => 2995
+    [avscv2ResponseCode] => 222100
+    [avscv2ResponseMessage] => ALL MATCH
+    [avscv2AuthEntity] => merchant host
+    [cv2Check] => matched
+    [addressCheck] => matched
+    [postcodeCheck] => matched
+    [threeDSCATimestamp] => 2019-03-01 11:13:23
+    [custom] => custom__ord__htg8so3722nlhu2nhf6t1rfk61
+    [customerNameMandatory] => Y
+    [cardExpiryDateMandatory] => Y
+    [displayAmount] => GBP29.95
+    [signature] => 937ffc4329514276fc9618cb72c6b678ab9774a9f09aee7f3174a87f729e8938d35ceb8d21ce5cfe2beedc9fd35627a20bbc923ed94f62b40b91a80558eda461
+)

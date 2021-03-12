@@ -1,0 +1,27 @@
+<div id="descriptionAndDetails" class="a-section a-spacing-extra-large">
+<div id="productDescription_feature_div" class="feature" data-feature-name="productDescription">
+<div id="productDescription_feature_div" class="a-row feature" data-feature-name="productDescription" data-template-name="productDescription">
+<div id="productDescription" class="a-section a-spacing-small">
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"><strong>VAN HOUTEN VH SPECIAL BAR</strong></span></h1>
+<h2 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"><strong>HOT CHOCOLATE POWDER</strong></span></h2>
+<h2><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></h2>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">This premium Horeca blend chocolate is ideal to store next to your traditional espresso machine in a convenient 1kg box wih closable lid.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"></span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"> </span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">Our Highest quality hot chocolate we sell! Tasted to be believed! Utterly Amazing.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">A two component cocoa and sugar product which should be mixed with steamed milk for optimal taste. VH Special Bar Chocolate is a rich flavoured gourmet hot chocolate drink with 32% cocoa content.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">32% cocoa and 50% Chocolate</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1 KG</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Suitable For Vegans</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><span>Suitable For Vegetarians</span></span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">No Allergens</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>

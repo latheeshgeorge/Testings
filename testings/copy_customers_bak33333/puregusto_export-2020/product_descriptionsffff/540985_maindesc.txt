@@ -1,0 +1,25 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">BIRCHALL FAIRTRADE ENGLISH BREAKFAST TEA</span></h1>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<h2><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">String &amp; Tag English Breakfast Tea Bags</span></h2>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Birchall English Breakfast Tea is a unique, masterful blend, closely guarded by the fifth generation of Birchall Graham&rsquo;s family. Our teas are sourced entirely from estates across East Africa, from Rwanda through to the Rift Valley in Kenya, where the very best teas are to be found.</span></p>
+<p>&nbsp;</p>
+<div class="description-tabs-wrap">
+<div class="tab-content hidden-xs">
+<div id="time-to-enjoy" class="tab-pane fade  active in">
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Our English Breakfast tea can be enjoyed anytime but we particularly enjoy it mid morning when you fancy carving out a small but precious moment for yourself in between your busy schedule.&nbsp;</span></p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">This is how Birchall English Breakfast Tea gains its exceptional brightness, golden colour and strong refreshing flavour.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"><strong>Recommended Brew Time:</strong></span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">2-5 minutes</span></li>
+</ul>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1"><strong>Ingredients:</strong><br /></span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Black Tea</span></li>
+</ul>

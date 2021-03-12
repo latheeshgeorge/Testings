@@ -1,0 +1,45 @@
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>SWEETBIRD EGGNOG SYRUPS</strong></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Want to create the perfect hot beverage? Or even to add an extra kick to a smoothie or frappe? Why not try our Sweetbird syrups. With no GMOs or artificial colourings, and approved by the vegetarian society and for vegan diets by Viva, they are the perfect treat without any worries!&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">&nbsp;</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Vegetarian Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Vegan Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Natural Flavours</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">100% GMO Free</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Free of High Fructose Corn Syrup</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">No Artifical Colourings</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">1 Litre Plastic Bottles</span></li>
+</ul>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>EGGNOG SYRUP RECIPE IDEAS</strong></span></p>
+<p>&nbsp;</p>
+<h3><span style="font-family: 'trebuchet ms', geneva; font-size: small;">White Christmas</span></h3>
+<div>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 pump Sweetbird Eggnog syrup</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">2 pumps Sweetbird White Chocolate sauce</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">steamed milk</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">whipped cream</span></li>
+</ul>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Combine syrups, sauce and milk. Top with whipped cream. Dreamy!</span></p>
+<p>&nbsp;</p>
+<div class="col7">
+<div id="cherry-danish" class="recipe">
+<h3><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Cherry Danish</span></h3>
+<div>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 pump Sweetbird Eggnog syrup</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">2 pumps Sweetbird Cherry syrup</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 pump Sweetbird French Vanilla syrup</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">steamed milk</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">whipped cream</span></li>
+</ul>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Combine the eggnog syrup and 1 pump of the cherry syrup with the steamed milk. Finish with a dollop of cream flavoured with the french Vanilla syrup and drizzle the remaining cherry syrup over. Naughty.</span></p>
+</div>
+</div>
+</div>
+</div>

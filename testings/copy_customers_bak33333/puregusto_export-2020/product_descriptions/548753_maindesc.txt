@@ -1,0 +1,15 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">SIMPLY MOCHA FRAPPE</span></h1>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">This very popular and incredibly delicious Simply Mocha Frappe Powder is a special treat for your customers.&nbsp;Now one of our best selling frappe mixes - a new launch last year and already a storming Mocha tasting sucess - 1.75kg</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Amazingly simple and quick to make</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">No Preservatives</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">No Hydrogenated Fats</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">No Artificial Colours</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">No Artificial Flavourings</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Vegetarian Society Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Gluten Free</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">GMO Free</span></li>
+</ul>

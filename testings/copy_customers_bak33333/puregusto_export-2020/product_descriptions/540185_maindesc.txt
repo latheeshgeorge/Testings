@@ -1,0 +1,5 @@
+<div class="box-collateral box-description" style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">LAVAZZA GRAND RISTORAZIONE</span></strong></div>
+<div class="box-collateral box-description" style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">COFFEE BEANS</span></strong></div>
+<div class="box-collateral box-description">&nbsp;</div>
+<div class="box-collateral box-description"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Lavazza Grande Ristorazione coffee beans is a blend of full-bodied and aromatic origins from Africa, Asia and South America. It is characterized by a medium rich body and is perfect for milk-based drinks and real Italian espresso. Lavazza Grande Ristorazione distinguishes itself with a good balance between sourness and bitterness.</span></div>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>

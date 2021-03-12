@@ -1,0 +1,126 @@
+<?php
+	include_once('header.php');
+	
+	$import_file = 'csv/expired_customers.csv';
+    $i=0;
+	// read the content of csv file
+	?>
+	<table width="100%" cellpadding="1" cellspacing="1" border="0">
+	<tr>
+	<td align="left">#</td>
+	<td align="left">Email Id</td>
+	<td align="left">Added on</td>
+	<td align="left">Customers Table</td>
+	<td align="left">Newsletter Customers Table</td>
+	</tr>	
+	<?php
+	
+	$fp = fopen($import_file,'r');
+	if (!$fp)
+	{
+		echo "Cannot open the file";
+		exit;
+	}
+	
+	$atleast_one_err = 0;
+	$i =0;
+	$rows = 1;
+	while (($data = fgetcsv($fp, 20000, ",")) !== FALSE)
+	{
+		if($i!=0) // case of header row
+		{
+			$err_msg 				= '';
+			$email_id				= stripslashes(trim($data[0]));
+			$cust_status = $newscust_status = $custname = $addeon = '';
+			if($email_id!='')
+			{
+				// Check whether this customer exists in customer table for current website
+				$sql_cust = "SELECT customer_id, customer_fname, customer_surname,customer_addedon 
+								FROM 
+									customers 
+								WHERE 
+									customer_email_7503 = '".addslashes($email_id)."' 
+									AND sites_site_id = $siteid 
+								LIMIT 
+									1";
+				$ret_cust = $db->query($sql_cust);
+				if ($db->num_rows($ret_cust)==0)
+				{
+					$cust_status = ' <span style="color:#FF0000">Not Found</span>';
+				}
+				else
+				{
+					$row_cust = $db->fetch_array($ret_cust);
+					$custname = $row_cust['customer_fname'];
+					$addeon		= $row_cust['customer_addedon'];
+					// Delete from customers table
+					$sql_del = "DELETE FROM customers WHERE 
+									customer_id = ".$row_cust['customer_id']." 
+									AND sites_site_id = $siteid 
+								LIMIT 
+									1";
+					$db->query($sql_del);
+					$cust_status = 'Deleted - '.$row_cust['customer_id'];
+				}
+				// Check whether this newsletter customer exists in customer table for current website
+				$sql_cust = "SELECT news_customer_id, news_custname,news_join_date 
+								FROM 
+									newsletter_customers 
+								WHERE 
+									news_custemail = '".addslashes($email_id)."' 
+									AND sites_site_id = $siteid 
+								LIMIT 
+									1";
+				$ret_cust = $db->query($sql_cust);
+				if ($db->num_rows($ret_cust)==0)
+				{
+					$newscust_status = '<span style="color:#FF0000">Not Found</span>';
+				}
+				else
+				{
+					$row_cust = $db->fetch_array($ret_cust);	
+					if($custname=='')
+					{
+						$custname = $row_cust['news_custname'];
+						$addeon		= $row_cust['news_join_date'];
+					}	
+					// Delete from customers table
+					$sql_del = "DELETE FROM 
+									newsletter_customers 
+								WHERE 
+									news_customer_id = ".$row_cust['news_customer_id']." 
+									AND sites_site_id = $siteid 
+								LIMIT 
+									1";
+					$db->query($sql_del);
+					$newscust_status = 'Deleted - '.$row_cust['news_customer_id'];
+				}
+			}
+			?>
+			<tr>
+			<td align="left"><?php echo $rows;$rows++;?></td>
+			<td align="left"><?php echo $email_id?></td>
+			<td align="left"><?php echo $addeon?></td>
+			<td align="left"><?php echo $cust_status?></td>
+			<td align="left"><?php echo $newscust_status?></td>
+			</tr>
+			<?php	
+		}
+		$i++;
+	}
+	fclose($fp);
+	?>
+    <tr>
+		<td colspan="5" align="center" style="color:#006600"><strong>----- Delete Operation Completed Imported Successfully ------</strong></td>
+	</tr>
+	</table>
+    
+    <?php
+	function rmv_double_qt($dbl_qt_str)
+	{
+		$bodytag = str_replace("\"", "\'\'", $dbl_qt_str);
+		return $bodytag;
+	}
+	
+	?>
+	

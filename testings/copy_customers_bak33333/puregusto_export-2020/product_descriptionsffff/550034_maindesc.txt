@@ -1,0 +1,5 @@
+<div class="box-collateral box-description" style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>LAVAZZA TOP CLASS</strong></span></div>
+<div class="box-collateral box-description" style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>COFFEE BEANS</strong></span></div>
+<div class="box-collateral box-description" style="text-align: center;">&nbsp;</div>
+<div class="box-collateral box-description" style="text-align: left;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">A full-bodied Coffee with a pleasant spice and excellent crema and length, Top-Class contains 50% Arabica beans from Central-America, the other half consists of Robusta beans from Indonesia, which are among the best of their kind.</span></div>
+<div class="box-collateral box-description" style="text-align: left;">&nbsp;</div>

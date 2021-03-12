@@ -1,0 +1,19 @@
+<h2 style="text-align: center;">Lotus Biscoff Squeezy Sauce</h2>
+<h2 style="text-align: center;">Pack Size -1Kg</h2>
+<p>&nbsp;</p>
+<p>Squeezable Lotus sauce perfect for adding as a topping to your favorite hot beverage, desserts, waffles and ice creams.</p>
+<p>&nbsp;</p>
+<p><strong>Dietary Information</strong></p>
+<div class="itemTypeGroup">
+<p class="statements">Suitable for Vegans</p>
+<p>Suitable for Vegetarians</p>
+<p>Contains Wheat</p>
+<div class="nameLookups">
+<p>Contains Soya</p>
+</div>
+<div class="nameLookups">
+<p>Free From Artificial Colours</p>
+<p>Free From Artificial Flavours</p>
+</div>
+</div>
+<p>&nbsp;</p>

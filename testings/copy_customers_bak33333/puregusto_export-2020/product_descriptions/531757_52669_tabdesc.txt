@@ -1,0 +1,108 @@
+<table style="margin-left: auto; margin-right: auto;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<p><strong>Amount/Serving</strong></p>
+</td>
+<td valign="top">
+<p>&nbsp;</p>
+</td>
+<td valign="top">
+<p><strong>%DV*</strong></p>
+</td>
+<td valign="top">
+<p><strong>Amount/Serving</strong></p>
+</td>
+<td valign="top">
+<p>&nbsp;</p>
+</td>
+<td valign="top">
+<p><strong>%DV*</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>Total Fat</p>
+</td>
+<td valign="top">
+<p>1.3g</p>
+</td>
+<td valign="top">
+<p>2%</p>
+</td>
+<td valign="top">
+<p>Total Carbohydrate</p>
+</td>
+<td valign="top">
+<p>15.4g</p>
+</td>
+<td valign="top">
+<p>5%</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>Saturated Fat</p>
+</td>
+<td valign="top">
+<p>1.2g</p>
+</td>
+<td valign="top">
+<p>6%</p>
+</td>
+<td valign="top">
+<p>Dietary Fibre</p>
+</td>
+<td valign="top">
+<p>0.6g</p>
+</td>
+<td valign="top">
+<p>2%</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>Trans Fat</p>
+</td>
+<td valign="top">
+<p>0g</p>
+</td>
+<td valign="top">
+<p>&nbsp;</p>
+</td>
+<td valign="top">
+<p>Sugars</p>
+</td>
+<td valign="top">
+<p>12.4g</p>
+</td>
+<td valign="top">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>Sodium</p>
+</td>
+<td valign="top">
+<p>22.5mg</p>
+</td>
+<td valign="top">
+<p>1%</p>
+</td>
+<td valign="top">
+<p>Protien</p>
+</td>
+<td valign="top">
+<p>0.2g</p>
+</td>
+<td valign="top">
+<p align="center">0%</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">*Percent Daily Values are based on a 2,000 calorie diet</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span>Sugar, Coconut Oil, Thickeners (Guar Gum, Xanthan Gum), Whey Powder (</span><span>Milk</span><span>), Natural Flavouring, Colour (Beta-Carotene),&nbsp;</span><span>Milk</span><span>&nbsp;Proteins, Stabiliser (Triphosphates).</span></p>

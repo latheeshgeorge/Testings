@@ -1,0 +1,13 @@
+<h3 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Tetley Drawstring Tea Bags x 100</span></h3>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">These convenient drawstring teabags are ideal for catering, ensuring all flavour is extracted from the teabag with no mess and in the most hygienic way possible, with no fingers involved. Expertly blended for a perfect cup of tea, Tetley is a good old English favourite and is bound to leave your guests satisfied when they feel a bit parched.</span></p>
+<p class="product-features-heading">&nbsp;</p>
+<p class="product-features-heading">&nbsp;</p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Capacity&nbsp;250g</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Drawstring bags for maximum convenience</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Hygienic and ensures all flavour is extracted with no fingers used</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Ideal for catering</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Easy squeeze, non drip</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">100% rainforest alliance certified</span></li>
+</ul>

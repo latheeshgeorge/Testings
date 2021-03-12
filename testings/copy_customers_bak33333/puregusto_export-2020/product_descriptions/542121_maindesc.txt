@@ -1,0 +1,23 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA CLARIS PRO WHITE WATER FILTERS</span></h1>
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">CLARIS PRO WHITE</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Use of CLARIS filter cartridges guarantees you freshly filtered, delicious-tasting water for your tea and coffee at all times. Designed specially for JURA fully automatic speciality coffee machines, it has a neutral pH and is placed directly in the water tank.</span></p>
+<p>&nbsp;</p>
+<div id="pagelayout_0_pagetype_0_pagecontent_0_panExpandable" class="block-expandable state-expanded" data-init="expandable" data-options="{&quot;modal&quot;:true}">
+<div class="content" data-role="expandable-content">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">This gives you three important benefits:</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The guarantee that your coffee water is freshly filtered before any cup of coffee is prepared.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Fresh water and unadulterated aromas guarantee your palate the coffee experience of a lifetime.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Lifelong Protection for your machine (eliminating the need for descaling).</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">CLARIS from JURA is hard on scale, but soft on your coffee machine.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Claris Pro White works on the Professional up-flow principle and offers a significantly higher filter capacity of up to 300 litres (see illustration). Because the filter doesn&rsquo;t have to be changed so often this saves both time and money while guaranteeing the same filter quality.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>Important<br /></strong>The first time you use CLARIS Pro White you will need to update your software to ensure that the machine does not Prompt you to change the filter as normal after 50 litres. This may only be carried out by authorised JURA service partners.)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>Use with<br /></strong>CLARIS Pro White is ideal for use in all JURA two-grinder coffee machines (IMPRESSA X9 Win, IMPRESSA X9 and IMPRESSA X7-S).</span></p>
+</div>
+</div>

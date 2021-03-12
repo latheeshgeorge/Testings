@@ -1,0 +1,15 @@
+<h1 style="text-align: center;"><span>SIMPLY COFFEE FRAPPE</span></h1>
+<p><span>&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span><span>A perfectly sensational and smooth coffee frappe powder which delivers delicious drinks for your menu.&nbsp;</span>Now one of our best selling frappe mixes - a new launch last year and already a storming coffee tasting sucess - 1.75kg</span></p>
+<p><span>&nbsp;</span></p>
+<ul>
+<li><span>Amazingly simple and quick to make</span></li>
+<li><span>No Preservatives</span></li>
+<li><span>No Hydrogenated Fats</span></li>
+<li><span>No Artificial Colours</span></li>
+<li><span>No Artificial Flavourings</span></li>
+<li><span>Vegetarian Society Approved</span></li>
+<li><span>Gluten Free</span></li>
+<li><span>GMO Free</span></li>
+</ul>

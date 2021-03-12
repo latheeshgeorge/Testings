@@ -1,0 +1,13 @@
+<h1 style="text-align: center;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Sweetbird Syrups - Sugar Free Range</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Try our Sweetbird core flavours, now available in a sugar-free range. Giving you the same level of flavour but without the sugar. Create your desired hot beverage with minimal calories, a great seller!</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">No artificial colours</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Free from High Fructose Corn Syrup</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">100% GMO free</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Approved by the Vegetarian Society</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Approved for vegan diets by Viva!</span></li>
+</ul>
+<p>&nbsp;</p>

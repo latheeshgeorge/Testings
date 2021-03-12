@@ -1,0 +1,82 @@
+<?php
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
+//use PHPMailer\PHPMailer\Exception;
+    $toaddr_cust_arr = array('latheeshgeorge@gmail.com','manuvprabhu@gmail.com','manuvprabhu1@outlook.com','latheesh.george@thewebclinic.co.uk');
+$email_content ="Test mail";
+$email_subject = "test subject";
+$email_from  = "info@puregusto.co.uk";
+$ecom_hostname = "puregusto.co.uk";
+$ret_erran  = mail_Phpmaler_admin_new($toaddr_cust_arr,$email_subject,$email_content,$email_from,$ecom_hostname,$email_headers,$email_reply='');
+echo $ret_erran;
+function mail_Phpmaler_admin_new($toaddr_cust_arr,$email_subject,$email_content,$email_from,$ecom_hostname,$email_headers,$email_reply='')
+{  
+	if($email_reply=='')
+	{
+	$email_reply = $email_from;
+	}	
+		//error_reporting(E_ALL);
+		//ini_set('display_errors', '1');
+	 require 'PHPMailer-6.0.5/src/Exception.php';
+	 require 'PHPMailer-6.0.5/src/PHPMailer.php';
+	 require 'PHPMailer-6.0.5/src/SMTP.php';
+	 $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+    try {
+    //Server settings
+    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'auth.smtp.1and1.co.uk';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;   
+    $mail->SMTPKeepAlive = true;  
+                            // Enable SMTP authentication
+    $mail->Username = 'sales-5@s426558865.onlinehome.info';                 // SMTP username
+    $mail->Password = '-s8Uh:cz-ECL9/N9';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
+
+    //Recipients
+    $mail->setFrom($email_from,$ecom_hostname);
+    //$toaddr_cust_arr = array('latheeshgeorge@gmail.com','manuvprabhu@gmail.com','manuvprabhu1@outlook.com','latheesh.george@thewebclinic.co.uk','sales@puregusto.co.uk');
+    for($i=0;$i<count($toaddr_cust_arr);$i++) // send the order confm mail to as many mail ids which are set
+		{
+			if ($toaddr_cust_arr[$i]!='')
+			{
+				if($i==0)
+				{
+				    $mail->addAddress($toaddr_cust_arr[$i]); 
+				}
+				else
+				{
+					$mail->addBCC($toaddr_cust_arr[$i]); 
+				}
+			}
+		}
+    //$mail->addAddress('latheeshgeorge@gmail.com', 'Joe User');     // Add a recipient
+    //$mail->addAddress('manuvprabhu@gmail.com'); 
+    //$mail->addAddress('manuvprabhu1@outlook.com'); 
+    //$mail->addAddress('latheesh.george@thewebclinic.co.uk'); 
+                  // Name is optional
+    $mail->addReplyTo($email_reply);
+    //$mail->addCC('cc@example.com');
+    //$mail->addBCC('bcc@example.com');
+
+    //Attachments
+    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+   // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+
+    //Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = $email_subject;
+    $mail->Body    = $email_content;
+    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    $mail->send();
+    $mail->ClearAllRecipients();
+
+     return true;
+} catch (Exception $e) {
+	return $mail->ErrorInfo;
+}
+     //exit;   
+}
+?>

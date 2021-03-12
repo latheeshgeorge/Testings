@@ -1,0 +1,94 @@
+<h3 class="p-heading-03 p-feature-title" style="text-align: center;">Gaggia Accademia Coffee Maker</h3>
+<p class="p-odd">&nbsp;</p>
+<p class="p-body-copy-02">An Espresso per favore! No wait a cappuccino or a latte macchiato...Gaggia Accademia offers you all the secrets of a professional Barista in just one touch, at home. Every day you will taste a traditional Italian Espresso...and much more</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-even">
+<h3 class="p-heading-03 p-feature-title">DURABLE CERAMIC GRINDER FOR PURE COFFEE AROMA<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027083-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Durable ceramic grinder for pure coffee aroma" /></h3>
+</li>
+</ul>
+<p>&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-even">
+<p class="p-body-copy-02">Because a metal grinder might burn the coffee beans while grinding, all Gaggia's Espresso machines are equipped with an extremely durable ceramic grinder. A ceramic grinder will retains the purity of the coffee aroma while being equally durable to a metal grinder. Additionally the coffee grind can be adjusted from coarse to fine, just as you prefer.</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-odd">
+<h3 class="p-heading-03 p-feature-title">ADJUST YOUR ESPRESSO TO FIT YOUR TASTE</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027151-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Adjust your Espresso to fit your taste" />
+<p class="p-body-copy-02">The settings in this Gaggia Espresso machine allow you to adjust the body and aroma of your coffee to suit your taste, while maintaining a perfect crema.</p>
+</li>
+</ul>
+<p class="p-odd">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-even">
+<h3 class="p-heading-03 p-feature-title">EFFICIENT CUP WARMER FOR A HOT ESPRESSO</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027147-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Efficient cup warmer for a hot Espresso" />
+<p class="p-body-copy-02">Your Gaggia Espresso machine has an energy-efficient integrated heating element to provide pre-warmed coffee cups. Pre-warming a cup will ensure your Espresso stays hot for longer.</p>
+</li>
+</ul>
+<p class="p-even">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-odd">
+<h3 class="p-heading-03 p-feature-title">PRE-BREWING FOR FLAVOR ENHANCING</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/FEA_0001584-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Pre-brewing for flavor enhancing" />
+<p class="p-body-copy-02">Pre-brewing ensures that the ground coffee is evenly moistened before the actual brewing process. Only then the water flows through all of the ground coffee and your Gaggia Espresso machine can extract the full aroma for a balanced and tasty Espresso.</p>
+</li>
+</ul>
+<p class="p-odd">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-even">
+<h3 class="p-heading-03 p-feature-title">STAINLESS STEEL BODY FOR LONG-LASTING PERFORMANCE</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400055188-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Stainless steel body for long-lasting performance" />
+<p class="p-body-copy-02">The case of your machine has been skillfully manufactured from stainless steel. This makes your Gaggia more robust, ensures long-lasting performance and is an eye-catcher in every kitchen.</p>
+</li>
+</ul>
+<p class="p-even">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-odd">
+<h3 class="p-heading-03 p-feature-title">DIGITAL DISPLAY FOR EASY NAVIGATION</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027149-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Digital display for easy navigation" />
+<p class="p-body-copy-02">Whatever you want to do with your Gaggia - the digital display makes navigation much easier and gives instant feedback on the status of your Espresso machine.</p>
+</li>
+<li class="p-even">
+<h3 class="p-heading-03 p-feature-title">ONE TOUCH OPERATION</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027148-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="One touch operation" />
+<p class="p-body-copy-02">Just press one of the 7 pre-set beverages and your Gaggia Espresso machine will brew them in a few seconds.</p>
+</li>
+<li class="p-odd">
+<h3 class="p-heading-03 p-feature-title">EASY CLEANING THANKS TO REMOVABLE BREWING GROUP</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027084-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Easy cleaning thanks to removable brewing group" />
+<p class="p-body-copy-02">The removable brewing group in your full-automatic Espresso machine allows for easy cleaning and maintenance and can even be replaced separately if necessary. This saves money and increases the machine hygiene for a flawless coffee taste.</p>
+</li>
+</ul>
+<p class="p-odd">&nbsp;</p>
+<p class="p-odd">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-even">
+<h3 class="p-heading-03 p-feature-title">DOUBLE BOILER TO REDUCE WAITING TIME</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400027082-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Double boiler to reduce waiting time" />
+<p class="p-body-copy-02">The double boiler in your espresso machine reduces the waiting time between brewing an espresso and dispensing steam to froth milk to just a few seconds. This makes preparing a Cappuccino much faster.</p>
+</li>
+</ul>
+<p class="p-even">&nbsp;</p>
+<ul class="p-feature-list p-clearfix p-spacing-bottom-a">
+<li class="p-odd">
+<h3 class="p-heading-03 p-feature-title">ALWAYS A CLEAN MACHINE THANKS TO AUTOMATIC CIRCUIT CLEANING</h3>
+<img src="http://images.philips.com/is/image/PhilipsConsumer/F400055187-FIL-global-001?wid=346&amp;hei=186&amp;$jpglarge$" alt="Always a clean machine thanks to automatic circuit cleaning" /></li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Introducing the very best in automatic coffee machines. With the ability to produce any espresso based drink at the touch of a button the Gaggia Accademia will make you a real barista all within the comfort of your kitchen! Perfect and quick results are guaranteed by two separate boilers, one for coffee and one for steam and water, while the auto cappuccino carafe ensures milky coffees are hassle free to make.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p class="info"><span style="text-decoration: underline; font-family: 'trebuchet ms', geneva; font-size: small;"><span class="subheader">Weight and dimensions</span>&nbsp;</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Product dimensions: 38.5 x 28.2 x 42.8 cm</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Coffee bean capacity: 350 gr</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Dump box capacity: 16 servings</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Milk carafe capacity: 0,6 l</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Product weight: 17 kg</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Water tank capacity: 1,6 l</span></p>
+<p class="info">&nbsp;</p>
+<p class="info"><span style="text-decoration: underline; font-family: 'trebuchet ms', geneva; font-size: small;"><span class="subheader">Features</span>&nbsp;</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Brita Filter compatible: Yes</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Cupholder: Yes</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Hot water / Steam Nozzle: Yes</span></p>
+<p class="info">&nbsp;</p>
+<p class="info"><span style="text-decoration: underline; font-family: 'trebuchet ms', geneva; font-size: small;"><span class="subheader">Energy saving</span>&nbsp;</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Energy saving: Automatic stand-by</span></p>
+<p class="info">&nbsp;</p>
+<p class="info"><span style="text-decoration: underline; font-family: 'trebuchet ms', geneva; font-size: small;"><span class="subheader">Design</span>&nbsp;</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Colour: black/stainless steel</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Materials and finishing: metal painted/stainless steel</span></p>
+<p class="info">&nbsp;</p>
+<p class="info"><span style="text-decoration: underline; font-family: 'trebuchet ms', geneva; font-size: small;"><span class="subheader">Technical data</span>&nbsp;</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Boiler: Stainless steel</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Frequency: 50 Hz</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Power: 1500 W</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Pump Pressure: 15 bar</span></p>

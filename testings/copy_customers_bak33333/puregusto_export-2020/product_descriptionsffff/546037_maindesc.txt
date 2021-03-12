@@ -1,0 +1,23 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">NESCAFE AZERA AMERICANO COFFEE 500g</span></h1>
+<div class="field-product-pack-size"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></div>
+<div class="headline">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Everyone can enjoy the pleasure of a barista style coffee in an instant with our NESCAF&Eacute; AZERA range. We&rsquo;ve combined a tasteful blend of instant coffee and finely roast and ground coffee beans to give an enticing aroma and a smooth and well-balanced taste, with an irresistible layer of velvety coffee crema.</span></div>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">&nbsp;</div>
+</div>
+<div class="benefits text">
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><span data-mce-mark="1">Good To Know</span></strong></span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">NESCAF&Eacute; is produced with 100% coffee beans</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Through a careful selection of beans, NESCAF&Eacute; AZERA Americano delivers a full flavoured mug</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Hinged lid uses 'Click-to-Close' technology for simple and secure re-sealing</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Easy to serve from and easy to reach every last granule of coffee</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Space efficient </span>tin<span style="font-size: small; font-family: 'trebuchet ms', geneva;"> and easy to store back of house or on a counter top</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Creates premium barista style coffee without the need for specialist skill or equipment</span></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">This product is supplied as 1 x 500g</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1.8g makes a 200ml mug</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">500g makes approx. 277 mugs.</span></li>
+</ul>
+</div>

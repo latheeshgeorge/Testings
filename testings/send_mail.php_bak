@@ -1,0 +1,112 @@
+<?php
+$content = '
+<table style="width:100%;background-color:#000"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center"><table style="width:724px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left" valign="top">
+<img src="http://i-shop.uk.com/images/images/newslettera_01.gif" alt=""  style="display:block"></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;">
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/newslettera_02.gif"  alt=""  style="display:block;"></td>
+<td align="left" valign="top"><a href="http://i-shop.uk.com/"><img src="http://i-shop.uk.com/images/images/newslettera_03.gif"  alt="i-shop is not just an e-commerce platform." border="0"  style="display:block;"></a>
+</td>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/newslettera_04.gif" alt=""  style="display:block;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="http://i-shop.uk.com/images/images/newslettera_05.gif" alt=""  style="display:block"></td>
+</tr>
+<tr>
+<td align="left" valign="top"><a href="http://i-shop.uk.com"><img src="http://i-shop.uk.com/images/images/newslettera_06.gif" alt="Is your online shop only converting a small percentage of traffic into orders?" border="0"  style="display:block"></a></td>
+</tr>
+<tr>
+<td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;">
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/a_01.gif"  alt=""  style="display:block;"></td>
+<td align="left" valign="top" style="font:normal 24px Tahoma,Arial, Helvetica, sans-serif;color:#ffcc00;"> <em>If you answered YES to just some of the above, we can help.</em><img src="http://i-shop.uk.com/images/images/c_04.gif"  alt="i-shop is not just an e-commerce platform." border="0"  style="display:block;">
+
+</td>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/a_03.gif" alt=""  style="display:block;"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;">
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/a_01.gif"  alt=""  style="display:block;"></td>
+<td align="left" valign="top" style="font:normal 18px Tahoma,Arial, Helvetica, sans-serif;color: #FFF;"><img src="http://i-shop.uk.com/images/images/a_02.gif"  alt="i-shop is not just an e-commerce platform." border="0"  style="display:block;">
+Welcome to i-shop where you can have the online shop solution you always wanted without the major set up costs often associated with a bespoke website! 
+
+
+
+</td>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/a_03.gif" alt=""  style="display:block;"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="http://i-shop.uk.com/images/images/newslettera_09.gif" alt=""  style="display:block"></td>
+</tr>
+<tr>
+<td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;">
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/b_01.gif"  alt=""  style="display:block;"></td>
+<td align="left" valign="top" style="font:normal 18px Tahoma,Arial, Helvetica, sans-serif;color:#000;background-color:#FFF;padding-left:20px;">i-shop is not just an e-commerce platform. It incorporates a full online
+marketing solution with additions such as: </td>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/b_03.gif" alt=""  style="display:block;"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td align="left" valign="top"><a href="http://i-shop.uk.com/ishop_benefits.php"><img src="http://i-shop.uk.com/images/images/newslettera_11.gif"  alt="Built in SEO Tools,Built in Newsletter facility,Client Database Management" border="0"  style="display:block"></a></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/newslettera_12.gif"  alt="" style="display:block"></td>
+<td align="left" valign="top"><a href="http://i-shop.uk.com/contact_us.php"><img src="http://i-shop.uk.com/images/images/newslettera_13.gif" alt="Click here to arrange a free consultation and online Demo!" border="0"  style="display:block"></a></td>
+<td align="left" valign="top"> <img src="http://i-shop.uk.com/images/images/newslettera_14.gif"  alt=""  style="display:block" ></td>
+</tr>
+</table>
+
+
+
+</td>
+</tr>
+<tr>
+<td align="left" valign="top"><a href="http://i-shop.uk.com/contact_us.php"><img src="http://i-shop.uk.com/images/images/newslettera_15.gif"  alt="" border="0" style="display:block"></a></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="http://i-shop.uk.com/images/images/newslettera_16.gif"  alt="" style="display:block">
+</td>
+</tr>
+</table></td>
+</tr>
+</table>';
+
+
+$email_headers = "From: Test newsletter <tester@bshop4.co.uk>\n";
+$email_headers .= "MIME-Version: 1.0\n";
+$email_headers .= "Content-type: text/html; charset=iso-8859-1\n";
+//$err = array('cw@thewebclinic.co.uk','carlosvandoogle@gmail.com','sony.joy@calpinetech.com','anoop.kumar@thewebclinic.co.uk','eldosskaria@yahoo.co.in','eldosskaria@gmail.com','eldose.skaria@calpinetech.com','sony.joy@thewebclinic.co.uk');
+//$err = array('sony.joy@calpinetech.com','anoop.kumar@thewebclinic.co.uk','eldosskaria@yahoo.co.in','eldosskaria@gmail.com','eldose.skaria@calpinetech.com','sony.joy@thewebclinic.co.uk');
+$err = array('am@thewebclinic.co.uk','sony.joy@calpinetech.com');
+for($i=0;$i<count($err);$i++)
+{
+	mail($err[$i],'Test newsletter',$content, $email_headers);
+}
+echo "Done";
+?>

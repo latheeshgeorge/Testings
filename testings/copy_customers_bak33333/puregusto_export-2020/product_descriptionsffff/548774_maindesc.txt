@@ -1,0 +1,26 @@
+<h1 class="product-show__desc" style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>DOUBLE WALL BIODEGREDABLE COFFEE CUPS</strong></span></h1>
+<h1 class="product-show__desc" style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>100% Certified Compostable &amp; Biodegradable</strong></span></h1>
+<p class="product-show__desc">&nbsp;</p>
+<p class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Our latest innovation is a range of Eco friendly paper cups that are produced from sustainably sourced paper fibres. </span></p>
+<p class="product-show__desc">&nbsp;</p>
+<p class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">They are an environmentally friendly alternative to conventional disposable cups. Made from sustainably sourced materials and lined with plant based PLA as opposed to PE plastic, our cups remain completely compostable and widely accepted for food waste recycling. </span></p>
+<p class="product-show__desc">&nbsp;</p>
+<p class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Certified by US and EU standards as&nbsp;<strong>Compostable &amp; Biodegradable.</strong></span></p>
+<p class="product-show__desc">&nbsp;</p>
+<ul>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Thick Paper Fibres</strong></span></li>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Certified To US &amp; EU&nbsp;<strong>Compostable &amp; Biodegradable Standards</strong></strong></span></li>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><strong>Produced In A BRC Accredited Food Safe Facility</strong></strong></span></li>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><strong>Product In A ISO Certfied Food Safe Facility</strong></strong></span></li>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><strong>PLA - Plant Lining</strong></strong></span></li>
+<li class="product-show__desc"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong><strong>Double Wall</strong></strong><br /></span></li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.puregusto.co.uk/images/www.puregusto.co.uk/extralarge/101414PureGusto-Cup-Certifications.jpg" alt="" /></span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Available In Three Sizes;</strong></span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">8oz</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">12oz</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">16oz</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Lids Sold Seperately.</span></p>

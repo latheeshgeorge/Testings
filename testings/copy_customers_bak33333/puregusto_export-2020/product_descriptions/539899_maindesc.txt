@@ -1,0 +1,3 @@
+<h1 class="prod-detail__heading" style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">REDBUSH CARAMEL LATTE LOOSE LEAF PYRAMID</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Naturally caffeine free, this Caramel Redbush Chai Latte is a modern twist on the flavours of traditional Chai.</span><br /><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">With delicate spices including ginger, cinnamon &amp; cardamom, and balanced with a hint of caramel.</span><br /><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Sweet but not too sweet, it&rsquo;s an exotic and delicious combination.</span></p>

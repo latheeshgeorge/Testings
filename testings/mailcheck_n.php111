@@ -1,0 +1,14 @@
+<?php
+
+$to      = 'sony.joy@thewebclinic.co.uk';
+$dd = date('l jS \of F Y h:i:s A');
+$subject = 'Test Mail from bshop test - '.$dd;
+$message = 'hello';
+$headers = 'From: sonyjoy007@gmail.com' . "\r\n" .
+    'Reply-To: sonyjoy007@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
+
+echo "Done - $dd";
+?>

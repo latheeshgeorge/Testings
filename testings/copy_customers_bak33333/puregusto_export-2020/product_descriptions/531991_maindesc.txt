@@ -1,0 +1,55 @@
+<h1 style="text-align: center;"><span class="style2" style="font-size: medium;" data-mce-mark="1">BLENDTEC STEALTH BLENDER</span></h1>
+<p><span class="style2" style="font-size: medium;" data-mce-mark="1"></span></p>
+<p><span class="style2" data-mce-mark="1"></span></p>
+<p><span class="style2" data-mce-mark="1"></span></p>
+<h4 class="style2"><span data-mce-mark="1">Blendtec's most powerful retail blender ever</span></h4>
+<p><span data-mce-mark="1"></span></p>
+<p class="style2"><span data-mce-mark="1">The Stealth gives you true commercial power at a single touch. This 1800 watt powerhouse glides through the toughest blends without losing a beat.</span></p>
+<p class="style2">&nbsp;</p>
+<p class="style2"><span data-mce-mark="1"><strong>360&deg; of Quiet</strong></span></p>
+<p class="style2"><span data-mce-mark="1">A powerful blender is no good if its noise drives your customers away.&nbsp;The Blendtec Stealth boasts an industry-leading power, yet it's the quietest commercial blender in the world.&nbsp;Add smoothies and blended drinks to your menu without disrupting the atmosphere.&nbsp; The Stealth's 360&deg; sealed sound enclosure is one of a kind and keeps even the most vigorous blend cycle near the sound level of normal conversation.&nbsp; The Stealth can be used in environments where low noise is critical.</span></p>
+<p class="style2">&nbsp;</p>
+<h4 class="style2"><span data-mce-mark="1">An illuminated, intuitive control surface</span></h4>
+<p class="style2"><span data-mce-mark="1">The Stealth adopts the same technology found in your Smartphone. Its capacitive touch control surface is optimised to recognise your touch, and is smart enough to ignore anything else, from spilled liquids to food particles.&nbsp;&nbsp; There are no hassles with timers, cumbersome buttons or knobs.</span></p>
+<p class="style2">&nbsp;</p>
+<h4 class="style2"><span data-mce-mark="1">Blend Wizard online programming tool</span></h4>
+<p class="style2"><span data-mce-mark="1">You can now go online to create your own customized blend cycles. Add your own motor speeds and durations, and then download them to your USB device.</span></p>
+<p class="style2">&nbsp;</p>
+<h4 class="style2"><span data-mce-mark="1">Versatile USB interface</span></h4>
+<p class="style2"><span data-mce-mark="1">Keeping the Stealth updated and current with your latest menu programming is easy.&nbsp; Simply download the programming to a USB drive and distribute to all your blenders at the same time.</span></p>
+<p class="style2">&nbsp;</p>
+<h4 class="style2"><span data-mce-mark="1">Designed for these major industries</span></h4>
+<ul>
+<li class="style2"><span data-mce-mark="1">Smoothie</span></li>
+<li class="style2"><span data-mce-mark="1">Ice Cream</span></li>
+<li class="style2"><span data-mce-mark="1">Coffee</span></li>
+<li class="style2"><span data-mce-mark="1">Nightclub</span></li>
+<li class="style2"><span data-mce-mark="1">Restaurant</span></li>
+<li class="style2"><span data-mce-mark="1">Hospitality</span></li>
+<li class="style2"><span data-mce-mark="1">Chef</span></li>
+</ul>
+<p class="style2">&nbsp;</p>
+<h4 class="style2"><span data-mce-mark="1">Features include:</span></h4>
+<ul>
+<li>
+<p class="style2">Powerful 1800 watt motor</p>
+</li>
+<li>
+<p class="style2">360&deg; sealed sound enclosure</p>
+</li>
+<li>
+<p class="style2">Illuminated capacitive touch control surface with manual speed slider</p>
+</li>
+<li>
+<p class="style2">Intuitive interface for custom programming</p>
+</li>
+<li>
+<p class="style2">42 preprogrammed blend cycles</p>
+</li>
+<li>
+<p class="style2">Integration with online Blend Wizard tool for creating custom blend cycles</p>
+</li>
+<li>
+<p class="style2">USB connectivity for downloading/uploading custom programming</p>
+</li>
+</ul>

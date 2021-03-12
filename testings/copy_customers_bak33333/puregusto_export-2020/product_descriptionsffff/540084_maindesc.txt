@@ -1,0 +1,40 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA Z6</span></h1>
+<h2 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Jura Impressa Z6 Coffee Machine</span></h2>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">For the Pulse Extraction Process (P.E.P.&copy;), innovation leader JURA took its inspiration from the world&rsquo;s best baristas. The result is a revolutionary technology that optimises the extraction time, allowing even short speciality coffees like ristretto and espresso to be prepared with an intensity and breadth of aromas like never before.</span></p>
+<div id="pagelayout_0_pagetype_0_pagecontent_0_panExpandable" class="block-expandable state-expanded" data-init="expandable" data-options="{">
+<div class="content" data-role="expandable-content">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The Z6 moves into completely new territory, taking the automatic speciality coffee machine to the next level. The state-of-the-art generation of coffee machines is an impressive showcase of Swiss innovation. It achieves a brand new standard of quality across the whole spectrum of speciality coffees, from the short, fiery ristretto to the popular, mellow flat white.</span></p>
+</div>
+</div>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<div class="block-text">
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_genTitle_0" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The purest quality espresso</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA has perfected the complete brewing process for ristretto and espresso. That&rsquo;s why the Z6 is able to prepare coffee to the same standard as the best coffee bars. The Pulse Extraction Process (P.E.P.&copy;) brings out every nuance of the Aroma.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong><em>Result: possibly the best espresso of all time &ndash; at the touch of a button.</em></strong></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_pnlContentImage_1" class="img variant-left"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_imgContentImage_1" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home%20products/impressa%20z%20line/features%20z6/z6_feature_2.gif?la=en&amp;mw=655" alt="" /></span></div>
+<h3 class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_genTitle_1" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Crowning ceremony</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">For in-vogue speciality coffees finished with milk and milk foam, the crowning ceremony is expertly performed by the Z6 at the touch of a button. The machine switches from milk to milk foam fully automatically. As a feature making its world debut in domestic coffee machines, the milk temperature can be varied according to personal taste.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_pnlContentImage_2" class="img variant-right"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_imgContentImage_2" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home%20products/impressa%20z%20line/features%20z6/z6_feature_3.jpg?la=en&amp;mw=655" alt="" /></span></div>
+<h3 class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_genTitle_2" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Intelligent Water System (I.W.S.&reg;) for automatic filter detection</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The Z6 is the first automatic speciality coffee machine to feature automatic filter detection thanks to modern RFID Technology. Using a filter has never been easier, more effective or more reliable.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_pnlContentImage_3" class="img variant-left"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_imgContentImage_3" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home%20products/impressa%20z%20line/features%20z6/z6_feature_4.jpg?la=en&amp;mw=655" alt="" /></span></div>
+<h3 class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_genTitle_3" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Refined functionality</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The Z6 packs incredible performance into compact dimensions. All the control elements are conveniently accessible on the front. The removal of the water tank and refilling of the bean container also take place conveniently from the front.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The user can rename the different speciality coffees and position them on the start screen. There are no limits to the imagination. Maintenance is just as easy as preparing a coffee: one touch of a button is all that&rsquo;s needed.</span></p>
+</div>

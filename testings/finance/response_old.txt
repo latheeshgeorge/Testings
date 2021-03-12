@@ -1,0 +1,43 @@
+Array
+(
+)
+Array
+(
+    [CreditRequestID] => 2109310
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)
+Array
+(
+    [CreditRequestID] => 2109310
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)
+Array
+(
+    [CreditRequestID] => 2109310
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)
+Array
+(
+    [CreditRequestID] => 2109310
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [CreditSentryFlags] => Array
+    [Consumer] => Array
+)

@@ -1,0 +1,18 @@
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Lavazza Aroma Piu Coffee Beans</span></p>
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 x 6KG</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The Aroma Piu coffee by Lavazza is a blend of Arabica and Robusta of various origins. The result is a strong coffee with notes of honey and almonds. For an intense espresso</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Strength - 10/13</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Origins</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Natural and washed Arabica from South America &amp; India</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Robusta from South East Asia &amp; Africa</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Bean type</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">60% Arabica</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">40% Robusta</span></li>
+</ul>

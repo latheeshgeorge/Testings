@@ -1,0 +1,22 @@
+Array
+(
+    [transaction_id] => 2144030
+    [transaction_date] => 03/08/2010 10:45:46
+    [order_id] => 37486
+    [amount] => 8.10
+    [from_email] => sony.joy@thewebclinic.co.uk
+    [to_email] => sunil.george@thewebclinic.co.uk
+    [security_key] => ff77c18b0692476581aa85ee69a4ab56
+    [status] => test
+    [custom] => order__nfqo2ngpu8ftmr7qre48d1nit0
+)
+HTTP/1.1 200 OK
+Connection: close
+Expires: -1
+Date: Tue, 03 Aug 2010 09:45:54 GMT
+Content-Type: text/html
+X-Powered-By: ASP.NET
+Pragma: nocache
+Cache-control: no-store
+
+AUTHORISED---curmod toporder---Reached order 37486 --- Update Orderid 37486

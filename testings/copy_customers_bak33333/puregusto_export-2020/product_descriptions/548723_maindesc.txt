@@ -1,0 +1,23 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">BIRCHALL DARJEELING LOOSE LEAF TEA</span></h1>
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<h2 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Birchall Darjeeling - Afternoon&nbsp;Blend - Loose Leaf 125g</span></h2>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<div class="description-tabs-wrap">
+<div class="tab-content hidden-xs">
+<div id="description" class="tab-pane fade active in">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img style="float: right;" src="https://www.puregusto.co.uk/images/www.puregusto.co.uk/category_thumb/012303Birchall-Darjeeling-Loose.jpg" alt="Medium" />Our Darjeeling is an exquisitely delicate orthodox tea that showcases the distinctive muscatel character of one of the world&rsquo;s most famous teas. Tea has been cultivated high up in the foothills of the Himalayan mountain range since the British first planted tea around the picturesque Darjeeling hill station during the 19th century.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Birchall Graham was at the forefront of early cultivation of the &lsquo;Champagne of Teas&rsquo; in the Darjeeling district and this special blend has been created by the fifth generation of his family to celebrate his pioneering spirit and our rich heritage in tea. Reflecting the distinguished essence of its origin, Birchall Darjeeling creates a golden coloured infusion that releases the pronounced, rich flavour and floral aroma with muscat grape notes that make this tea so prized.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"><strong>Recommended Brew Time;</strong></span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">2-3 minutes</span></li>
+</ul>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"><strong>Ingredients</strong>;</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Black Tea</span></li>
+</ul>
+</div>
+</div>
+</div>

@@ -1,0 +1,9 @@
+Array
+(
+    [CreditRequestID] => 2109538
+    [Status] => REFER
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [Consumer] => Array
+)

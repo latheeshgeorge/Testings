@@ -1,0 +1,9 @@
+Array
+(
+    [CreditRequestID] => 2109336
+    [Status] => ACCEPT
+    [Identification] => Array
+    [Finance] => Array
+    [Goods] => Array
+    [Consumer] => Array
+)

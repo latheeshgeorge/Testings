@@ -1,0 +1,176 @@
+<?php
+	include "header.php";
+	$prod_import_file 	= 'csv/products.csv';	// Import filename - products
+	$bulk_import_file 	= 'csv/products_bulk.csv';	// Import filename - products bulk discount details
+	$var_import_file 	= 'csv/products_variable.csv';	// Import filename - product variable details
+	
+	
+	$fprod = fopen($prod_import_file,'r');
+	if (!$fprod)
+	{
+		echo "Cannot open the products file";
+		exit;
+	}
+	$fbulk = fopen($bulk_import_file,'r');
+	if (!$fbulk)
+	{
+		echo "Cannot open the products bulk file";
+		exit;
+	}
+	$fvar = fopen($var_import_file,'r');
+	if (!$fvar)
+	{
+		echo "Cannot open the products var file";
+		exit;
+	}
+	
+	$prod_arr = array();
+	$i =0;
+	while (($data = fgetcsv($fprod, 20000, ",")) !== FALSE)
+	{
+		if($i!=0) // case of header row
+		{
+			$prod_arr[$data[0]]['prodname'] = $data[1];
+			$prod_arr[$data[0]]['webprice'] = $data[2];
+			$prod_arr[$data[0]]['costprice'] = $data[3];
+			$prod_arr[$data[0]]['discounttype']=$data[4];
+			$prod_arr[$data[0]]['discountvalue']=$data[5];
+			$prod_arr[$data[0]]['bulkexists']=$data[6];
+		}
+		$i++;
+	}	
+	echo "<pre>";
+	//print_r($prod_arr);
+	echo "<pre>";
+	
+	$prodbulk_arr = array();
+	$i =0;
+	while (($data1 = fgetcsv($fbulk, 20000, ",")) !== FALSE)
+	{
+		if($i!=0) // case of header row
+		{
+			$prodbulk_arr[$data1[0]][] = array('bulkid'=>$data1[1],'bulkqty'=>$data1[2],'bulkprice'=>$data1[3]);
+		}
+		$i++;
+	}	
+	echo "<pre>Bulk Array";
+	//print_r($prodbulk_arr);
+	echo "<pre>";
+	
+	$prodvar_arr = array();
+	$i =0;
+	while (($data2 = fgetcsv($fvar, 20000, ",")) !== FALSE)
+	{
+		if($i!=0) // case of header row
+		{
+			$prodvar_arr[$data2[0]][$data2[1]][] = array('varname'=>$data2[2],'valueexists'=>$data2[3],'valueid'=>$data2[4],'valuecaption'=>$data2[5],'varprice'=>$data2[6]);
+		}
+		$i++;
+	}	
+	echo "<pre>Variable Array<br>";
+	//print_r($prodvar_arr);
+	echo "<pre>";
+	
+	/* Validation starts here */
+	?>
+		<table width="100%" style="border:1px solid #000;paddin:4px">
+		<tr>
+			<td>#</td>
+			<td>Product Id</td>
+			<td>Product Name</td>
+			<td>Status</td>
+		</tr>
+	<?php
+	foreach ($prod_arr as $prodindx=>$proddet)
+	{
+		$prod_id = $prodindx;
+		// check whether product already exists 
+		$sql_prod = "SELECT product_id FROM products WHERE product_id = $prod_id AND sites_site_id = $siteid LIMIT 1";
+		$ret_prod = $db->query($sql_prod);
+		if($db->num_rows($ret_prod))
+		{
+			$status = ""; 
+			$sql_produpdate = "UPDATE products 
+									SET 
+										product_webprice=".$proddet['webprice']." ,
+										product_discount=".$proddet['discountvalue'].",
+										product_discount_enteredasval =".$proddet['discounttype']."
+									WHERE 
+										product_id = $prod_id 
+										AND sites_site_id = $siteid 
+									LIMIT 
+										1";
+			$db->query($sql_produpdate);
+			$status = '<br> Product Details Updated';
+			
+			
+			// delete bulk discount entries existing for this products
+			$sql_del = "DELETE FROM product_bulkdiscount WHERE products_product_id = $prod_id AND comb_id=0 ";
+			$db->query($sql_del);
+			$status = '<br> Bulk Details Deleted';
+			if($proddet['bulkexists']=='Y')
+			{
+				if(count($prodbulk_arr[$prod_id]))
+				{
+					$sql_produpd = "UPDATE products SET product_bulkdiscount_allowed ='Y' WHERE product_id = $prod_id AND sites_site_id = $siteid LIMIT 1";
+					$db->query($sql_produpd);
+					foreach ($prodbulk_arr[$prod_id] as $bulk_k=>$bulk_v)
+					{
+						$sql_insert = "INSERT INTO product_bulkdiscount SET 
+											products_product_id =".$prod_id.",
+											bulk_qty=".$bulk_v['bulkqty'].",
+											bulk_price=".$bulk_v['bulkprice'].",
+											comb_id=0";
+						$db->query($sql_insert);
+					}
+					$status .= "<br>Bulk Discount Inserted";
+				}
+			}
+			else
+			{
+				$sql_produpd = "UPDATE products SET product_bulkdiscount_allowed ='N' WHERE product_id = $prod_id AND sites_site_id = $siteid LIMIT 1";
+				$db->query($sql_produpd);
+				$status .= '<br> Bulk Discount Updated to N';
+			}
+				
+			foreach ($prodvar_arr[$prod_id] as $var_k=>$var_v)
+			{
+				foreach ($var_v as $val_k=>$val_v)
+				{
+					if($val_v['valueexists'] == 1)
+					{
+						$vprice = (trim($val_v['varprice']))?$val_v['varprice']:0;
+						$sql_updval = "UPDATE product_variable_data 
+											SET 
+												var_addprice = ".$vprice." 
+											WHERE 
+												product_variables_var_id = ".$var_k."
+												AND var_value_id = ".$val_v['valueid']." 
+											LIMIT 
+												1";
+						$db->query($sql_updval);
+						$status .= '<br> Variable values updated';
+							
+					}	
+				}	
+			}
+	
+		}
+		?>
+		<tr>
+			<td style="border:1px solid #000;"><?php echo $row;$row++;?></td>
+			<td style="border:1px solid #000;"><?php echo $prod_id?></td>
+			<td style="border:1px solid #000;"><?php echo $proddet['prodname']?></td>
+			<td style="border:1px solid #000;"><?php echo $status;?></td>
+		</tr>
+		<?php
+		$err = 0;
+	}
+	/* Validation ends here */
+	?>
+	</table>
+	<?php
+	
+	echo "<br><br>=====================<br>Done<br>=====================<br>";
+	
+?>

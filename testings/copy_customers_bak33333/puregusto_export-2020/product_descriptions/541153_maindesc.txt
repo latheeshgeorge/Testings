@@ -1,0 +1,32 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Jura Claris Water Filters - Claris Smart</strong></span></h1>
+<h2 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Claris Smart Water Filter</strong></span></h2>
+<p style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>The intelligent water filter</strong></span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Coffee is 98% water. So water of the highest quality is essential to creating the best possible coffee experience. The CLARIS Smart from JURA revolutionises water filtration. For the first time, thanks to modern RFID (Radio-frequency Identification) technology, a coffee machine can continually communicate with the filter. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">It recognises whether a filter has been inserted and automatically activates the appropriate mode. It continually collects information about filter use and alerts the user when the filter capacity has been exhausted. This not only makes changing the filter easier than ever before but also allows the CLARIS Smart to achieve optimum effectiveness.</span></p>
+<p>&nbsp;</p>
+<div id="pagelayout_0_pagetype_0_pagecontent_0_panExpandable" class="block-expandable state-expanded" data-init="expandable" data-options="{">
+<div class="content" data-role="expandable-content"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Pure water for exquisite coffee</strong></span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">CLARIS Smart works according to the professional up-flow principle and always filters exactly the amount of water required for each preparation. This makes efficient use of the filter. Standing pre-filtered water is never left in the water tank, where it could quickly become unhygienic. </span></div>
+<div class="content" data-role="expandable-content">&nbsp;</div>
+<div class="content" data-role="expandable-content"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">As well as limescale, it filters out heavy metals and substances that impair smell and taste, such as chlorine. Minerals that are important for health are retained in the water. The result: pure water for perfect speciality coffees and optimum protection against limescale inside the coffee machine.</span><br /><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Automatic filter detection</strong></span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">To enable the filter and coffee machine to communicate, JURA uses modern RFID technology. Any machine fitted with the intelligent water system (I.W.S.&reg;) recognises when a filter is inserted, automatically switches to filter mode and starts the rinsing process. </span></div>
+<div class="content" data-role="expandable-content">&nbsp;</div>
+<div class="content" data-role="expandable-content"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">When the filter capacity is nearly used up the machine prompts the user to change the filter. If the filter is not changed, the machine activates descaling mode. After a certain amount of use, the user is prompted to descale the machine. This can only be done when the filter is removed, so there is no more risk of user error resulting from misunderstandings.</span></div>
+<div class="content" data-role="expandable-content">
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">*CLARIS Smart was designed for the following machines with the intelligent water system (I.W.S.&reg;):</span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E6</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E8</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E60</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E80</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E600</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">E800</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Z9</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Z8</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Z6</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">J6</span></li>
+</ul>
+</div>
+</div>

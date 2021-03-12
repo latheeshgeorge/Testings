@@ -1,0 +1,41 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA A9</span></h1>
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA A9 COFFEE MACHINE</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The quickest way to enjoying the perfect cup of coffee is via the colour screen with touch technology. The compact A9 offers outstanding convenience and unique speciality coffees.</span></p>
+<p>&nbsp;</p>
+<div id="pagelayout_0_pagetype_0_pagecontent_0_panExpandable" class="block-expandable state-expanded" data-init="expandable" data-expandable-options="{&quot;modal&quot;:true}">
+<div class="content" data-expandable="content">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The modern, self-explanatory touchscreen display makes operation intuitive. Enjoy the perfect cup of your favourite specialities, prepared in an instant, thanks to the AromaG3&nbsp;grinder and fine foam technology.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Whether it&lsquo;s preparing just one cup of coffee or two simultaneously, simply touch the screen lightly. The A9 prepares 12 speciality coffees for the ultimate taste experience. Visually, the compact machine cannot fail to impress thanks to its clean lines, elegant materials and superior craftsmanship.</span></p>
+<p>&nbsp;</p>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_pnlContentImage_0" class="img variant-right"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_imgContentImage_0" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home-products/impressa-a-line/features-a9-new/a9_new_feature1.jpg?la=en&amp;mw=655&amp;hash=6E31083A05F9D4380FB257C0FDA04F2347E5DBD2" alt="" /></span></div>
+<div class="img variant-right">&nbsp;</div>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_genTitle_0" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Top innovation: P.E.P.&reg; for espresso and ristretto of outstanding barista quality</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">JURA has perfected the complete brewing process for short speciality coffees. That's why the A9 prepares these beverages to the high standard you would expect in a coffee bar. The multi-level AromaG3&nbsp;grinder ensures that the coffee is optimally ground. It always grinds the beans fresh, quickly yet gently to preserve the aroma. The variable brewing unit has a capacity of 6 to 10 grams and ensures the ideal brewing conditions at all times. The Pulse Extraction Process (P.E.P.&reg;) developed by JURA optimises the extraction time. To make a ristretto or espresso, it forces the hot water through the ground coffee at short intervals. This process allows the flavours of the coffee to fully develop. With eight intensity levels, coffee lovers can customise their coffee just the way they like it.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_pnlContentImage_1" class="img variant-left"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_imgContentImage_1" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home-products/impressa-a-line/features-a9-new/a9_new_feature2.jpg?la=en&amp;mw=655&amp;hash=3C0B05687528D1BF35C2675604DDE212285DD237" alt="" /></span></div>
+<div class="img variant-left">&nbsp;</div>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_genTitle_1" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">AromaG3 grinder now twice as fast for fully preserved aroma</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">By perfecting the cutting angle inside the grinding cone, the JURA engineers have managed to increase efficiency significantly. As a result, the perfect aroma can now be achieved in all its natural fullness in half the grinding time. So now coffee lovers can enjoy pure and perfect coffee indulgence with less preparation time.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_pnlContentImage_2" class="img variant-right"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_imgContentImage_2" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home-products/impressa-a-line/impressa_a9_feature1.jpg?la=en&amp;mw=655&amp;hash=F6FDC93398CAAE7DF52AA1AA5F23A2795389AA9A" alt="" /></span></div>
+<div class="img variant-right">&nbsp;</div>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_genTitle_2" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Intuitive operation via self-explanatory touchscreen display</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Your four favourite specialities can be saved on the start screen and prepared with a gentle touch. The user-friendly operating concept extends to maintenance too. Just one touch and the integrated rinsing, cleaning and descaling programmes ensure T&Uuml;V-certified hygiene.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_pnlContentImage_3" class="img variant-left"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_imgContentImage_3" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home-products/impressa-a-line/impressa_a9_feature3.jpg?la=en&amp;mw=655&amp;hash=02512BCE65F1781DD045DCBC17FE0C3D5BEBAAC1" alt="" /></span></div>
+<div class="img variant-left">&nbsp;</div>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_genTitle_3" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">12 selectable specialities, even including latte macchiato doppio and cappuccino doppio</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The A9 impressively prepares classic drinks as well as two exquisite speciality coffees: the latte macchiato doppio and cappuccino doppio tempt with maximum coffee strength, crowned with fine milk foam of irresistible quality. Thanks to One-Touch technology and the height-adjustable dual spout, which can be set to 55 - 138 mm, they are even prepared without you having to move the glass.</span></p>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>

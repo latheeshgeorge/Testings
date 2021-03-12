@@ -1,0 +1,173 @@
+Array
+(
+    [_type] => new-order-notification
+    [timestamp] => 2009-10-16T13:35:59.142Z
+    [order-adjustment_total-tax_currency] => GBP
+    [order-adjustment_total-tax] => 0.0
+    [order-adjustment_adjustment-total_currency] => GBP
+    [order-adjustment_adjustment-total] => 0.0
+    [shopping-cart_items_item-1_item-name] =>  Gift Voucher Purchase Payment p/p
+    [shopping-cart_items_item-1_item-description] => Mr.k k k 
+Building No:k
+Street: k
+City: k
+State: k
+Country: Kazakhstan
+Zipcode: k
+Phone: k
+Mobile: k
+Fax: k
+Company: k
+Email: sony.joy@thewebclinic.co.uk
+    [shopping-cart_items_item-1_quantity] => 1
+    [shopping-cart_items_item-1_unit-price] => 145.0
+    [shopping-cart_items_item-1_unit-price_currency] => GBP
+    [shopping-cart_items_item-1_merchant-item-id] => GIFTVOCUHERPURCHASERECC_350_4ad8828d992ac
+    [shopping-cart_items_item-2_item-name] =>  Gift Voucher Purchased For
+    [shopping-cart_items_item-2_item-description] => sdf<br />
+										Email: sony.joy@thewebclinic.co.uk
+    [shopping-cart_items_item-2_quantity] => 1
+    [shopping-cart_items_item-2_unit-price] => 0.0
+    [shopping-cart_items_item-2_unit-price_currency] => GBP
+    [shopping-cart_items_item-3_item-name] =>  Gift Voucher will be Active for 
+    [shopping-cart_items_item-3_item-description] => 6 day(s) from date of payment
+    [shopping-cart_items_item-3_quantity] => 1
+    [shopping-cart_items_item-3_unit-price] => 0.0
+    [shopping-cart_items_item-3_unit-price_currency] => GBP
+    [shopping-cart_items] => shopping-cart.items.item-3
+    [buyer-id] => 249519942160418
+    [google-order-number] => 747074702179342
+    [buyer-shipping-address_company-name] => 
+    [buyer-shipping-address_contact-name] => sdf
+    [buyer-shipping-address_email] => sonyjoy007@gmail.com
+    [buyer-shipping-address_phone] => 
+    [buyer-shipping-address_fax] => 
+    [buyer-shipping-address_address1] => dfd
+    [buyer-shipping-address_address2] => fdf
+    [buyer-shipping-address_country-code] => IN
+    [buyer-shipping-address_city] => dfdfdf
+    [buyer-shipping-address_region] => KERALA
+    [buyer-shipping-address_postal-code] => 682002
+    [buyer-billing-address_company-name] => 
+    [buyer-billing-address_contact-name] => sdf
+    [buyer-billing-address_email] => sonyjoy007@gmail.com
+    [buyer-billing-address_phone] => 
+    [buyer-billing-address_fax] => 
+    [buyer-billing-address_address1] => dfd
+    [buyer-billing-address_address2] => fdf
+    [buyer-billing-address_country-code] => IN
+    [buyer-billing-address_city] => dfdfdf
+    [buyer-billing-address_region] => KERALA
+    [buyer-billing-address_postal-code] => 682002
+    [buyer-marketing-preferences_email-allowed] => false
+    [order-total] => 145.0
+    [order-total_currency] => GBP
+    [fulfillment-order-state] => NEW
+    [financial-order-state] => REVIEWING
+    [serial-number] => 747074702179342-00001-7
+
+)
+SELECT payment_id  
+							FROM 
+								gift_vouchers_payment 
+							WHERE 
+								gift_vouchers_voucher_id=350 
+							LIMIT 
+								1INSERT INTO gift_vouchers_payment 
+								SET 
+									google_checkoutid='747074702179342',
+									gift_vouchers_voucher_id=350Array
+(
+    [_type] => order-state-change-notification
+    [new-fulfillment-order-state] => NEW
+    [new-financial-order-state] => CHARGEABLE
+    [previous-fulfillment-order-state] => NEW
+    [previous-financial-order-state] => REVIEWING
+    [timestamp] => 2009-10-16T13:37:02.955Z
+    [google-order-number] => 747074702179342
+    [serial-number] => 747074702179342-00005-1
+
+)
+Array
+(
+    [_type] => risk-information-notification
+    [timestamp] => 2009-10-16T13:37:02.955Z
+    [google-order-number] => 747074702179342
+    [risk-information_billing-address_company-name] => 
+    [risk-information_billing-address_contact-name] => sdf
+    [risk-information_billing-address_email] => sonyjoy007@gmail.com
+    [risk-information_billing-address_phone] => 
+    [risk-information_billing-address_fax] => 
+    [risk-information_billing-address_address1] => dfd
+    [risk-information_billing-address_address2] => fdf
+    [risk-information_billing-address_country-code] => IN
+    [risk-information_billing-address_city] => dfdfdf
+    [risk-information_billing-address_region] => KERALA
+    [risk-information_billing-address_postal-code] => 682002
+    [risk-information_ip-address] => 118.102.196.27
+    [risk-information_avs-response] => Y
+    [risk-information_cvn-response] => M
+    [risk-information_eligible-for-protection] => true
+    [risk-information_partial-cc-number] => 1111
+    [risk-information_buyer-account-age] => 225
+    [serial-number] => 747074702179342-00005-5
+
+)
+Array
+(
+    [_type] => order-state-change-notification
+    [new-fulfillment-order-state] => PROCESSING
+    [new-financial-order-state] => CHARGEABLE
+    [previous-fulfillment-order-state] => NEW
+    [previous-financial-order-state] => CHARGEABLE
+    [timestamp] => 2009-10-16T13:38:36.230Z
+    [google-order-number] => 747074702179342
+    [serial-number] => 747074702179342-00006-1
+
+)
+Array
+(
+    [_type] => order-state-change-notification
+    [new-fulfillment-order-state] => PROCESSING
+    [new-financial-order-state] => CHARGING
+    [previous-fulfillment-order-state] => PROCESSING
+    [previous-financial-order-state] => CHARGEABLE
+    [timestamp] => 2009-10-16T13:38:36.327Z
+    [google-order-number] => 747074702179342
+    [serial-number] => 747074702179342-00008-1
+
+)
+Array
+(
+    [_type] => order-state-change-notification
+    [new-fulfillment-order-state] => PROCESSING
+    [new-financial-order-state] => CHARGED
+    [previous-fulfillment-order-state] => PROCESSING
+    [previous-financial-order-state] => CHARGING
+    [timestamp] => 2009-10-16T13:38:36.453Z
+    [google-order-number] => 747074702179342
+    [serial-number] => 747074702179342-00010-1
+
+)
+UPDATE gift_vouchers
+							SET
+								voucher_paystatus='Paid',
+								voucher_activatedon = curdate(),
+								voucher_incomplete=0,
+								voucher_expireson	= DATE_ADD(curdate(),INTERVAL voucher_activedays DAY)
+							WHERE
+								voucher_id = 350 
+								AND sites_site_id=69 
+							LIMIT
+								1Array
+(
+    [_type] => charge-amount-notification
+    [timestamp] => 2009-10-16T13:38:36.453Z
+    [google-order-number] => 747074702179342
+    [latest-charge-amount_currency] => GBP
+    [latest-charge-amount] => 145.0
+    [total-charge-amount_currency] => GBP
+    [total-charge-amount] => 145.0
+    [serial-number] => 747074702179342-00010-2
+
+)

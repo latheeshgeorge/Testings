@@ -1,0 +1,5 @@
+<div class="product-specs">
+<h1 style="text-align: center;"><span style="font-size: small;">&nbsp;<span style="font-family: tahoma,arial,helvetica,sans-serif;">Grinder Cleaning Brush</span></span></h1>
+<p>&nbsp;</p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: small;">This grinder cleaning brush is ideal to use to help maintain your grinder. This is a fantastic accessory and is built specifically to be more sturdy and pwerful than your average cleaning brush to ensure that it reaches and fully cleans them hard to clean grinder blades. </span></p>
+</div>

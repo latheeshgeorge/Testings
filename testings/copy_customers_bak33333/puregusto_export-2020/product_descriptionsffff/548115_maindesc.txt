@@ -1,0 +1,53 @@
+<h1 style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">TWININGS BLACKCURRANT &amp; BLUEBERRY TEA</span></strong></h1>
+<p style="text-align: center;">&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">What does it taste like?</span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Bursting with the mouth-watering flavour of blackcurrants and blueberries, this infusion will take you back to your childhood.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">How do I drink it?</span><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Using one bag per person, pour on boiling water and infuse for two to three minutes. Leave for a little longer if you prefer a stronger taste.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Ingredients</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Hibiscus, Rosehips, Blackberry leaves*, Natural Blackcurrant and Blueberry Flavourings With Other Natural Flavourings (7%), Liquorice Root*</span></p>
+<div class="content-layout__item">
+<div class="free-content"><br /><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">*All our herbs are gently steamed, the process is gentle to protect their delicate taste.</span></div>
+</div>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<h3><span style="font-size: small; font-family: 'trebuchet ms', geneva;">NUTRITIONAL INFORMATION</span></h3>
+<div class="table-responsive">
+<table border="1" cellspacing="1" cellpadding="1">
+<tbody>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Typical Values</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Per 100ml Brewed Infusion**</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Energy</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">10 kJ / 2kcal</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Fat</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">of which saturates</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Carbohydrate</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">of which sugars</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Protein</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Salt</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">0g</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">**Based on an infusion brewed with 200ml water for 3 minutes.</span></p>

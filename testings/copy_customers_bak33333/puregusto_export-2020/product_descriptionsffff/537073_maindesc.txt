@@ -1,0 +1,14 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Sweetbird Syrups - Coffee Flavours</span></h1>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Want to create the perfect hot beverage? Or even to add an extra kick to a smoothie or frappe? Why not try our Sweebird syrups. With no GMOs or artificial colourings, and approved by the vegetarian society and for vegan diets by Viva, they are the perfect treat without any worries!&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">We literally cater for every need, ranging from a classic vanilla latte, to a toasted marshmallow hot chocolate. Click on the drop down box and start your own taste creation today!</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1"></span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Vegetarian Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Vegan Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Natural Flavours</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">NO GMO's</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">No Artifical Colourings</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 Litre Plastic Bottles</span></li>
+</ul>

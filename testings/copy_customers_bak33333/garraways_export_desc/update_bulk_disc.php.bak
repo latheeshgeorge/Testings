@@ -1,0 +1,143 @@
+<?php
+
+	include_once('../../../classes/db_class.inc.php');	// Page which holds the class for db operations
+	include '../../../config_db.php';
+	
+	$db	 				= new db_mysql($dbhost,$dbuname,$dbpass,$dbname);
+	$db->connect();
+	$db->select_db();
+	$siteid 				= 61;//113; // Local destination site id
+	
+	
+	$import_prod				= 'csv/MDOproductmasterdownload27.11.14.csv';
+
+		
+	$fp_feat = fopen($import_prod,'r');
+	if (!$fp_feat)
+	{
+		echo "Cannot open the file product";
+		exit;
+	}
+
+	// read the content of csv file
+	?>
+	<table width="100%" cellpadding="1" cellspacing="1" border="0">
+	<tr>
+		<td align="center" style="color:#006600"><strong>#</strong></td>
+		<td align="center" style="color:#006600"><strong>Product Id</strong></td>
+		<td align="left" style="color:#006600"><strong>Product Name</strong></td>
+		<td align="left" style="color:#006600"><strong>Bulk Enabled</strong></td>
+				<td align="left" style="color:#006600"><strong>Existing Bulk</strong></td>
+				<td align="left" style="color:#006600"><strong>Updated Bulk</strong></td>
+				<td align="left" style="color:#006600"><strong>Status</strong></td>
+
+	</tr>
+	<?php 
+		$cnt = 1;
+		$i = 0;
+		$row_i = 1;
+		$error_counter = 0;
+		while (($data = fgetcsv($fp_feat, 10000, ",")) !== FALSE)
+		{
+			//if($i!=0 and trim(stripslashes(strtolower($data[19])))=='parent' and trim(stripslashes($data[20]))=='') // done to avoid header row and also pick only the parent row entries
+			if($i!=0) // done to avoid header row and also pick only the parent row entries
+			{
+				$err_msg 			= '';
+				$product_id 		= str_replace('P-','',trim(stripslashes($data[0])));
+				$pname				= trim(stripslashes($data[1]));
+				$bulk_enabled		= strtoupper(trim(stripslashes($data[57])));
+				$bulk_value			= trim(stripslashes($data[58]));
+				
+				$status = '';
+				$err = 0;
+				$bulk_enabled_db='';
+				$var_price_db ='';
+				$sql_check ="SELECT product_bulkdiscount_allowed,product_variablecomboprice_allowed 
+								FROM 
+									products 
+								WHERE 
+									product_id=$product_id
+									AND sites_site_id = $siteid
+								LIMIT 
+									1";
+				$ret_check = $db->query($sql_check);
+				if($db->num_rows($ret_check))
+				{
+					$row_check = $db->fetch_array($ret_check);
+					$bulk_enabled_db = $row_check['product_bulkdiscount_allowed'];
+					$var_price_db = $row_check['product_variablecomboprice_allowed'];
+				}	
+				else
+				{
+					$status = 'Product not found in db';
+					$err = 1;
+				}
+				
+				/*if($bulk_value=='' and $bulk_enabled=='Y') // this condition not required
+				{
+					// Check where value exist in db
+					$sql_blk = "SELECT bulk_id FROM product_bulkdiscount WHERE 
+								products_product_id=$product_id 
+								AND comb_id=0";
+					$ret_blk = $db->query($sql_blk);
+					if($db->num_rows($ret_blk))
+					{
+						$status .= "<br> -- Value Exists in db - ".$var_price_db;
+					}			
+					
+				}*/
+				if($bulk_value!='' and $bulk_enabled=='Y')
+				{
+					$blk_str = '';
+					$sql_blk = "SELECT bulk_qty,bulk_price FROM product_bulkdiscount 
+									WHERE products_product_id=$product_id 
+									AND comb_id=0 order by bulk_qty";
+					$ret_blk = $db->query($sql_blk);
+					if($db->num_rows($ret_blk))
+					{
+						while ($row_blk=$db->fetch_array($ret_blk))
+						{
+							if($blk_str!='')
+								$blk_str .=',';
+							$blk_str .= $row_blk['bulk_qty'].'=>'.$row_blk['bulk_price'];
+						}
+					}
+					if($blk_str!=$bulk_value)
+					{
+						$err = 1;
+						$status .= "<br> -- Bulk different";
+					}
+										
+				}
+				if($bulk_enabled!=$bulk_enabled_db)
+				{
+					$err = 1;
+					$status .= "<br> -- Enabled status different";
+				}
+				
+				if($err == 1)
+				{
+					$error_counter++;
+				?>
+				<tr>
+					<td align="center" style="color:#000000"><?php echo $row_i?></td>
+					<td align="center" style="color:#000000"><?php echo $product_id?></td>
+					<td align="left" style="color:#000000"><?php echo $pname?></td>
+					<td align="left" style="color:#000000"><?php echo $bulk_enabled?></td>
+					<td align="left" style="color:#000000"><?php echo $blk_str?></td>
+					<td align="left" style="color:#000000"><?php echo $bulk_value?></td>
+					<td align="left" style="color:#000000"><?php echo $status?></td>
+				</tr>
+				<?php
+			}
+				$row_i++;	
+			}
+			$i++;
+		}
+		fclose($fp_feat);
+	?>
+	</table>
+<?php
+echo "Error counts ".$error_counter;
+?>	
+

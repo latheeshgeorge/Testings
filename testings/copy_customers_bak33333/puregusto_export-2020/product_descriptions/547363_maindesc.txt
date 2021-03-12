@@ -1,0 +1,32 @@
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>MONIN CHOCOLATE SYRUP</strong></span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 LITRE CHOCOLATE MONIN</span><br /><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Monin syrups are one of the most widely recognised syrup brands in the world, used by the largest chain stores across the globe, their range of flavours and unique taste set Monin apart from other brands.</span><br /><br /></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">No Artifical ingredients</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Halal, Kosher &amp; Vegan Approved</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">100% GMO-Free</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Gluten Free</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Natural Flavours</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 Litre Plastic Bottles</span></li>
+</ul>
+<p><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>MONIN CHOCOLATE SYRUP RECIPE IDEAS</strong></span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong><br /></strong>BLACKCURRANT CHOCOLATE COFFEE</span></p>
+<div class="text-list text-products">
+<p class="title20"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"></span></p>
+<div class="products-content">
+<div class="field-items _mce_tagged_br">
+<ul>
+<li class="field-item"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">15 ml Blackcurrant Syrup</span></li>
+<li class="field-item"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">20 ml Chocolate Syrup</span></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="text-list text-ingredients">
+<div class="products-content _mce_tagged_br">
+<div class="field-items">
+<ul style="list-style-type: circle;">
+<li class="field-item"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">1 shot(s) espresso</span></li>
+<li class="field-item"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">150 ml milk</span></li>
+</ul>
+</div>
+</div>
+</div>

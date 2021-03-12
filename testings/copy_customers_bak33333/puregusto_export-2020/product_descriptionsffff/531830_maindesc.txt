@@ -1,0 +1,32 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><strong>IMPRESSA JX6 Professional</strong></span></h1>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_genTitle_0" class="title" style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">State-of-the-art technologies for perfect enjoyment</span></h3>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The innovative AromaG3&nbsp;grinder always grinds the beans freshly for every beverage, to just the right fineness. It is designed for speed and precision while preserving the full aroma of the beans. The Pulse Extraction Process (P.E.P.&reg;) ensures the optimum extraction time for short specialities and delivers a taste explosion for the ristretto and espresso.</span></p>
+<p style="text-align: center;">&nbsp;&nbsp;</p>
+<h1 style="text-align: center;">&nbsp;</h1>
+<div class="block-text" style="text-align: center;">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_pnlContentImage_0" class="img variant-right variant-no-border"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_imgContentImage_0" src="https://www.jura.com/-/media/global/images/professional-products/x-line/X6/features/feature1.jpg?la=en&amp;mw=655&amp;hash=BCB969D01AF79A339B35BE5708F72A320C3AEE60" alt="" /></span></div>
+<h3 class="title">&nbsp;</h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_genTitle_0" class="title">&nbsp;</h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">All control elements on the X6 are on the front, clearly visible and easily accessible. The water tank and bean container can also be refilled from the front. To protect them from manipulation, the water tank and bean container come with a locking mechanism as standard. The drip tray and coffee grounds container are ergonomically designed and can be removed with one hand, allowing them to be emptied quickly and cleanly.&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The control elements show the clarity of the operating concept. The vertical format TFT display combined with the large, easily recognisable preparation buttons make operation very straightforward, even for first-time users. The preparation and maintenance buttons can be disabled to prevent unwanted reprogramming or accidental operation while the machine is being cleaned.</span></p>
+<p>&nbsp;</p>
+</div>
+<h1 style="text-align: center;">&nbsp;</h1>
+<div class="block-text" style="text-align: center;">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_pnlContentImage_1" class="img variant-left variant-no-border"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_imgContentImage_1" src="https://www.jura.com/-/media/global/images/professional-products/x-line/X6/features/feature2.jpg?la=en&amp;mw=655&amp;hash=87027A14779A38991DECA8377AB8D7EB6005349A" alt="" /></span></div>
+<h3 class="title">&nbsp;</h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_genTitle_1" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">T&Uuml;V-certified hygiene guarantee</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The maintenance of the X6 is just as intuitive as its operation. Integrated rinsing and cleaning programmes, used together with original JURA maintenance products, ensure T&Uuml;V-certified hygiene and cleanliness.</span></p>
+<p>&nbsp;</p>
+</div>
+<h1 style="text-align: center;">&nbsp;</h1>
+<div class="block-text" style="text-align: center;">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_pnlContentImage_2" class="img variant-right variant-no-border"><span style="font-family: 'trebuchet ms', geneva; font-size: small;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_imgContentImage_2" src="https://www.jura.com/-/media/global/images/professional-products/x-line/X6/features/feature3.jpg?la=en&amp;mw=655&amp;hash=E04ADD4869FB341C80E468F891F65DC01EB9CABD" alt="" /></span></div>
+<h3 class="title">&nbsp;</h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_genTitle_2" class="title"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">As individual as your requirements</span></h3>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">The jX6 can be combined with a number of accessories &ndash; specially designed for JURA professional coffee machines &ndash; to create a complete, made-to-measure coffee solution: for example the fresh water kit, cup warmer or accounting system.</span></p>
+</div>
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></h1>

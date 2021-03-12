@@ -1,0 +1,37 @@
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">JURA E6 COFFEE MACHINE</span></h1>
+<h1 style="text-align: left;">&nbsp;</h1>
+<p style="text-align: left;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">JURA&rsquo;s new E6 line is revolutionising the enjoyment of coffee in every aspect. The espresso brewing process has been 100 % perfected. The Pulse Extraction Process (P.E.P.&reg;) is the only process of its kind in the world. It optimises the extraction time and guarantees the very best aroma even for short speciality coffees.</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">CLARIS Smart provides water of perfect quality for the best possible flavour. Filter usage has never been easier because the Intelligent Water System (I.W.S.&reg;) automatically detect filters presence.</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<div id="pagelayout_0_pagetype_0_pagecontent_0_panExpandable" class="block-expandable state-expanded" style="text-align: center;" data-init="expandable" data-options="{&quot;modal&quot;:true}">
+<div class="content" data-role="expandable-content">
+<p style="text-align: left;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Buttons on the front of the machine and a modern TFT display make operation incredibly simple. And the integrated maintenance programmes and new interchangeable milk spout ensure maximum hygiene.</span></p>
+<p>&nbsp;</p>
+<div class="block-text">
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_0_genTitle_0" class="title">A world<span style="font-size: small; font-family: 'trebuchet ms', geneva;"> first: P.E.P.&reg; for </span>espressi<span style="font-size: small; font-family: 'trebuchet ms', geneva;"> of outstanding barista quality</span></h3>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The secret of exceptional coffee lies in the preparation. JURA has 100 % perfected the espresso brewing process, allowing the E6 to make speciality coffees to professional barista standard. The Pulse Extraction Process (P.E.P.&reg;) developed by JURA optimises the extraction time. To make a short espresso, it forces the hot water through the ground coffee at short intervals. This process allows the flavours of the coffee to fully develop. With eight different intensity levels, coffee lovers can customise their coffee just the way they like it.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_pnlContentImage_1" class="img variant-left"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_imgContentImage_1" style="display: block; margin-left: auto; margin-right: auto;" src="https://uk.jura.com/-/media/global/images/home-products/e-line/features-e6/feature2.jpg?la=en&amp;mw=655&amp;hash=F8540CE0BF190CABB15CA5C710FCB5D667DE591A" alt="" /></span></div>
+<div class="img variant-left">&nbsp;</div>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_1_genTitle_1" class="title"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Intelligent Water System for automatic filter detection</span></h3>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">CLARIS water filters supply perfect water quality for the best possible flavour. They also protect the coffee machine gainst limescale and remove substances that could impair flavour and aroma (such as heavy metals or chlorine) from the water. To make maximum use of the filter and its capacity, JURA developed the Intelligent Water System (I.W.S.&reg;). The filter cartridge and coffee machine are wirelessly linked by RFID technology. The filter is detected automatically. Using the filter has never been easier or more reliable.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_pnlContentImage_2" class="img variant-right"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_imgContentImage_2" src="https://uk.jura.com/-/media/global/images/home-products/e-line/features-e6/feature3.jpg?la=en&amp;mw=655&amp;hash=7C94405EF497DD494E68BD589AD074C593B5AB96" alt="" /></span></div>
+<h3 class="title">&nbsp;</h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_2_genTitle_2" class="title"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">JURA is setting new standards in very simple operation</span></h3>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">For those who like to make their favourite coffee quickly, the E6 is ideal. The buttons for the espresso, coffee, cappuccino and milk foam functions are all positioned on the front for maximum convenience. The E6 can even prepare two </span>espressi<span style="font-size: small; font-family: 'trebuchet ms', geneva;"> or coffees at the same time. Thanks to the modern TFT colour display, operating the machine is self-explanatory.</span></p>
+<p>&nbsp;</p>
+</div>
+<div class="block-text">
+<div id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_pnlContentImage_3" class="img variant-left"><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><img id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_imgContentImage_3" src="https://uk.jura.com/-/media/global/images/home-products/e-line/features-e6/feature4.jpg?la=en&amp;mw=655&amp;hash=F91D53AAEFD25C1E14FCEA57A9BBFD01A491EB50" alt="" /></span></div>
+<h3 class="title">&nbsp;</h3>
+<h3 id="pagelayout_0_pagetype_0_pagecontent_0_tabcontent_0_repTabContentBlock_conContentBlock_3_genTitle_3" class="title"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Total hygiene</span></h3>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Maintaining the modern automatic coffee machine is just as simple as preparing tempting speciality coffees. The integrated rinsing and cleaning programmes can be started at the touch of a button to keep the machine impeccably hygienic. Now the dishwasher-safe milk spout can be replaced in a flash. Total hygiene and the perfect milk foam are guaranteed at all times.</span></p>
+</div>
+</div>
+</div>

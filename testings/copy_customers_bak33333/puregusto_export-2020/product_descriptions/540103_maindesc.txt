@@ -1,0 +1,66 @@
+<p style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Expobar Monroc Coffee Machine</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;"></span></strong></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Monroc is an efficient espresso machine that fulfils all demands for a nice espresso in a simple and easy way. The user-friendly functions of the machine are based on well-tried technology and by skilful and professional craftsmen.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">This means that Monroc is a reliable and solid machine that you can really trust, every day &ndash; year after year. Monroc is very suitable for smaller caf&eacute;s and restaurants where you wish to serve espresso, cappuccino, caff&eacute; latte or other espresso based drinks.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Monroc is a two-group espresso machine with automatic water filling and a steam tank with a 11.5 litre capacity. Monroc has an electronic cup dosage in order to easily be able to pre-programme the required amount of water for various cup sizes.</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">FEATURES</span></strong></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Built-in volumetric motor pump, complete with two retention valves and solid particle filter</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Copper boiler with heat exchanger per group and pressure relief valve</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Group head with direct pre-infusion chamber</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">One steam arm and one hot water tap</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Heating element low water level auto cut-off PULSER</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Auto-fill water boiler CONTROL</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">4 different programmable coffee doses per group</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Auto-fill water boiler</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Available in Take away design</span></li>
+</ul>
+<p style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<table style="margin-left: auto; margin-right: auto;" border="2">
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1 GROUP</span></strong></td>
+<td style="text-align: center;"><strong><span style="font-size: small; font-family: 'trebuchet ms', geneva;">2 GROUP</span></strong></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Width</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">430 mm</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">650 mm</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Height</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">480 mm</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">480 mm</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Depth</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">540 mm</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">540 mm</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Power</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">2700 w</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">3050 w</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Water Supply</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Plumbed</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><span>Plumbed</span></span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Steam Arms</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">1</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Water Tank Capacity</strong></span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">6 Ltr</span></td>
+<td><span style="font-size: small; font-family: 'trebuchet ms', geneva;">11.5 Ltr</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>

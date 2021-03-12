@@ -1,0 +1,10 @@
+<p style="text-align: center;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">&nbsp;Bonito Spoon Biscuits</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Individually wrapped bonito spoon biscuits, 300 butter vanilla biscuits per pack. Perfect to accompany any beverage.</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><strong><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Key Product Features:</span></strong></p>
+<ul>
+<li style="text-align: left;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Indivually wrapped to maintain freshness</span></li>
+<li style="text-align: left;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Suitable for vegeterians</span></li>
+<li style="text-align: left;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: small;">Nice stylish design</span></li>
+</ul>

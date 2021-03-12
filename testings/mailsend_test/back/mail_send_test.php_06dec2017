@@ -1,0 +1,305 @@
+<?
+//$email = $_REQUEST["email"];
+$headers = "From: test <sales@discount-mobility.co.uk>\n";
+$headers .= "MIME-Version: 1.0\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\n";
+ob_start();
+?>
+<table style="border: 1px solid #eeeeee; width: 620px;" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td valign="top"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/head.jpg" alt="" width="620" height="574" usemap="#Map" border="0" /></td>
+</tr>
+<tr>
+<td valign="top">
+<table style="width: 620px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td colspan="2" align="center" valign="middle" height="39"><a style="background: #09F; color: #fff; font: bold 15px Arial, Helvetica, sans-serif; padding: 10px; text-transform: uppercase; text-decoration: none; margin-top: 10px;" href="http://www.puregusto.co.uk/">Visit Puregusto</a></td>
+</tr>
+<tr>
+<td valign="top" width="131">&nbsp;</td>
+<td valign="top" width="489">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top"><a href="http://www.puregusto.co.uk/simply-natural-coffee-syrups-1-ltr-p531807.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/natural_coffee_syrups.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/simply-natural-coffee-syrups-1-ltr-p531807.html" target="_blank">Simply - Natural Coffee Syrups - 1 Ltr</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">From &pound;4.99 ltr</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">These vegetarian approved - natural syrups come in elegantly styled 1 litre bottles, with over 50 varieties each one rich flavoured and will enhance your..</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/simply-natural-coffee-syrups-1-ltr-p531807.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/simply-natural-coffee-syrups-1-ltr-p531807.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/lotus-caramelised-biscuits-x-300-p531789.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/caramelised_biscuits.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/lotus-caramelised-biscuits-x-300-p531789.html" target="_blank">Lotus Caramelised Biscuits x 300</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">From &pound;7.49</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Lotus Caramelised biscuits are famous for their delicious, distinctive and sweet crunchy taste. This unique caramelised taste,</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/lotus-caramelised-biscuits-x-300-p531789.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/lotus-caramelised-biscuits-x-300-p531789.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/byron-bay-cafe-cookies-top-up-p531586.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/byron_bay_cafe_cookies.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/byron-bay-cafe-cookies-top-up-p531586.html" target="_blank">Byron Bay Cafe Cookies Top Up</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">&pound;3.88</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Byron Bay Cookies have become an icon within premium caf&eacute;s and coffee shops. The cookies are based on a soft textured American style recipe and made...</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/byron-bay-cafe-cookies-top-up-p531586.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/byron-bay-cafe-cookies-top-up-p531586.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/sweetbird-syrups-coffee-flavours-1-ltr-p537073.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/sweetbird_syrups.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/sweetbird-syrups-coffee-flavours-1-ltr-p537073.html" target="_blank">Sweetbird Syrups - Coffee Flavours - 1 Ltr</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">&pound;6.45</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Want to create the perfect hot beverage? Or even to add an extra kick to a smoothie or frappe? Why not try our Sweebird syrups</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/sweetbird-syrups-coffee-flavours-1-ltr-p537073.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/sweetbird-syrups-coffee-flavours-1-ltr-p537073.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/zuma-original-hot-chocolate-powder-2-kg-p531688.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/zuma_original_ho_chocolate.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/zuma-original-hot-chocolate-powder-2-kg-p531688.html" target="_blank">Zuma Original Hot Chocolate Powder 2 KG</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">Price Promise</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Select from our different options of zuma hot chocolate powders, which can be enjoyed as part of a hot drink or even blended with ice during the summer months. With these products they offer you a wide variety of uses with hot</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/zuma-original-hot-chocolate-powder-2-kg-p531688.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/zuma-original-hot-chocolate-powder-2-kg-p531688.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/twinings-traditional-english-breakfast-tea-p531608.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/twinings_traditional_english_breakfast.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/twinings-traditional-english-breakfast-tea-p531608.html" target="_blank">Twinings Traditional English Breakfast Tea</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">From &pound;3.09 box</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">What's your favourite breakfast? Eggs, cereal or a slice of buttery toast? Whatever it is, there's no better accompaniment than a good cup of our English Breakfast tea...</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/twinings-traditional-english-breakfast-tea-p531608.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/twinings-traditional-english-breakfast-tea-p531608.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/isi-cream-whipper-chargers-p531801.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/iSi_cream_whipper_chargers.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/isi-cream-whipper-chargers-p531801.html" target="_blank">iSi Cream Whipper Chargers</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">From &pound;0.38 Each</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">ISI cream whipper bulbs uses the nitrous oxide gas charges inside the bulb to make your whipped cream.It is from the pressure of the gas in the whipper which forces the cream out through the whipping device leaving the cream fluffy and light.</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/isi-cream-whipper-chargers-p531801.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/isi-cream-whipper-chargers-p531801.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/black-triple-wall-ripple-cups-lids-p531976.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/black_triple_wall_ripple_cup.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/black-triple-wall-ripple-cups-lids-p531976.html" target="_blank">Black Triple Wall Ripple Cups &amp; Lids</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">&pound;19.79</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Would you like cups that have extra insulation? How about something that is easy to hold and will not slip out of the hand?</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/black-triple-wall-ripple-cups-lids-p531976.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/black-triple-wall-ripple-cups-lids-p531976.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; height: 131px;" valign="top" height="131"><a href="http://www.puregusto.co.uk/smaller-packs-of-coffee-beans-p531678.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/smaller_packs_of_coffee.jpg" alt="" width="131" height="131" border="0" /></a></td>
+<td valign="top">
+<table style="width: 450px;" border="0" cellspacing="1" cellpadding="2" align="center">
+<tbody>
+<tr>
+<td valign="top"><a style="font: bold 15px Arial, Helvetica, sans-serif; color: #0095cf; text-transform: uppercase; text-decoration: none;" href="http://www.puregusto.co.uk/smaller-packs-of-coffee-beans-p531678.html" target="_blank">Smaller Packs Of Coffee Beans</a></td>
+</tr>
+<tr>
+<td style="font: bold 14px Arial, Helvetica, sans-serif; color: #ec2439;" valign="top">From &pound;2.79</td>
+</tr>
+<tr>
+<td style="font: normal 13px Arial, Helvetica, sans-serif; color: #000;" valign="top">Is a case of PureGusto convection roasted coffee a little too much, or do you want to try before you commit to a whole case. Here you can buy a single bag of our coffee.</td>
+</tr>
+<tr>
+<td valign="top"><a style="font: bold 12px Arial, Helvetica, sans-serif; color: #994220; text-transform: uppercase;" href="http://www.puregusto.co.uk/smaller-packs-of-coffee-beans-p531678.html" target="_blank">read more</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="http://www.puregusto.co.uk/smaller-packs-of-coffee-beans-p531678.html" target="_blank"><img src="http://www.puregusto.co.uk/images/www.puregusto.co.uk/static/buynow.jpg" alt="" width="79" height="23" border="0" /></a></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; background: #1f1202; font: normal 13px Arial, Helvetica, sans-serif; color: #fff;" colspan="2" align="center" valign="top" height="19">
+<div><span><br /> PureGusto Coffee Company</span>
+<div><span>Units 1 - 3 Weston Street,</span> <span>Bolton</span>,&nbsp;<span>Lancashire</span>. <span>BL3 2SB</span></div>
+Phone: <span>0800 644 6650</span></div>
+<div><a style="color: #0099cc;" href="mailto:sales@puregusto.co.uk">sales@puregusto.co.uk</a></div>
+</td>
+</tr>
+<tr>
+<td style="width: 131px; background: #1f1202; font: normal 13px Arial, Helvetica, sans-serif; color: #fff;" colspan="2" align="center" valign="top" height="19"><a style="color: #c90;" href="http://www.puregusto.co.uk/" target="_blank">www.puregusto.co.uk</a></td>
+</tr>
+<tr>
+<td style="width: 131px; background: #1f1202; font: normal 13px Arial, Helvetica, sans-serif; color: #fff;" colspan="2" align="center" valign="top" height="19">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><map id="Map" name="Map"> 
+<area shape="rect" coords="251,2,356,116" href="http://www.puregusto.co.uk/" target="_blank" />
+ </map></p>
+<?php
+$message = ob_get_contents();
+ob_end_clean();
+	$subj = "Test Newsletter Puregusto 08 Jan 2016 --- 5";
+	mail('sony.joy@calpinetech.com',$subj, $message,$headers);
+	mail('sony.joy@thewebclinic.co.uk', $subj, $message,$headers);
+	//mail('latheesh.george@calpinetech.com', $subj, $message,$headers);
+	mail('padmaraj.payyur@calpinetech.com', $subj, $message,$headers);
+	mail('sonyjoy007@gmail.com', $subj, $message,$headers);
+	mail('jm@thewebclinic.co.uk', $subj, $message,$headers);
+	echo "
+			<script type='text/javascript'>
+			alert('Mail Send Successfully');
+			</script>
+		";
+?>

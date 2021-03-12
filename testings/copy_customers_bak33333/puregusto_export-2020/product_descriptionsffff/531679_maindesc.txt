@@ -1,0 +1,14 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Simply Sauces</span></h1>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;" data-mce-mark="1">Unlike syrups, Simply sauces don&rsquo;t have to be all mixed up with coffee before they tickle your fancy. You can drizzle a&nbsp;flavoured sauce all over your latte&rsquo;s foamed milk or you can combine it in a thousand different ways with syrups, espresso and steamed milk.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">5 Delicious flavours to choose from</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">LUXURY CHOCOLATE</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">STRAWBERRY &amp; RHUBARB</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">WHITE CHOCOLATE</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;" data-mce-mark="1">MANGO &amp; PASSIONFRUIT</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">TOFFEE CARAMEL</span></li>
+</ul>
+<p style="text-align: center;">&nbsp;</p>

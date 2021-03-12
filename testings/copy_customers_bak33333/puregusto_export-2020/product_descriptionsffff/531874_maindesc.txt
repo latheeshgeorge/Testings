@@ -1,0 +1,15 @@
+<div id="product_name">
+<h1 style="text-align: center;"><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Blendtec Twister Jar</span></h1>
+<p>&nbsp;</p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">The Blendtec twister jar is designed to blend your product as thick as possible. The twisting motion forces all the ingredients inside to come back to the blade ensuring a perfect blend each time it is used. It also comes with a spectacular which is specifically designed for this jar as it is the perfect length and shape to help ensure all product is used from within the jug.&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;"><strong>Key Product Features:</strong></span></p>
+<ul>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Easy to read markings</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Twisting design to ensure a thicker perfect blend</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">spectacular to ensure all product is used</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">BPA free materials</span></li>
+<li><span style="font-size: small; font-family: 'trebuchet ms', geneva;">Heavy use</span></li>
+</ul>
+<p><span style="font-size: small; font-family: 'trebuchet ms', geneva;">&nbsp;</span></p>
+</div>

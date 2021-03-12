@@ -1,0 +1,14 @@
+<?php
+$to      = 'orders@garraways.co.uk';
+$subject = 'Webclinic Test email';
+$message = 'This is a test email from webclinic';
+$headers = 'From: webmaster@thewebclinic.co.uk' . "\r\n" .
+    'Reply-To: webmaster@thewebclinic.co.uk' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
+mail('andrea@garraways.co.uk', $subject, $message, $headers);
+mail('erika@garraways.co.uk', $subject, $message, $headers);
+mail('sony.joy@thewebclinic.co.uk', $subject, $message, $headers);
+
+?>

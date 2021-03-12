@@ -1,0 +1,16 @@
+<h1 style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva; font-size: small;">SIMPLY BANANA PUR&Eacute;E</span><br /><span style="font-family: 'trebuchet ms', geneva; font-size: small;">SIMPLY BANANA PUREE MIX</span></h1>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">A perfectly ripened banana can put a smile on your face with its unique creamy quality and sweet, balanced flavor. Carry-on perfection by using our Banana Pur&eacute;e to prepare smoothies, milkshakes, cocktails, hot beverages and more.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&nbsp;</span></p>
+<ul>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Smoothies</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Cocktails</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Mocktails</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Sodas</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Iced teas</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">Culinary</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva; font-size: small;">&amp; Much More...</span></li>
+</ul>
+<p>&nbsp;</p>
+<h1 class="title26">&nbsp;</h1>
+<p>&nbsp;</p>
