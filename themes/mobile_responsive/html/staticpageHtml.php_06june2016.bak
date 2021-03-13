@@ -1,0 +1,141 @@
+<?php
+	/*############################################################################
+	# Script Name 	: staticpageHtml.php
+	# Description 	: Page which holds the display logic for Static pages
+	# Coded by 		: Anu
+	# Created on	: 22-Feb-2008
+	# Modified by	: ANU
+	# Modified On	: 22-Feb-2008
+	##########################################################################*/
+	class static_Html
+	{
+		// Defining function to show the selected static pages
+		function Show_StaticPage($row_statpage)
+		{
+			global 	$Captions_arr,$ecom_siteid,$db,$ecom_hostname,$ecom_themename,
+					$ecom_themeid,$default_layout,$inlineSiteComponents,$Settings_arr;
+			// ** Fetch any captions for product details page
+			$Captions_arr['STATIC_PAGES'] 	= getCaptions('STATIC_PAGES');
+			
+			// ** Fetch the product details
+			//$row_statpage	= $db->fetch_array($ret_statpage);
+			
+			// ** Check to see whether current user is logged in 
+			$cust_id 	= get_session_var("ecom_login_customer");
+			$HTML_img = $HTML_alert = $HTML_treemenu='';
+		
+			$HTML_treemenu = ' <div class="breadcrumbs">
+				<ol class="breadcrumb"><li><a href="'.url_link('',1).'" title="'.stripslash_normal($Captions_arr['COMMON']['TREE_MENU_HOME_LINK']).'">'.stripslash_normal($Captions_arr['COMMON']['TREE_MENU_HOME_LINK']).'</a></li>
+				 <li>'.stripslash_normal($row_statpage['title']).'</li>
+				</ol>
+			</div>';
+				echo $HTML_treemenu;
+			?>
+					<div class="container">
+
+			<?php	
+			if($row_statpage['content']!='')
+			{
+		?>
+		<form method="post" name="frm_staticpage" id="frm_staticpage" action="" class="frm_cls">
+		<input type="hidden" name="fpurpose" value="" />
+		<input type="hidden" name="fproduct_id" value="<?php echo $_REQUEST['product_id']?>" />
+				<div class="row-container">
+
+			<table border="0" cellpadding="0" cellspacing="0" class="statictable">
+			<tr>
+			  <td valign="top"  <?php echo ($row_statpage['page_id']==50421 or $row_statpage['page_id']==666)?'class="static_newclstd"':''?>>
+			  <?php
+			 if($row_statpage['page_id']==50421 or $row_statpage['page_id']==666)
+			 {
+			?>
+				<p>Unipad has been offering a new level of Student Housing in Lancaster since 2008. Our philosophy is to offer you a home from home. Gone are the days where students have to put up with mediocre standards in housing, as all our properties are built or renovated to the highest standards, often far exceeding student expectations.</p>
+
+<p>We believe in attention to detail and use of only the best fixtures and fittings. Students can now choose a property which lives up to the needs of the more sophisticated individual. With 24/7 maintenance and a dedicated support team to deal with any issues that may occur during your tenancy, you can be assured that our customer service is as good as our fantastic student properties in Lancaster.</p>
+
+<p>The fact that our homes are often let 12 months in advance, is a testimony of the passion we have for providing you with a fabulous home.</p>
+
+<h3>Demand For Our Homes has never been higher</h3>
+
+<p>Student accommodation is very important to those hoping to move away during their time studying at university. This is why we at Unipad are dedicated to providing only luxury student homes to those in need of it and this certainly true of people seeking student housing in Lancaster. With both Lancaster University and the University of Cumbria on location, there's sure to be no shortage of people hoping to find the best housing possible.</p>
+
+<h3>Choosing the right student property for you</h3>
+<p>When it comes to student housing in Lancaster, we can offer a wide range of properties that are sure to appeal to you. Whether you're planning to rent alone, with a friend, or with a group, there's bound to be a place that we can provide you with. You can rest assured that we make sure all our properties are of the utmost quality for your satisfaction.
+On offer through us in terms of our Lancaster student housing, are bed pads that go up to nine bedrooms. They all differ in what they can provide, but there is an extensive range as to the luxuries on offer. These include luxury bedrooms with ensuites, Flatscreen TV's, Fibre Broadband, 24/7 maintenance and much more. This is to guarantee you the best possible stay.</p>
+
+<p>If you browse through the options, you can see that it even tells you whether you will be in the city centre and, if not, how long it will take to get there by walking. We understand how important it is for you to be near the action, which is why we include the detail so that some of your decisions can come down to this factor, if necessary.
+Guaranteeing yourself quality accommodation isn't easy, but our pads are definitely some of the most stylish and best valued ones when it comes to student housing in Lancaster. With the offer of wall-mounted plasma TVs, en-suite bathrooms, Sky TV, Cleaning service and other such luxury qualities, there will be nowhere better for you than a place that we can provide.</p>
+
+
+<h3>Why you should choose student housing through Unipad</h3>
+
+<p>By choosing your student housing in Lancaster through Unipad, you are assuring yourself that you will be staying at a luxury residence during your time at University. This is one of the most important times in your life and you deserve to have all the comforts and amenities at your disposal during it, which is why Unipad is the way forward.</p>
+
+<p>Not only do all these pads come with a pledge of quality, but they are also on offer to you at a very generous price per week. You won't find student housing in Lancaster that measures up to what is presented here, so you should be taking this into thoughtful consideration.</p>
+
+
+
+			<?php	 
+			 }
+			 else
+			 {
+			  echo stripslashes($row_statpage['content']);
+			 } 
+			  ?>
+			  </td>
+			  
+			</tr>
+			
+		  </table>
+		  </div>
+			
+ 		</form>
+ 		
+        <?php
+		} 
+				
+		
+		 global $shelf_for_inner;
+			$sql_inline = "SELECT display_order,display_component_id,display_id,display_title 
+				FROM 
+					display_settings a,features b 
+				WHERE 
+					a.sites_site_id=$ecom_siteid 
+					AND a.display_position='middle' 
+					AND b.feature_allowedinmiddlesection = 1  
+					AND layout_code='".$default_layout."' 
+					AND a.features_feature_id=b.feature_id 
+					AND b.feature_modulename='mod_shelf' 
+				ORDER BY 
+						display_order 
+						ASC";
+			$ret_inline = $db->query($sql_inline); // to dispplay the advert for the category page
+			if ($db->num_rows($ret_inline))
+			{
+				?>
+							<div class="container">
+
+				<?php
+				while ($row_inline = $db->fetch_array($ret_inline))
+				{
+					//$modname 			= $row_inline['feature_modulename'];
+					$body_dispcompid	= $row_inline['display_component_id'];
+					$body_dispid		= $row_inline['display_id'];
+					$body_title			= $row_inline['display_title'];
+					if($row_statpage['page_id']==50262 || $row_statpage['page_id']==50419)
+					$shelf_for_inner	= true;
+					include ("includes/base_files/shelf.php");
+					$shelf_for_inner	= false;
+
+				}
+				?>
+				</div>
+				<?php
+			}	
+		?>
+			</div>
+		<?php	
+		}
+		
+	};	
+?>

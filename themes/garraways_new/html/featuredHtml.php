@@ -1,0 +1,109 @@
+<?php
+/*############################################################################
+# Script Name 	: featuredHtml.php
+# Description 	: Page which holds the display logic for featured product
+# Coded by 		: Sny
+# Created on	: 28-Dec-2007
+# Modified by	: Sny
+# Modified On	: 22-Jan-2008
+##########################################################################*/
+class featured_Html
+{
+	// Defining function to show the featured property
+	function Show_Featured($title,$ret_featured)
+	{
+		global $ecom_siteid,$db,$ecom_hostname,$Settings_arr,$Captions_arr;
+		$row_featured = $db->fetch_array($ret_featured);
+		$Captions_arr['COMMON'] 	= getCaptions('COMMON');
+?>	<form method="post" action="<?php url_link('manage_products.html')?>" name='frm_featured' id="frm_featured" class="frm_cls" onsubmit="return product_enterkey(this,<?php echo $row_featured['product_id']?>)">
+		<input type="hidden" name="fpurpose" value="" />
+		<input type="hidden" name="fproduct_id" value="" />
+		<input type="hidden" name="pass_url" value="<?php echo $_SERVER['REQUEST_URI']?>" />
+		<input type="hidden" name="fproduct_url" value="<?php url_product($row_featured['product_id'],$row_featured['product_name'])?>" />
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="featured_table">
+		<tbody>
+		<tr>
+			<td class="featured_banner" align="left" valign="top"><div class="featured_bannera">&nbsp;</div></td>
+			<td class="featuredprodimg" align="left" valign="top">
+<?php 	if ($row_featured['featured_showimage']==1)
+		{
+?>		   <a href="<?php url_product($row_featured['product_id'],$row_featured['product_name'],-1)?>" title="<?php echo stripslashes($row_featured['product_name'])?>">
+<?php		// Find out which sized image is to be displayed as featured product image
+			switch($row_featured['featured_showimagetype'])
+			{
+				case 'Thumb':
+							$fld_name = 'image_thumbpath';
+							break;
+				case 'Medium':
+							$fld_name = 'image_thumbcategorypath';
+							break;
+				case 'Big':
+							$fld_name = 'image_bigpath';
+							break;
+				case 'Extra':
+							$fld_name = 'image_extralargepath';
+							break;
+			};
+			// Calling the function to get the image to be shown
+			$img_arr = get_imagelist('prod',$row_featured['product_id'],$fld_name,0,0,1);
+			if(count($img_arr))
+			{
+				show_image(url_root_image($img_arr[0][$fld_name],1),$row_featured['product_name'],$row_featured['product_name']);
+			}
+			else
+			{
+				// calling the function to get the no image
+				$no_img = get_noimage('prod'); 
+				if ($no_img)
+				{
+					show_image($no_img,$row_featured['product_name'],$row_featured['product_name']);
+				}
+			}
+?>			</a>
+			</td>
+<?php	}
+?>			<td colspan="1" class="featuredproddet" align="left" valign="top" width="56%">
+<?php	if($title)
+		{
+?>			<div class="featuredheader"><?php echo $title?></div>
+<?php	}
+		if ($row_featured['featured_showtitle']==1)
+		{
+?> 			<div class="featuredprodname"><a href="<?php url_product($row_featured['product_id'],$row_featured['product_name'],-1)?>" title="<?php echo stripslashes($row_featured['product_name'])?>" class="fet_name_link"><?php echo stripslashes($row_featured['product_name'])?></a></div>
+<?php	}
+		$price_arr = array();
+		$price_arr =  show_Price($row_featured,array(),'featured',false,3);
+		if($row_featured['featured_showprice']==1)// Check whether price is to be displayed
+		{
+?>			<div class="featuredprice">
+<?php		if($price_arr['discounted_price'])
+				echo $price_arr['discounted_price'];
+			else
+				echo $price_arr['base_price'];
+			show_excluding_vat_msg($row_featured,'vat_div');// show excluding VAT msg
+?>			</div>
+<?php	}
+		// Check whether selected to show either desc or the price 	
+		if ($row_featured['featured_showshortdescription']==1)
+		{
+			$desc = ($row_featured['featured_desc'])?$row_featured['featured_desc']:$row_featured['product_shortdesc'];
+			if ($desc)
+			{
+?>			<div class="featuredproddes">
+				<p><span style="font-family: tahoma,arial,helvetica,sans-serif;">
+					<span style="font-size: 12px;"><?php echo stripslashes($desc)?></span>
+					</span>
+				</p>
+			</div>
+<?php		}
+		}
+?>			</td>
+			<td class="featuredprodbnr" align="left" valign="top" width="56%"><img src="<?PHP echo url_site_image('blank_new.gif') ?>" border="0" width="95"></td>
+		</tr>
+		</tbody>
+		</table>
+	</form>
+<?php
+	}
+};	
+?>

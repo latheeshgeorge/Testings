@@ -1,0 +1,133 @@
+<?php
+	/*###########################################################################################
+	# Script Name 	: mod_adverts.php
+	# Description 	: Page which call the function to display the adverts in left / right panel
+	# Coded by 		: Sny
+	# Created on	: 20-Dec-2007
+	# Modified by	: Sny
+	# Modified On	: 01-Jan-2008
+	############################################################################################*/
+	// Building the sql 
+	$advert_arr		= array ();
+	$sql_advert		= '';
+	if($_REQUEST['product_id'])
+	{
+			$sql_advert = "SELECT a.advert_id,a.advert_source,a.advert_link,a.advert_target,
+									a.advert_type,a.advert_activateperiodchange,
+									a.advert_displaystartdate,a.advert_displayenddate,NOW() as date  
+						FROM 
+							adverts a,advert_display_product b 
+						WHERE 
+							a.sites_site_id = $ecom_siteid 
+							AND a.advert_id = $display_componentid 
+							AND a.advert_hide= 0 
+							AND a.advert_showinall = 0 
+							AND a.advert_id = b.adverts_advert_id 
+							AND b.products_product_id = ".$_REQUEST['product_id']." 
+							AND b.advert_display_product_hide = 0 
+						ORDER BY 
+							a.advert_order ASC ";	
+	}
+	elseif ($_REQUEST['category_id'])
+	{
+		$sql_advert = "SELECT a.advert_id,a.advert_source,a.advert_link,a.advert_target,
+									a.advert_type,a.advert_activateperiodchange,
+									a.advert_displaystartdate,a.advert_displayenddate,NOW() as date  
+						FROM 
+							adverts a,advert_display_category b 
+						WHERE 
+							a.sites_site_id = $ecom_siteid 
+							AND a.advert_id = $display_componentid 
+							AND a.advert_hide= 0 
+							AND a.advert_showinall = 0 
+							AND a.advert_id = b.adverts_advert_id 
+							AND b.product_categories_category_id = ".$_REQUEST['category_id']." 
+							AND b.advert_display_category_hide = 0 
+						ORDER BY 
+							a.advert_order ASC ";	
+	}
+	elseif ($_REQUEST['page_id'])
+	{
+		$sql_advert = "SELECT a.advert_id,a.advert_source,a.advert_link,a.advert_target,
+								a.advert_type,a.advert_activateperiodchange,
+								a.advert_displaystartdate,a.advert_displayenddate,NOW() as date  
+						FROM 
+							adverts a,advert_display_static b 
+						WHERE 
+							a.sites_site_id = $ecom_siteid 
+							AND a.advert_id = $display_componentid 
+							AND a.advert_hide= 0 
+							AND a.advert_showinall = 0 
+							AND a.advert_id = b.adverts_advert_id 
+							AND b.static_pages_page_id = ".$_REQUEST['page_id']." 
+							AND b.advert_display_static_hide = 0 
+						ORDER BY 
+							a.advert_order ASC ";
+	}
+	if ($sql_advert!='')
+	{
+		$ret_advert = $db->query($sql_advert);
+		if ($db->num_rows($ret_advert))// Check whether result is there
+		{
+			while ($row_advert = $db->fetch_array($ret_advert))
+			{
+			     if($row_advert['advert_activateperiodchange']==1)
+					{
+						$start_date  = split_date_new($row_advert['advert_displaystartdate']);
+    					$end_date 	 = split_date_new($row_advert['advert_displayenddate']);
+						$today  	 = split_date_new($row_advert['date']);
+						if($today>=$sdate && $today<=$edate)
+						 {
+						   $advert_arr[] = $row_advert;
+						 }
+						  else
+						   $advert_arr 		= array();
+						}
+					else
+					$advert_arr[] = $row_advert;
+			}		
+		}		
+	}
+	// Taking care of the show in all adverts section
+	$sql_advert = "SELECT a.advert_id,a.advert_source,a.advert_link,a.advert_target,
+								a.advert_type,a.advert_activateperiodchange,
+								a.advert_displaystartdate,a.advert_displayenddate,NOW() as date  
+						FROM 
+							adverts a
+						WHERE 
+							a.sites_site_id = $ecom_siteid 
+							AND a.advert_id = $display_componentid 
+							AND a.advert_hide= 0 
+							AND a.advert_showinall = 1 
+						ORDER BY 
+							a.advert_order ASC ";
+	$ret_advert = $db->query($sql_advert);
+	//$active_start_arr 	= explode(" ",$row_advert['advert_displaystartdate']);
+	
+    //$end_date_arr  =  split_date_new($active_end_arr[0]);
+
+	
+	if ($db->num_rows($ret_advert))
+	{
+		while ($row_advert = $db->fetch_array($ret_advert))
+		{
+			 if($row_advert['advert_activateperiodchange']==1)
+					{   
+						$start_date  = split_date_new($row_advert['advert_displaystartdate']);
+    					$end_date 	 = split_date_new($row_advert['advert_displayenddate']);
+						$today  	 = split_date_new($row_advert['date']);
+						//echo $start_date. "-".$end_date."-".$today;
+						if($today>=$start_date && $today<=$end_date)
+						 {
+						   $advert_arr[] = $row_advert;
+						 }
+						  else
+						   $advert_arr 		= array();
+						}
+					else
+					$advert_arr[] = $row_advert;
+		}
+	}
+	if (count($advert_arr))
+		$components->mod_adverts($advert_arr,$display_title); // call the function to show the advert
+?>
