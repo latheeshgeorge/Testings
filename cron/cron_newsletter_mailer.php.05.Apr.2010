@@ -1,0 +1,117 @@
+<?php
+	/*#################################################################
+	# Script Name 	: cronjob.php
+	# Description 	: Page to Send Email Notifications
+	# Coded by 		: Randeep
+	# Created on	: 07-Oct-2008
+	# Modified by	: 
+	# Modified On	: 
+	#################################################################*/
+	require_once("/var/www/vhosts/bshop4.co.uk/httpdocs/config_db.php");
+	$proceed = false;
+	$sql_check = "SELECT * FROM newsletter_disable";
+	$res_check = $db->query($sql_check);
+	$row_check = $db->fetch_array($res_check);
+	if($row_check['disable_now'] == 1) {
+		if($row_check['disable_end_on'] <= date("Y-m-d")) {
+			$proceed = true;
+	 	}
+	}
+	else {
+		$proceed = true;
+	}
+	if($proceed == true) {
+	// Extracting cart Id, Session Id From Cart table
+	$sql = "SELECT * FROM newsletter_cron_main ORDER BY send_date asc LIMIT 1 ";
+	$res = $db->query($sql);
+	$row = $db->fetch_array($res);
+	if($row['main_id']){
+		$curlSession = curl_init();
+		curl_setopt($curlSession, CURLOPT_URL, "http://webclinicmailer.co.uk/qmail1.php");
+		curl_setopt($curlSession, CURLOPT_HEADER, 0);
+		curl_setopt($curlSession, CURLOPT_RETURNTRANSFER,1);
+		curl_setopt($curlSession, CURLOPT_TIMEOUT,60); 
+
+		$response = curl_exec ($curlSession);
+		
+		if (curl_error($curlSession)){
+			$output['Status'] = "FAIL";
+			$output['StatusDetail'] = curl_error($curlSession);
+		}
+
+		curl_close ($curlSession);
+		
+		$sql_mails = "SELECT * FROM newsletter_cron_mails WHERE main_id=".$row['main_id']." ORDER BY mail_id asc LIMIT 0,500";
+		$res_mails = $db->query($sql_mails);
+		$mail_id_string = '';
+		while($row_mails = $db->fetch_array($res_mails)) {
+			$send_cust_array[$row_mails['mail_id']] 	= array('email'=>stripslashes($row_mails['send_email']),'name'=>stripslashes($row_mails['send_name']));
+			$mail_id_string .= $row_mails['mail_id'].",";
+		}
+		$mail_id_string = substr($mail_id_string,0,-1);
+		if($row['site_type'] == 'v4') {
+			if(strpos($row['hostname'],"www.") === false) {
+				$default_from = 'newsletter@bshop.webclinicmailer.co.uk';
+			} else {
+				$temp_a = explode(".",$row['hostname']);
+				$default_from = $temp_a[1].'@'.$temp_a[1].'.webclinicmailer.co.uk';
+			}
+		} else {
+			$default_from = 'newsletter@bshop.webclinicmailer.co.uk';
+		}
+		send_Newsletter_emails_to_customers($default_from,$row['email_from'],stripslashes($row['email_subject']),stripslashes($row['email_content']),$row['hostname'],$send_cust_array);
+		
+		$db->query("DELETE FROM newsletter_cron_mails WHERE mail_id IN ($mail_id_string)");
+		
+		$sql_mail_count = "SELECT count(*) as cnt from newsletter_cron_mails WHERE main_id=".$row['main_id'];
+		$res_mail_count = $db->query($sql_mail_count);
+		$row_mail_count = $db->fetch_array($res_mail_count);
+		if($row_mail_count['cnt'] == 0) {
+			$db->query("DELETE FROM newsletter_cron_main WHERE main_id=".$row['main_id']);
+		}
+	}
+	function send_Newsletter_emails_to_customers($default_from,$from,$subject,$content,$ecom_hostname,$cust_arr)
+	{
+		global $db,$ecom_siteid,$ecom_hostname;
+		if (count($cust_arr))
+		{
+			include("class.phpmailer.php");
+			//SMTP Mail function starts
+			$send_var 				= 0;
+			$mail 					= new PHPMailer();
+			$mail->Username     	= $default_from; //Fake from address
+			$mail->From     		= $default_from; //Fake from address
+			$mail->FromName 		= $ecom_hostname; //Fake from name
+			$mail->AddReplyTo($from,$ecom_hostname);
+			$mail->ClearAddress();
+			$mail->ClearBCCs();
+			$mail->Subject 			=  $subject;
+			$mail->Body     		=  $content;
+			foreach ($cust_arr as $k=>$v)
+			{
+				$snd_name 	= $v['name'];
+				$snd_email 	= $v['email'];
+				if($send_var < 3)
+				{
+					$send_var++;
+					$mail->AddBCC($snd_email,"$snd_name");
+				}
+				else
+				{
+					$send_var=0;
+					$mail->AddAddress('sales-1@webclinicmailer.co.uk',"Sales Marketing");
+					$mail->AddBCC($snd_email,"$snd_name");  
+					$mail->Send();
+					$mail->ClearBCCs();
+					$mail->ClearAddress();
+				}
+			}
+			if ($send_var)
+			{
+				$mail->AddAddress('sales-1@webclinicmailer.co.uk',"Sales Marketing");
+				$mail->Send();
+			}	
+		}
+	}
+	}
+?>

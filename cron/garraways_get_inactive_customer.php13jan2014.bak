@@ -1,0 +1,125 @@
+<?php
+	include_once("../functions/functions.php");
+	include('../includes/session.php');
+	require_once("../config.php");
+	
+	//$newsletter_id = 212;
+	$newsletter_id = 213;
+	echo $check_date = date('Y-m-d',mktime(0,0,0,date('m')-6,1,date('Y')));
+	echo "<br>Start time ".date('d M Y h:i A');
+	$cust_arr = array();
+	// Check whether the given newsletter id is valid
+	$sql_news = "SELECT newsletter_id, newsletter_title, newsletter_contents, preview_title, preview_contents 
+					FROM 
+						newsletters 
+					WHERE 
+						sites_site_id = $ecom_siteid 
+						AND newsletter_id = $newsletter_id 
+					LIMIT 
+						1";
+	$ret_news = $db->query($sql_news);
+	if ($db->num_rows($ret_news)==0)
+	{
+		echo "<br><br>Sorry!! Cannot find the newsletters";
+		exit;
+	}
+	else
+	{
+		$row_news = $db->fetch_array($ret_news);
+		$email_subject			= stripslashes($row_news['newsletter_title']);
+		$email_content 			= stripslashes($row_news['newsletter_contents']);
+		
+		// Check whether there exists a newsletter with the same subject for current hostname
+		$sql_test = "SELECT main_id 
+						FROM 
+							garrawaysnewsletter_cron_main  
+						WHERE 
+							hostname='".$ecom_hostname."'  
+							AND email_subject='".addslashes($email_subject)."' 
+							AND site_id = '".$ecom_siteid."' 
+							AND site_type = 'v4'  
+						LIMIT 
+							1";	
+		$ret_test = $db->query($sql_test);
+		if($db->num_rows($ret_test))
+		{
+			echo "<br><br>Sorry!! Newsletter already scheduled";
+			exit;
+		}
+	}
+	
+	$sql_email = "SELECT lettertemplate_from  
+					FROM 
+						general_settings_site_letter_templates  
+					WHERE 
+						sites_site_id = $ecom_siteid 
+						AND lettertemplate_letter_type='ORDER_CONFIRM_CUST' 
+					LIMIT 
+						1";
+	$ret_email = $db->query($sql_email);
+	if($db->num_rows($ret_email))
+	{
+		$row_email 	= $db->fetch_array($ret_email);
+		$email_from	= stripslashes($row_email['lettertemplate_from']);
+	}	
+	
+	$sql_ord = "SELECT distinct customers_customer_id FROM orders where sites_site_id = $ecom_siteid AND customers_customer_id !=0 AND order_date >= '$check_date 00:00:00'";
+	$ret_ord = $db->query($sql_ord);
+	if($db->num_rows($ret_ord))
+	{
+		while ($row_ord = $db->fetch_array($ret_ord))
+		{
+			$cust_arr[] = $row_ord['customers_customer_id'];
+		}		
+	}
+	$rowcnt = 1;
+	$str = implode(',',$cust_arr);
+	$sql_cust = "SELECT customer_id,customer_title,customer_fname,customer_mname,customer_surname,customer_email_7503,customer_bonus,customer_use_bonus_points,
+					customer_hide,customer_last_login_date 
+					FROM 
+						customers 
+					WHERE 
+						sites_site_id = $ecom_siteid 
+						AND customer_hide = 0 
+						AND customer_activated = 1 
+						AND customer_id NOT IN ($str)";
+	$ret_cust = $db->query($sql_cust);
+	if($db->num_rows($ret_cust))
+	{
+		// Making an entry 
+		$sql = "INSERT INTO garrawaysnewsletter_cron_main SET 
+						email_from='$email_from', 
+						email_subject='".addslashes($email_subject)."', 
+						email_content='".addslashes($email_content)."', 
+						send_date=now(),
+						scheduled_date=now(), 
+						hostname='$ecom_hostname', 
+						site_id = '$ecom_siteid', 
+						site_type = 'v4' ";
+			$db->query($sql);
+			$insert_id = $db->insert_id();
+	
+	
+		while ($row_cust = $db->fetch_array($ret_cust))
+		{
+			$custid = $row_cust['customer_id'];
+			//$custname = stripslashes($row_cust['customer_title']).stripslashes($row_cust['customer_fname']).' '.stripslashes($row_cust['customer_surname']);
+			$custname = stripslashes($row_cust['customer_fname']).' '.stripslashes($row_cust['customer_surname']);
+			$emailid = stripslashes($row_cust['customer_email_7503']);
+			$bonus	= $row_cust['customer_bonus'];
+			echo "<br/> $rowcnt. found $custid, $custname, $bonus";
+			$sql = "INSERT 
+						INTO 
+							garrawaysnewsletter_cron_mails 
+						SET 
+							main_id='$insert_id', 
+							send_name='".addslashes($custname)."', 
+							send_email='".addslashes($emailid)."',
+							customers_customer_id = $custid";
+			$db->query($sql);
+			$rowcnt++;
+		}	
+	}
+	echo "<br>End time ".date('d M Y h:i A');
+	exit;
+?>

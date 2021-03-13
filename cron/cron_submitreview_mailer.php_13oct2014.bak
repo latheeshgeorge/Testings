@@ -1,0 +1,373 @@
+<?php
+	/*#################################################################
+	# Script Name 	: cron_submitreview_mailer.php
+	# Description 	: Page to Send Reminder Email to
+	# Coded by 		: Sobin
+	# Created on	: 28-Jan-2013
+	# Modified by	: 
+	# Modified On	: 
+	#################################################################*/
+	require_once("/var/www/vhosts/bshop4.co.uk/httpdocs/config_db.php");//live
+	//require_once("/var/www/html/webclinic/bshop4/config_db.php");//local 
+	
+	$sql_check	=	"SELECT * FROM general_settings_site_product_review WHERE is_active > 0";//echo $sql_check;echo "<br>";
+	$res_check	=	$db->query($sql_check);
+	
+	if($db->num_rows($res_check) > 0)
+	{
+		while($row_check = $db->fetch_array($res_check))
+		{
+			$setting_id					=	$row_check['id'];
+			$sites_site_id				=	$row_check['sites_site_id'];			
+			$review_begin_date			=	$row_check['review_begin_date'];
+			$review_mail_interval		=	$row_check['review_mail_interval'];
+			$review_registered_customers=	$row_check['review_registered_customers'];
+			$review_order_total			=	$row_check['review_order_total'];
+			$review_giftvoucher_sent	=	$row_check['review_giftvoucher_sent'];
+			$review_giftvoucher_disctype=	$row_check['review_giftvoucher_disctype'];
+			$review_giftvoucher_discount=	$row_check['review_giftvoucher_discount'];
+			$review_only_approval		=	$row_check['review_only_approval'];
+			$review_giftvoucher_sent_range=	$row_check['review_giftvoucher_sent_range'];
+			
+			$sql_site					=	"SELECT site_domain FROM sites WHERE site_id = ".$sites_site_id." LIMIT 1";//echo $sql_site;echo "<br>";
+			$ret_site					=	$db->query($sql_site); 
+			$row_site					=	$db->fetch_array($ret_site);
+			$sites_hostname				=	$row_site['site_domain']; 
+			
+			if($review_registered_customers > 0)
+			{
+				$intrvl_cond	=	"";
+				$intrvl_cond1	=	"";
+				$intrvl_cond2	=	"";
+				$intrvl_cond3	=	"";
+				if($review_begin_date != '0000-00-00')
+				{
+					$intrvl_cond1	=	"ordr.order_despatched_completly_on >= '".$review_begin_date." 00:00:00' ";
+					if($review_mail_interval > 0)
+					{
+						$intrvl_cond2	=	"ordr.order_despatched_completly_on <= DATE_SUB(NOW(),INTERVAL ".$review_mail_interval." DAY) ";
+					}
+				}
+				else
+				{
+					if($review_mail_interval > 0)
+					{
+						$intrvl_cond2	=	"ordr.order_despatched_completly_on <= DATE_SUB(NOW(),INTERVAL ".$review_mail_interval." DAY) ";
+					}
+					/*else
+					{
+						$intrvl_cond2	=	"ordr.order_despatched_completly_on != '0000-00-00 00:00:00' ";
+						echo $intrvl_cond2;echo "<br>";
+					}*/
+				}
+				
+				if($review_order_total > 0)
+				{
+					$intrvl_cond3	=	"AND ordr.order_totalprice >= ".$review_order_total."";
+				}
+				
+				if($intrvl_cond1 != "")
+				{
+					$intrvl_cond	.=	" AND ( ".$intrvl_cond1." )";
+				}
+				if($intrvl_cond2 != "")
+				{
+					$intrvl_cond	.=	" AND ( ".$intrvl_cond2." )";
+				}
+				
+				$mailsent_cond		=	" AND ordr.product_reviewmail_sent = 'NO' AND ordr.order_status = 'DESPATCHED' ";	
+				
+				$sql_ordr	=	"SELECT
+												cust.customer_fname AS first_name,
+												cust.customer_mname AS middle_name,
+												cust.customer_surname AS sur_name,
+												cust.customer_email_7503 AS email,
+												ordr.order_id AS ord_id,
+												ordr.order_date AS ord_date
+										FROM
+												customers cust, orders ordr
+										WHERE
+										(		cust.sites_site_id = ".$sites_site_id." AND ordr.sites_site_id = ".$sites_site_id."		)
+										AND
+										(		cust.customer_id = ordr.customers_customer_id 	)
+										".$intrvl_cond.$intrvl_cond3.$mailsent_cond."
+										ORDER BY
+												ordr.order_id
+										ASC
+										";
+			}
+			else
+			{
+				$intrvl_cond	=	"";
+				$intrvl_cond1	=	"";
+				$intrvl_cond2	=	"";
+				if($review_begin_date != '0000-00-00')
+				{
+					$intrvl_cond1	=	"ordr.order_despatched_completly_on >= '".$review_begin_date." 00:00:00' ";
+					if($review_mail_interval > 0)
+					{
+						$intrvl_cond2	=	"AND ordr.order_despatched_completly_on <= DATE_SUB(NOW(),INTERVAL ".$review_mail_interval." DAY) ";
+					}
+				}
+				else
+				{
+					if($review_mail_interval > 0)
+					{
+						$intrvl_cond2	=	"ordr.order_despatched_completly_on <= DATE_SUB(NOW(),INTERVAL ".$review_mail_interval." DAY) ";
+					}
+					/*else
+					{
+						$intrvl_cond2	=	"ordr.order_despatched_completly_on != '0000-00-00 00:00:00' ";
+					}*/
+				}
+				
+				
+				if($intrvl_cond1 != "" && $intrvl_cond2 != "")
+				{
+					$intrvl_cond	.=	" ( ".$intrvl_cond1.$intrvl_cond2." )";
+					
+				}
+				else if($intrvl_cond1 != "")
+				{
+					$intrvl_cond	.=	" ( ".$intrvl_cond1." )";
+				}
+				else if($intrvl_cond2 != "")
+				{
+					$intrvl_cond	.=	" ( ".$intrvl_cond2." )";
+				}
+				
+				if($intrvl_cond != "")
+				{				
+					if($review_order_total > 0)
+					{
+						$intrvl_cond3	=	"AND ordr.order_totalprice >= ".$review_order_total."";
+					}
+					$mailsent_cond		=	" AND ordr.product_reviewmail_sent = 'NO' AND ordr.order_status = 'DESPATCHED' ";	
+					
+				}
+				else
+				{				
+					if($review_order_total > 0)
+					{
+						$intrvl_cond3	=	"ordr.order_totalprice >= ".$review_order_total."";
+					}
+					if($intrvl_cond3 != "")
+					{
+						$mailsent_cond		.=	" AND ";
+					}
+					$mailsent_cond		.=	"ordr.product_reviewmail_sent = 'NO' AND ordr.order_status = 'DESPATCHED' ";	
+					
+				}
+				
+				$sql_ordr	=	"SELECT
+												order_custfname AS first_name,
+												order_custmname AS middle_name,
+												order_custsurname AS sur_name,
+												order_custemail AS  email,
+												order_id AS ord_id,
+												order_date AS ord_date												
+										FROM
+												orders ordr 
+										WHERE
+												".$intrvl_cond.$intrvl_cond3.$mailsent_cond."
+										AND
+												 ordr.sites_site_id = ".$sites_site_id."	
+										ORDER BY
+												order_id
+										ASC
+										";
+			}//echo $sql_ordr;echo "<br>" ;die();
+			$res_ordr	=	$db->query($sql_ordr);
+			
+			if($db->num_rows($res_ordr) > 0)
+			{
+				/*$sql_email	=	"SELECT
+												template_lettertitle,template_lettersubject,template_content,template_code
+										FROM
+												common_emailtemplates
+										WHERE
+												template_lettertype = 'REMINDER_SUBMIT_REVIEW' 
+										LIMIT 1";echo $sql_email;echo "<br>";*/
+				$sql_email	=	"SELECT
+												*
+										FROM
+												general_settings_site_letter_templates
+										WHERE
+												lettertemplate_letter_type = 'REMINDER_SUBMIT_REVIEW'
+										AND
+												sites_site_id = ".$sites_site_id."
+										LIMIT 1";//echo $sql_email;echo "<br>";
+				$ret_email	=	$db->query($sql_email);
+				if($db->num_rows($ret_email))
+				{
+					$row_email	=	$db->fetch_array($ret_email);
+				}
+				
+				if($row_email['lettertemplate_contents'] != "")
+				{
+					while($row_ordr = $db->fetch_array($res_ordr))
+					{
+						$mailcontents	=	$row_email['lettertemplate_contents'];
+			
+						if($row_ordr['middle_name'] != "")
+						{	$customer_name	=	$row_ordr['first_name']." ".$row_ordr['middle_name']." ".$row_ordr['sur_name'];		}
+						else
+						{	$customer_name	=	$row_ordr['first_name']." ".$row_ordr['sur_name'];		}
+						
+						$customer_email	=	$row_ordr['email'];
+						$order_id		=	$row_ordr['ord_id'];
+						$order_date		=	$row_ordr['ord_date'];
+						if($order_id>0)
+						{
+						$sql_product	=	"SELECT product_name FROM order_details WHERE orders_order_id = ".$order_id;//echo $sql_product;echo "<br>";
+						$ret_product	=	$db->query($sql_product);
+						if($db->num_rows($ret_product))
+						{
+							$product_details	=	"";
+							$product_count		=	1;
+							while($row_product = $db->fetch_array($ret_product))
+							{
+								$product_details	.=	$product_count.". ".$row_product['product_name']."<br>";
+								$product_count++;
+							}
+						}
+						
+						$email_link		=	'<a href="http://'.$sites_hostname.'/submitreview-ord'.$order_id.'-set'.$setting_id.'.html" target="_blank">http://'.$sites_hostname.'/submitreview-ord'.$order_id.'-set'.$setting_id.'.html</a>';
+						$mailcontents	=	str_replace('[cust_name]',$customer_name,$mailcontents);
+						$mailcontents	=	str_replace('[domain]',$sites_hostname,$mailcontents);
+						$mailcontents	=	str_replace('[date]',date("Y-m-d"),$mailcontents); 
+						$mailcontents	=	str_replace('[orderid]',$order_id,$mailcontents);
+						$mailcontents	=	str_replace('[orderdate]',$order_date,$mailcontents);
+						$mailcontents	=	str_replace('[link]',$email_link,$mailcontents);
+						$mailcontents	=	str_replace('[product_details]',$product_details,$mailcontents);
+						$sql_review_chk = " SELECT * FROM product_review_mail WHERE order_id=$order_id LIMIT 1 ";
+						$ret_review_chk = $db->query($sql_review_chk);
+						$proceed_mail = false;
+						if($db->num_rows($ret_review_chk)>0)
+						{
+						  $row_review_chk = $db->fetch_array($ret_review_chk);
+						  if($row_review_chk['review_mail_sent']=='No')
+						  {
+						    $proceed_mail = true;
+						    $upd_review		=	"UPDATE product_review_mail SET review_mail_sent = 'Yes' WHERE order_id = ".$order_id;
+						    $ret_review		=	$db->query($upd_review);
+						  }
+						}
+						else
+						{
+						$proceed_mail = true;
+						$ins_review		=	"INSERT INTO product_review_mail (order_id,review_mail_sent) VALUES (".$order_id.",'Yes')";//echo $ins_review;echo "<br>";
+						$ret_review		=	$db->query($ins_review);
+						}
+						if($proceed_mail == true)
+						{
+						$ins_cronreview	=	"INSERT INTO
+																product_review_cron_mails
+														(		send_email_from,send_name,send_email,send_subject,send_content,send_hostname,send_site_id		)
+														VALUES
+														(		'".$row_email['lettertemplate_from']."','".$customer_name."','".$customer_email."',
+																'".$row_email['lettertemplate_subject']."','".$mailcontents."',
+																'".$sites_hostname."',".$sites_site_id."
+														)";
+														//echo $ins_cronreview;echo "<br>";
+						$ret_cronreview=	$db->query($ins_cronreview);
+						
+						
+						$upd_order		=	"UPDATE orders SET product_reviewmail_sent = 'YES' WHERE order_id = ".$order_id;
+						$ret_order		=	$db->query($upd_order);
+						}
+						//echo $mailcontents;echo "<br>";
+						$mailcontents	=	"";
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	/*$sql_giftcheck	=	"SELECT
+										prm.id AS prm_id,prm.order_id,prm.giftvoucher_id,prm.review_submitted,prm.giftvoucher_mail_sent,prm.review_approved,
+										ord.sites_site_id,ord.order_custfname,ord.order_custmname,ord.order_custsurname,ord.order_custemail,ord.order_totalprice,
+										gspr.review_giftvoucher_activedays,
+										gspr.review_order_total,
+										gspr.review_giftvoucher_disctype,
+										gspr.review_giftvoucher_discount,
+										gspr.review_only_approval
+								FROM
+										product_review_mail prm, orders ord, general_settings_site_product_review gspr
+								WHERE
+								(		prm.order_id = ord.order_id AND ord.sites_site_id = gspr.sites_site_id		)
+								AND
+								(		gspr.review_giftvoucher_sent = 1 AND prm.giftvoucher_mail_sent = 'NO'	)
+								ORDER BY
+										ordr.order_id
+								ASC";
+	$res_giftcheck	=	$db->query($sql_giftcheck);
+	
+	if($db->num_rows($res_giftcheck) > 0)
+	{
+		$sql_giftemail	=	"SELECT
+											template_lettertitle,template_lettersubject,template_content,template_code
+									FROM
+											common_emailtemplates
+									WHERE
+											template_lettertype = 'SUBMIT_REVIEW_GIFTVOUCHER' 
+									LIMIT 1";echo $sql_email;echo "<br>";
+		$ret_giftemail	=	$db->query($sql_giftemail);
+		if($db->num_rows($ret_giftemail))
+		{
+			$row_giftemail	=	$db->fetch_array($ret_giftemail);
+		}
+		while($row_giftcheck = $db->fetch_array($res_giftcheck))
+		{
+			$prm_id						=	$row_giftcheck['prm_id'];
+			$order_id					=	$row_giftcheck['order_id'];
+			$giftvoucher_id				=	$row_giftcheck['giftvoucher_id'];			
+			$review_submitted			=	$row_giftcheck['review_submitted'];
+			$giftvoucher_mail_sent		=	$row_giftcheck['giftvoucher_mail_sent'];
+			$review_approved			=	$row_giftcheck['review_approved'];
+			
+			$sites_site_id				=	$row_giftcheck['sites_site_id'];
+			$order_custfname			=	$row_giftcheck['order_custfname'];
+			$order_custmname			=	$row_giftcheck['order_custmname'];
+			$order_custsurname			=	$row_giftcheck['order_custsurname'];
+			$order_custemail			=	$row_giftcheck['order_custemail'];
+			$order_totalprice			=	$row_giftcheck['order_totalprice'];
+			
+			$review_giftvoucher_activedays=	$row_giftcheck['review_giftvoucher_activedays'];
+			$review_order_total			=	$row_giftcheck['review_order_total'];
+			$review_giftvoucher_disctype=	$row_giftcheck['review_giftvoucher_disctype'];
+			$review_giftvoucher_discount=	$row_giftcheck['review_giftvoucher_discount'];
+			$review_only_approval		=	$row_giftcheck['review_only_approval'];
+			
+			$sql_giftsite				=	"SELECT site_domain FROM sites WHERE site_id = ".$sites_site_id." LIMIT 1";echo $sql_giftsite;echo "<br>";
+			$ret_giftsite				=	$db->query($sql_giftsite); 
+			$row_giftsite				=	$db->fetch_array($ret_giftsite);
+			$giftsites_hostname			=	$row_giftsite['site_domain'];
+			
+			if($review_order_total > 0)
+			{
+				if($review_order_total <= $order_totalprice)
+				{
+					if($review_only_approval > 0)
+					{
+						if($review_approved == 'Yes')
+						{
+							
+						}
+					}
+				}
+			}
+			else
+			{
+				if($review_only_approval > 0)
+				{
+					if($review_approved == 'Yes')
+					{
+						
+					}
+				}
+			}
+		}
+	}*/
+?>
