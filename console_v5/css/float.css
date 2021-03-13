@@ -1,0 +1,63 @@
+BODY	{
+		margin:0,0,0,0;
+		background: white;
+		font-family: Verdana,Arial,helvetica,sans-serif;
+	}
+P	{
+		font-family: Verdana,Arial,helvetica,sans-serif;
+	}
+H1,H2,H3
+H4,H5,H6
+	{
+		font-family: Verdana,Arial,helvetica,sans-serif;
+	}
+LI	{
+		font-family: Verdana,Arial,helvetica,sans-serif;
+	}
+TD	{
+		font-family: Verdana,Arial,helvetica,sans-serif;
+	}
+.copy	{
+		font-size: smaller;
+		text-align: center;
+	}
+.h2	{
+		font-family: Verdana,Arial,helvetica,sans-serif;
+		font-size: 110%;
+	}
+.title	{
+		background: green;
+		color: white;
+		text-indent: 10px;
+	}
+.click	{
+		text-decoration: none;
+		font-size: smaller;
+		color: red;
+	}
+.bold	{
+		font-weight: 700;
+	}
+.italic	{
+		font-style: italic;
+	}
+.added	{
+		border-top-color: grey;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-left-color: grey;
+		border-left-width: 1px;
+		border-left-style: solid;
+		font-size: smaller;
+		color: darkgreen;
+	}
+div.example {
+        	border-color:black;
+        	border-style:solid;
+        	border-width:1px;
+        	background:#cccccc;
+}
+pre.example {
+		padding:5;
+		margin:0;
+}

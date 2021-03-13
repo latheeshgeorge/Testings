@@ -1,0 +1,233 @@
+<?php
+	// ###############################################################################################################
+	// 				Function which holds the display logic of customers assigned to customer discount group to be shown when called using ajax;
+	// ###############################################################################################################
+	function show_customer_grp_maininfo($group_id,$alert='')
+	{ 
+		global $db,$ecom_siteid,$ecom_themeid ;
+		if($group_id)
+		{
+		$sql_group				= "SELECT cust_disc_grp_name,cust_disc_grp_discount,cust_disc_grp_active 
+									FROM 
+										customer_discount_group  
+									WHERE 
+										cust_disc_grp_id=".$group_id. " LIMIT 1";
+		}								
+		$res_group= $db->query($sql_group);
+		$row_group = $db->fetch_array($res_group);
+		?>
+		<table border="0" width="100%" cellpadding="0" cellspacing="0">
+		<?php 
+		if($alert)
+		{			
+		?>
+        <tr>
+          <td colspan="2" align="center" valign="middle" class="errormsg" ><?=$alert?></td>
+          </tr>
+		<?
+		}
+		?>  
+         <tr>
+          <td width="19%" align="left" valign="middle" class="tdcolorgray" >Discount Group Name <span class="redtext">*</span> </td>
+          <td width="81%" align="left" valign="middle" class="tdcolorgray">
+		  <input class="input" type="text" name="cust_disc_grp_name" value="<?=$row_group['cust_disc_grp_name']?>" maxlength="100"/>		  </td>
+        </tr>
+		 <tr>
+          <td width="19%" align="left" valign="middle" class="tdcolorgray" >Discount Allowed (%)</td>
+          <td width="81%" align="left" valign="middle" class="tdcolorgray">
+		  <input class="input" type="text" name="cust_disc_grp_discount" size="3" value="<?=$row_group['cust_disc_grp_discount']?>"  />
+		  &nbsp;<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_DISC')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a></td>
+        </tr>
+		<tr>
+          <td align="left" valign="middle" class="tdcolorgray" >Active</td>
+          <td align="left" valign="middle" class="tdcolorgray"><input type="radio" name="cust_disc_grp_active" value="1" <? if($row_group['cust_disc_grp_active']==1) echo "checked";?> />Yes<input type="radio" name="cust_disc_grp_active" value="0" <? if($row_group['cust_disc_grp_active']==0) echo "checked";?> />No
+		  &nbsp;<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_HIDE')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a></td>
+        </tr>
+		<tr>
+		<td align="center" class="tdcolorgray" colspan="2">
+				  <input name="Submit" type="submit" class="red" value="Update" /></td>
+		</td>
+		</tr>
+		</table>
+		<?
+	}	
+	function show_display_customer_discountgroup_list($custdiscgroup_id,$alert='')
+	 {
+	 global $db,$ecom_siteid ;
+	 $sql_customer_group = "SELECT b.map_id,a.customer_id,a.customer_fname,a.customer_surname,customer_email_7503,a.customer_activated FROM customers a,
+						customer_discount_customers_map b WHERE a.sites_site_id=$ecom_siteid AND 
+						b.customer_discount_group_cust_disc_grp_id=$custdiscgroup_id AND 
+						a.customer_id=b.customers_customer_id ";
+		
+		 
+		 $ret_customer_group = $db->query($sql_customer_group);
+	 ?>
+	 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td align="left" colspan="5" class="helpmsgtd">
+		<?php echo get_help_messages('EDIT_CUST_GROUP_CUST_SUBMSG')?>	
+		</td>
+	</tr>
+				 <?php
+				// Get the list of images for this bow
+				$sql_customer = "SELECT map_id FROM customer_discount_customers_map 
+							 WHERE customer_discount_group_cust_disc_grp_id=$custdiscgroup_id LIMIT 1";
+				$ret_customer= $db->query($sql_customer);
+				?>
+				<tr>
+				<td align="right" colspan="5" class="tdcolorgray_buttons">
+					<input name="Assign_Image" type="button" class="red" id="Assign_Customer" value="Assign More" onclick="normal_assign_customerGroupAssign('<?php echo $_REQUEST['pass_group_name']?>','<?php echo $_REQUEST['sort_by']?>','<?php echo $_REQUEST['sort_order']?>','<?php echo $_REQUEST['records_per_page']?>','<?php echo $_REQUEST['start']?>','<?php echo $_REQUEST['pg']?>','<?php echo $custdiscgroup_id?>');" />
+					<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_ASS_CUST')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a>&nbsp;&nbsp;
+					<?php
+					if ($db->num_rows($ret_customer))
+					{
+					?>
+						<div id="customerunassign_div" class="unassign_div" >
+						<input name="customer_unassign" type="button" class="red" id="customer_unassign" value="Un assign" onclick="call_ajax_deleteall('checkboxdisplaycustomer[]','customer')" />
+						<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_UNASS_CUST')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a>				</div>	
+					<?php
+					}				
+					?>
+				</td>
+				</tr>
+				<?php
+				
+				if($alert)
+				{
+					?>
+							<tr>
+								<td colspan="5" align="center" class="errormsg"><?php echo $alert?></td>
+							</tr>
+				 <?php
+				}
+				if ($db->num_rows($ret_customer_group))
+		        {
+				$table_headers = array('<img src="images/checkbox.gif" border="0" onclick="select_all(document.frmEditCustomerGroup,\'checkboxdisplaycustomer[]\')"/><img src="images/uncheckbox.gif" border="0" onclick="select_none(document.frmEditCustomerGroup,\'checkboxdisplaycustomer[]\')"/>','Slno.','Customer Name','Email','InActive?');
+				$header_positions=array('center','center','left','left','left');
+				$colspan = count($table_headers);
+				echo table_header($table_headers,$header_positions); 
+				$cnt = 1;
+				while ($row_customer_group = $db->fetch_array($ret_customer_group))
+				{
+					
+					$cls = ($cnt%2==0)?'listingtablestyleA':'listingtablestyleB';
+				?>
+					
+					<tr>
+					<td width="5%" align="left" class="<?php echo $cls?>"><input type="checkbox" name="checkboxdisplaycustomer[]" value="<?php echo $row_customer_group['map_id'];?>" /></td>
+					<td width="5%" align="left" class="<?php echo $cls?>"><?php echo $cnt++?>.</td>
+					<td class="<?php echo $cls?>" align="left"><a href="home.php?request=customer_search&fpurpose=edit&checkbox[0]=<? echo $row_customer_group['customer_id']?>" class="edittextlink"><?php echo stripslashes($row_customer_group['customer_fname']);?>&nbsp;<?php echo stripslashes($row_customer_group['customer_surname']);?></a></td>
+					<td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['customer_email_7503'])?></td>
+					<td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['cust_disc_grp_active']=='0')?'Yes':'No'?></td>
+					</tr>
+				<?php
+				}
+				}
+				else
+				{
+				?>
+				<tr  >
+			  <td colspan="5" align="center" valign="middle" class="norecordredtext_small">No Customers assigned to  this Group
+			  <input type="hidden" name="customer_norec" id="customer_norec" value="1" />
+			  </td>
+			</tr>
+				<?
+				
+				}
+				?>
+</table> 
+	<?			
+	
+	 }
+	 
+	 
+	// ###############################################################################################################
+	// 				Function which holds the display logic of products assigned to customer discount group to be shown when called using ajax;
+	// ###############################################################################################################
+	function show_display_products_discountgroup_list($custdiscgroup_id,$alert='')
+	 {
+	 global $db,$ecom_siteid ;
+	 $sql_pdts_in_customer_group = "SELECT b.map_id,a.product_id,a.product_name,a.product_webprice,a.product_discount,a.product_hide FROM products a,
+						customer_discount_group_products_map b WHERE a.sites_site_id=$ecom_siteid AND 
+						b.customer_discount_group_cust_disc_grp_id=$custdiscgroup_id AND 
+						a.product_id=b.products_product_id ";
+		
+		 
+		 $ret_customer_group = $db->query($sql_pdts_in_customer_group);
+	 ?>
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td align="left" colspan="5" class="helpmsgtd">
+		<?php echo get_help_messages('EDIT_PROD_CUST_GROUP_CUST_SUBMSG')?>	
+		</td>
+	</tr>
+		<?php
+			// Get the list of images for this bow
+			$sql_disc_pdts = "SELECT map_id FROM customer_discount_group_products_map 
+						 WHERE customer_discount_group_cust_disc_grp_id=$custdiscgroup_id LIMIT 1";
+			$ret_disc_pdts= $db->query($sql_disc_pdts);
+		 ?>
+		 <tr>
+		  <td align="right" colspan="5" class="tdcolorgray_buttons">
+				<input name="Assign_Image" type="button" class="red" id="Assign_Product" value="Assign More" onclick="normal_assign_productGroupAssign('<?php echo $_REQUEST['pass_group_name']?>','<?php echo $_REQUEST['sort_by']?>','<?php echo $_REQUEST['sort_order']?>','<?php echo $_REQUEST['records_per_page']?>','<?php echo $_REQUEST['start']?>','<?php echo $_REQUEST['pg']?>','<?php echo $custdiscgroup_id?>');" />
+				<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_ASS_PROD')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a>&nbsp;&nbsp;
+				<?php
+				if ($db->num_rows($ret_disc_pdts))
+				{
+				?>
+					<div id="productsunassign_div" class="unassign_div" >
+					<input name="products_unassign" type="button" class="red" id="products_unassign" value="Un assign" onclick="call_ajax_deleteall('checkboxdisplayproducts[]','products')" />
+					<a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_CUST_DISC_GROUP_UNASS_PROD')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a>				</div>	
+				<?php
+				}				
+				?>		  </td>
+        </tr>
+		<?php
+		
+		if($alert)
+		{
+			?>
+		  <tr>
+			<td colspan="5" align="center" class="errormsg"><?php echo $alert?></td>
+		  </tr>
+		  <?php
+		}
+				if ($db->num_rows($ret_customer_group))
+		        {
+				$table_headers = array('<img src="images/checkbox.gif" border="0" onclick="select_all(document.frmEditCustomerGroup,\'checkboxdisplayproducts[]\')"/><img src="images/uncheckbox.gif" border="0" onclick="select_none(document.frmEditCustomerGroup,\'checkboxdisplayproducts[]\')"/>','Slno.','Products Name','Price','Hidden?');
+				$header_positions=array('center','center','left','left','left','left');
+				$colspan = count($table_headers);
+				echo table_header($table_headers,$header_positions); 
+				$cnt = 1;
+				while ($row_customer_group = $db->fetch_array($ret_customer_group))
+				{
+					
+					$cls = ($cnt%2==0)?'listingtablestyleA':'listingtablestyleB';
+				?>
+      <tr>
+        <td width="5%" align="left" class="<?php echo $cls?>"><input type="checkbox" name="checkboxdisplayproducts[]" value="<?php echo $row_customer_group['map_id'];?>" /></td>
+        <td width="5%" align="left" class="<?php echo $cls?>"><?php echo $cnt++?>.</td>
+        <td class="<?php echo $cls?>" align="left"><a href="home.php?request=products&fpurpose=edit&checkbox[0]=<? echo $row_customer_group['product_id']?>" class="edittextlink"><?php echo stripslashes($row_customer_group['product_name']);?></a></td>
+        <td class="<?php echo $cls?>" align="left"><?php echo display_price($row_customer_group['product_webprice']);?></td>
+        <td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['product_hide']=='0')?'Yes':'No'?></td>
+      </tr>
+      <?php
+				}
+				}
+				else
+				{
+				?>
+      <tr  >
+        <td colspan="5" align="center" valign="middle" class="norecordredtext_small">No Products assigned to  this Group
+          <input type="hidden" name="products_norec" id="products_norec" value="1" />
+        </td>
+      </tr>
+      <?
+				
+				}
+				?>
+    </table>
+	<?			
+	
+	 }		
+?>

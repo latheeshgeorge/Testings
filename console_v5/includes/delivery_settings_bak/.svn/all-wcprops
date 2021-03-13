@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings
+END
+setting_delivery_location_and_items.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/setting_delivery_location_and_items.php
+END
+ad_setting_delivery_weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/ad_setting_delivery_weight.php
+END
+edit_setting_delivery_location_and_items.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_setting_delivery_location_and_items.php
+END
+setting_delivery_location_and_weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/setting_delivery_location_and_weight.php
+END
+edit_delivery_method_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_delivery_method_group.php
+END
+edit_setting_delivery_location_and_weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_setting_delivery_location_and_weight.php
+END
+add_delivery_method_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/add_delivery_method_group.php
+END
+ad_setting_delivery_amount.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/ad_setting_delivery_amount.php
+END
+ad_setting_delivery_location.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/ad_setting_delivery_location.php
+END
+setting_delivery_location_and_amount.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/setting_delivery_location_and_amount.php
+END
+list_delivery_method_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/list_delivery_method_groups.php
+END
+edit_setting_delivery_location.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_setting_delivery_location.php
+END
+list_delivery.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/list_delivery.php
+END
+edit_setting_delivery_location_and_amount.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_setting_delivery_location_and_amount.php
+END
+ad_setting_delivery_items.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/ad_setting_delivery_items.php
+END
+edit_delivery.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/delivery_settings/edit_delivery.php
+END

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE productimport SYSTEM "http://admin.first4apps.co.uk/xml/product_import_definition_v1.dtd">
+<productimport>
+<categories>
+	<category id="1">
+	<categorydescription>This is the description of category 1</categorydescription>
+	<categoryname>Category1</categoryname>
+	<imageurl>http://www.garraways.co.uk/images/www.garraways.co.uk/thumb/053729Cookie-Kit.jpg</imageurl>
+	<products>
+			<product id="1">
+			<name>Product1</name>
+			<description>description of product1</description>
+			<inclusiveprice>200</inclusiveprice>
+			<managestock enabled="true"/>
+			<stocklevel>300</stocklevel>
+			<purchasing enabled="true"/>
+			<externalurl>http://www.garraways.co.uk/p490462/clear-plastic-cups-pp.html</externalurl>
+			<delivery typeid="1" price="10"/>
+			<images>
+			<image>http://www.garraways.co.uk/images/www.garraways.co.uk/category_thumb/smoothie-cup-main.gif</image>
+			</images>
+			<specifications>
+				<specification name="Colour" value="red" />
+				<specification name="Colour" value="blue" />
+				<specification name="Colour" value="green" />
+				<specification name="Size" value="X" />
+				<specification name="Size" value="Xl" />
+				<specification name="Size" value="XXL" />
+			</specifications>
+			<variations>
+				<variation id="1">
+				<title>Colour:red,Size:X</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>210</inclusiveprice>
+
+				<delivery typeid="1" price="10"/>
+
+				<stocklevel>500</stocklevel>
+				</variation>
+				
+				<variation id="2">
+				<title>Colour:blue,Size:X</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>500</stocklevel>
+				</variation>
+				
+				<variation id="3">
+				<title>Colour:green,Size:X</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>500</stocklevel>
+				</variation>
+				
+				<variation id="4">
+				<title>Colour:red,Size:XL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>500</stocklevel>
+				</variation>
+				
+				<variation id="5">
+				<title>Colour:blue,Size:XL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>50</stocklevel>
+				</variation>
+				
+				<variation id="6">
+				<title>Colour:green,Size:XL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>500</stocklevel>
+				</variation>
+				
+				<variation id="7">
+				<title>Colour:red,Size:XXL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>100</stocklevel>
+				</variation>
+				
+				<variation id="8">
+				<title>Colour:blue,Size:XXL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>300</stocklevel>
+				</variation>
+				
+				<variation id="9">
+				<title>Colour:green,Size:XXL</title>
+				<managestock enabled="true"/>
+				<inclusiveprice>212</inclusiveprice>
+				<delivery typeid="1" price="10"/>
+				<stocklevel>400</stocklevel>
+				</variation>
+			</variations>
+			
+			</product>
+		</products>
+		<categories>
+			<category id='4'>
+			<categorydescription>This is the description of subcategory1</categorydescription>
+			<categoryname>Subcategory1</categoryname>
+			<imageurl>http://www.garraways.co.uk/images/www.garraways.co.uk/thumb/011152Prima-Shake-Mixes.jpg</imageurl>
+				<products>
+					<product id="2">
+					<name>Product 2</name>
+					<description>product 2 description</description>
+					<inclusiveprice>1000</inclusiveprice>
+					<managestock enabled="true"/>
+					<stocklevel>10</stocklevel>
+					<purchasing enabled="true"/>
+					<externalurl>http://www.garraways.co.uk/p151352/isi-profi-whip-cream-whipper.html</externalurl>
+					<delivery typeid="1" price="20"/>
+					<images>
+					<image>http://www.garraways.co.uk/images/www.garraways.co.uk/category_thumb/103817bo-8_733_401_210.jpg</image>
+					</images>
+					</product>
+				</products>
+			</category>
+		</categories>
+		
+	</category> 
+	<category id="2">
+	<categorydescription>This is the description of category2</categorydescription>
+	<categoryname>Category2</categoryname>
+	<imageurl></imageurl>
+	</category>
+	<category id="3">
+	<categorydescription>This is the description of category3</categorydescription>
+	<categoryname>Category3</categoryname>
+	<imageurl></imageurl>
+	</category>	
+</categories>
+</productimport>
+

@@ -1,0 +1,14 @@
+/* CSS Document */
+h1,h2,h3,h4,h5,h6,ul,p,font,li,form{
+padding:0;
+margin:0;
+font-size:12px;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+}
+
+li {
+list-style:inside;
+}
+ol li{
+list-style:inherit;
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/newsletter_templates
+END
+edit_newsletter_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/newsletter_templates/edit_newsletter_template.php
+END
+add_newsletter_template.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/newsletter_templates/add_newsletter_template.php
+END
+list_newsletter_templates.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/newsletter_templates/list_newsletter_templates.php
+END

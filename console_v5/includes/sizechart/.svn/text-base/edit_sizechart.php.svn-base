@@ -1,0 +1,117 @@
+<?php
+	/*#################################################################
+	# Script Name 	: edit_sizechart.php
+	# Description 	: Page for editing Product Size Chart
+	# Coded by 		: ANU
+	# Created on	: 17-Mar-2008
+	# Modified by	: ANU
+	# Modified On	: 17-Mar-2008
+	#################################################################*/
+#Define constants for this page
+$page_type = 'Product Specification Heading';
+$help_msg = get_help_messages('EDIT_PROD_SIZE_CHART_MESS1');
+$heading_id=($_REQUEST['heading_id']?$_REQUEST['heading_id']:$_REQUEST['checkbox'][0]);
+$sql="SELECT heading_title,heading_sortorder,heading_hide 
+			FROM product_sizechart_heading 
+					WHERE sites_site_id=$ecom_siteid AND heading_id=".$heading_id;
+$res=$db->query($sql);
+if($db->num_rows($res)==0)  { echo " <font color='red'> You Are Not Authorised  </a>"; exit; }
+
+$row=$db->fetch_array($res);
+?>	
+<script language="javascript" type="text/javascript">
+
+function valform(frm)
+{
+	fieldRequired = Array('heading_title');
+	fieldDescription = Array('Heading');
+	fieldEmail = Array();
+	fieldConfirm = Array();
+	fieldConfirmDesc  = Array();
+	fieldNumeric = Array('heading_sortorder');
+	if(Validate_Form_Objects(frm,fieldRequired,fieldDescription,fieldEmail,fieldConfirm,fieldConfirmDesc,fieldNumeric)) {
+		show_processing();
+		return true;
+	} else {
+		return false;
+	}
+}
+
+</script>
+<form name='frmEditSizechart' action='home.php?request=sizechart' method="post" onsubmit="return valform(this);">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td colspan="2" align="left" valign="middle" class="treemenutd"><a href="home.php?request=sizechart&sort_by=<?=$_REQUEST['sort_by']?>&sort_order=<?=$_REQUEST['sort_order']?>&records_per_page=<?=$_REQUEST['records_per_page']?>&search_name=<?=$_REQUEST['search_name']?>&start=<?=$_REQUEST['start']?>&pg=<?=$_REQUEST['pg']?>">List Product Specification Heading </a>&gt;&gt; Edit Product Specification Heading</td>
+        </tr>
+        <tr>
+          <td colspan="2" align="left" valign="middle" class="helpmsgtd" ><?=$help_msg ?></td>
+        </tr>
+		<?php 
+		if($alert)
+		{			
+		?>
+        <tr>
+          <td colspan="2" align="center" valign="middle" class="errormsg" ><?=$alert?></td>
+        </tr>
+		<?
+		}
+		?>
+        <tr>
+          <td width="21%" align="left" valign="middle" class="tdcolorgray" >Product Specification Heading&nbsp;<span class="redtext">*</span> </td>
+          <td width="79%" align="left" valign="middle" class="tdcolorgray">
+		  <input name="heading_title" type="text" class="input" value="<?=$row['heading_title']?>" size="45"  />		  </td>
+        </tr>
+		 <tr>
+          <td width="21%" align="left" valign="middle" class="tdcolorgray" >Sort Order</td>
+          <td align="left" valign="middle" class="tdcolorgray"><input class="input" type="text" name="heading_sortorder" size="2"  value="<?=$row['heading_sortorder']?>" />
+            <a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_PROD_SIZE_CHART_ORDER')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a></td>
+        </tr>
+		 <tr>
+           <td align="left" valign="middle" class="tdcolorgray">Hidden</td>
+		   <td align="left" valign="middle" class="tdcolorgray"><input type="radio" name="heading_hide" value="1" <? if($row['heading_hide']==1) echo "checked"?> />
+		     Yes
+		     <input type="radio" name="heading_hide" value="0" <? if($row['heading_hide']==0) echo "checked"?> />
+		     No <a href="#" onmouseover ="ddrivetip('<?=get_help_messages('EDIT_PROD_SIZE_CHART_HIDE')?>')"; onmouseout="hideddrivetip()"><img src="images/helpicon.gif" width="17" height="13" border="0" /></a></td>
+    </tr>
+		 <tr>
+          <td width="21%" align="left" valign="middle" class="tdcolorgray" >&nbsp;</td>
+          <td align="left" valign="middle" class="tdcolorgray">&nbsp;</td>
+        </tr>
+       
+        <tr>
+          <td align="left" valign="middle" class="tdcolorgray" >&nbsp;</td>
+          <td align="left" valign="middle" class="tdcolorgray">&nbsp;</td>
+        </tr>
+		 <tr>
+          <td colspan="2" align="left" valign="middle" class="tdcolorgray" >&nbsp;</td>
+        </tr>
+		<tr>
+          <td align="left" valign="middle" class="tdcolorgray" >&nbsp;</td>
+          <td align="left" valign="middle" class="tdcolorgray">
+		   
+		  <input type="hidden" name="heading_id" id="heading_id" value="<?=$heading_id?>" />
+		  <input type="hidden" name="search_name" id="search_name" value="<?=$_REQUEST['search_name']?>" />
+		  <input type="hidden" name="start" id="start" value="<?=$_REQUEST['start']?>" />
+		  <input type="hidden" name="sort_by" id="sort_by" value="<?=$_REQUEST['sort_by']?>" />
+		  <input type="hidden" name="sort_order" id="sort_order" value="<?=$_REQUEST['sort_order']?>" />
+		  <input type="hidden" name="records_per_page" id="records_per_page" value="<?=$_REQUEST['records_per_page']?>" />
+		  <input type="hidden" name="pg" id="pg" value="<?=$_REQUEST['pg']?>" />
+		  <input type="hidden" name="fpurpose" id="fpurpose" value="update_sizechart" />
+		  <input type="hidden" name="retdiv_id" id="retdiv_id" value="maincontent" />
+		  <input type="hidden" name="retdiv_more" id="retdiv_more" value="" />
+		  <input name="Submit" type="submit" class="red" value="Save" /></td>
+        </tr>
+		 <tr>
+          <td colspan="2" align="left" valign="middle" class="tdcolorgray" >&nbsp;</td>
+        </tr>
+		
+		<tr>
+          <td colspan="2" align="left" valign="middle" class="tdcolorgray" >&nbsp; </td>
+        </tr><tr>
+          <td colspan="2" align="left" valign="middle" class="tdcolorgray" >&nbsp; </td>
+        </tr><tr>
+          <td colspan="2" align="left" valign="middle" class="tdcolorgray" >&nbsp; </td>
+        </tr>
+      </table>
+</form>	  
+

@@ -1,0 +1,170 @@
+
+body { margin: 0px;
+scrollbar-face-color: #4EA547; 
+scrollbar-shadow-color: #ECE9D8; 
+scrollbar-highlight-color: #ECE9D8; 
+scrollbar-3dlight-color: #1C395A; 
+scrollbar-darkshadow-color: #1C395A; 
+scrollbar-track-color: #ECE9D8; 
+scrollbar-arrow-color: #ECE9D8;}
+
+.main_headerNew		{ background: url(../images/lefttab.gif); color:#ffffff; font-weight: bold;}
+.main_headerSpec	{ background: url(../images/righttab.gif); color:#ffffff; font-weight: bold;}
+.borderBottom		{ border-bottom: 1px solid black}
+
+a:active 					{ color:#000000; text-decoration:underline; }
+a:visited 					{ color:#000000; text-decoration:none }
+a:hover 					{ color:#000000; text-decoration:none }
+a:link 						{ color:#000000; text-decoration:none }
+
+a:active.seo 					{ color:#FF0000; text-decoration:underline; }
+a:visited.seo 					{ color:#FF0000; text-decoration:none }
+a:hover.seo 					{ color:#FF0000; text-decoration:none }
+a:link.seo 						{ color:#FF0000; text-decoration:none }
+
+#menulink a:active 			{ color:#215DC6; text-decoration:none }
+#menulink a:visited 		{ color:#215DC6; text-decoration:none }
+#menulink a:hover 			{ color:#428EFF; text-decoration:none }
+#menulink a:link 			{ color:#215DC6; text-decoration:none }
+
+#pslink a:active 			{ color:#000000; text-decoration:none }
+#pslink a:visited 		{ color:#000000; text-decoration:none }
+#pslink a:hover 			{ color:#000000; text-decoration:underline }
+#pslink a:link 			{ color:#000000	; text-decoration:none }
+
+.smallsubmit 	{font-size: 11px; font-family: Tahoma; color:#000000; text-decoration:none; width: 75px; height: 23px; background: url(../images/button_off.gif) no-repeat; text-align: center; border: 0px; cursor: hand;}
+.bigsubmit 	{font-size: 11px; font-family: Tahoma; color:#000000; text-decoration:none; width: 150px; height: 23px; background: url(../images/bigbutton_off.gif) no-repeat; text-align: center; border: 0px; cursor: hand;}
+
+
+#smallbuttonlink a:active 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 75px; height: 23px; background: url(../images/button_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+#smallbuttonlink a:visited 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 75px; height: 23px; background: url(../images/button_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+#smallbuttonlink a:hover 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 75px; height: 23px; background: url(../images/button_on.gif) no-repeat; text-align: center; padding-top: 4px;}
+#smallbuttonlink a:link 		{ font-family: Tahoma; color:#000000; text-decoration:none; width: 75px; height: 23px; background: url(../images/button_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+
+#largebuttonlink a:active 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 150px; height: 23px; background: url(../images/bigbutton_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+#largebuttonlink a:visited 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 150px; height: 23px; background: url(../images/bigbutton_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+#largebuttonlink a:hover 	{ font-family: Tahoma; color:#000000; text-decoration:none; width: 150px; height: 23px; background: url(../images/bigbutton_on.gif) no-repeat; text-align: center; padding-top: 4px;}
+#largebuttonlink a:link 		{ font-family: Tahoma; color:#000000; text-decoration:none; width: 150px; height: 23px; background: url(../images/bigbutton_off.gif) no-repeat; text-align: center; padding-top: 4px;}
+
+#homelink a:active 			{ color: #ffffff; font-weight: bold; text-decoration:none; }
+#homelink a:visited 		{ color: #ffffff; font-weight: bold; text-decoration:none; }
+#homelink a:hover 			{ color: #ffffff; font-weight: bold; text-decoration: underline;}
+#homelink a:link 			{ color: #ffffff; font-weight: bold; text-decoration:none; }
+
+#toplink a:active 			{ color: #000000; text-decoration: none; padding: 10px }
+#toplink a:visited 			{ color: #000000; text-decoration: none; padding: 10px }
+#toplink a:hover 			{ color: #000000; text-decoration: none; background-color: #6375d7; padding: 10px }
+#toplink a:link 			{ color: #000000; text-decoration: none; padding: 10px }
+
+#topnavlink a:active 	{ font-family: Tahoma; color:#000000; text-decoration:none; padding: 2px 10px;  border: solid 1px #efebd6; height=22px; }
+#topnavlink a:visited 	{ font-family: Tahoma; color:#000000; text-decoration:none; padding: 2px 10px;  border: solid 1px #efebd6; height=22px; }
+#topnavlink a:hover 	{ font-family: Tahoma; color:#000000; text-decoration:none; padding: 2px 10px; border-style: solid; border-width: 1px; border-color: #e6e2cf #78766b #78766b #e6e2cf; height=22px; }
+#topnavlink a:link 		{ font-family: Tahoma; color:#000000; text-decoration:none; padding: 2px 10px;  border: solid 1px #efebd6; height=22px;  }
+
+.menu  					{ color: #f5f5f5; font-weight: bold; font-size: 10px; font-family: Tahoma; text-transform: capitalize; letter-spacing: 1px }
+.input					  { color: #000000; font-size: 10px; font-family: Tahoma; background-color: #f5f5f5; padding: 2px 0px 0px 2px; border: solid 1px black; height: 20px }
+.option					{ color: #000000; font-size: 10px; font-family: Tahoma;  background-color: #f5f5f5; border: solid 1px black }
+.keyinput				{ color: #000000; font-size: 10px; font-family: Tahoma; background-color: #f5f5f5; padding: 2px 2px 2px 2px; border: ridge 2px #A19E9E; height: 20px }
+
+.select					{ color: #000000; font-size: 10px; font-family: Tahoma;  background-color: #f5f5f5; border: solid 1px black }
+.textarea					{ color: #000000; font-size: 10px; font-family: Tahoma;  background-color: #f5f5f5; border: solid 1px black }
+.cursor 					{ cursor: hand}
+.textarea1					{ color: #000000; font-size: 11px; font-family: Tahoma;  background-color: #ffffff; border: solid 0px black }
+.borderright				{ border-right: 1px solid #94BCEC; }
+.loginbox 				{ color: #000000; font-size: 11px; font-family: tahoma; background-color: #ffffff; border: solid 0px black; height: 16px; width: 96% }
+table  					{ border:0px; }
+td   						 { color: black; font-size: 11px; font-family: Tahoma }
+.welcome  				{ text-align: center; color: #3E6FF1; font-weight: bold; font-size: 18px; font-family: Tahoma }
+.img  					{ vertical-align:bottom; border:0px; }
+.divline 					{background: #D3FFBF;}
+.sec_menu  				{ border-left:1px solid white; border-right:1px solid white; border-bottom:1px solid white; overflow:hidden; background:#D6DFF7; }
+.menu_title   				{ color: #215DC6; font-weight: bold }
+.menu_title2  				{ color: #215DC6; }
+.raquo	  				{ color: #D6DFF7; font-weight: bold }
+.bg1  					{ background-color: #F5F5F5 } /*have no idea what it does*/
+.bg2  					{ background-color: #F5F5F5}
+.bg3  					{ background: #6375d7 url(../images/index_14.gif) no-repeat }
+.bg4 					{}
+.bg5  					{ background: white/*#6375d7 url(images/index_16.gif) repeat-x */}
+.purchasebg { background: white/*#6375d7 url(images/purchasebg.gif) no-repeat right bottom */}
+.bar 						 { color: #000; background-color: #efebd6; padding: 0px; z-index: 3; width: 100% }
+.menuButton 				{ cursor: default; border: 0px; background-color: #ECE9D8; font-family: Tahoma; font-size: 11px; padding: 3px 7px 2px;}
+.menuButton1 			{ cursor: default; border: 0px solid #EFEDDE; background-color: #C1D2EE; font-family: Tahoma; font-size: 11px; padding: 3px 7px 2px;}
+.whitebg 					{ background: white url(../images/bg.gif) no-repeat right bottom }
+.frontbg 					{ background: #6375D7}
+.cellbox 				{ align:center; border-top: 0px #374646 solid; border-left: 0px #374646 solid; border-right: 0px #374646 solid; border-bottom: 0px #215DC6 solid; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;}
+h1  					{ color: #000000; font-weight: bold; font-size: 10pt; line-height: 10px; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; display:inline }
+h2  					{ color: #000000; font-weight: bold; font-size: 10pt; line-height: 5px; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; display:inline }
+
+#menu			{cursor: default; position: absolute; top: 0; left: 0;
+				background: #efebd6; border: 0px}
+#menu .menu		{background: white; border: 2 outset buttonhighlight; position: absolute}
+
+#menu TD		{font: menu; height: 20;}
+#menu .root		{border: 0px; padding: 1; padding-left: 7; padding-right: 7; margin: 6;}
+#menu .icon		{text-align: center;}
+
+#menu .disabled	{color: #ff0000;}
+#menu .more		{font-family: webdings; width: 20; text-align: right;}
+#menu #handle	{border-left: 0px;
+				border-right: 0px;
+				border-top: 0px;
+				border-bottom: 0px;
+				padding: 0;
+				margin: 0;
+				cursor: move;}
+
+#outerDiv		{position: absolute; overflow:auto;
+				z-index: -1;
+				height:90%; width:100%;
+				border: 2 inset white;}
+.purchasetop		   { color: black; background: #d6dff7 url(../images/purchasetop) no-repeat right ; padding: 2px; border: solid 1px white }
+.purchasesides	   { border-style: solid; border-width: 0px 1px 0px 1px; border-color: white }
+.purchasebottom { border-style: solid; border-width: 0px 1px 1px 1px; border-color: white }
+.root			{ color: black;}	
+div.thumbnail img {border-bottom : 1px solid #000000; border-left : 1px solid #000000; border-right : 1px solid #000000; border-top : 1px solid #000000;} 
+i {font-weight:BOLD}
+
+.newbody { border-right: 1px solid black;}
+.specialbody { border-left: 1px solid black;}
+.specialbody2 { border: 1px solid black;}
+
+.News  				{ text-align: center; color: #3E6FF1; font-weight: bold; font-size: 18px; font-family: Tahoma }
+.submit	{ cursor: pointer}
+.tdhead{
+	background-color:#94BCEC;
+	color:#000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:5px;
+}
+.tdspecial{
+	background-color:#F6F4E8;
+	color:#000000;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.tdnormal{
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.text_red{
+	background-color:#FFFFFF;
+	color:#FF0000;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.tdbgnormal
+{
+	background-color:#D3E5FA;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.tdbgspecial
+{
+	background-color:#FFFFFF;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}

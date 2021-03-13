@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/tax_settings
+END
+edit_tax.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/tax_settings/edit_tax.php
+END
+add_tax.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/tax_settings/add_tax.php
+END
+list_tax.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Bshop/BSHOPv4/!svn/ver/1/console/includes/tax_settings/list_tax.php
+END

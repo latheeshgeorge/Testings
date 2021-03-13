@@ -1,0 +1,131 @@
+<?php
+	// ###############################################################################################################
+	// 				Function which holds the display logic of customers assigned to customer discount group to be shown when called using ajax;
+	// ###############################################################################################################
+	function show_display_customer_discountgroup_list($custdiscgroup_id,$alert='')
+	 {
+	 global $db,$ecom_siteid ;
+	 $sql_customer_group = "SELECT b.map_id,a.customer_id,a.customer_fname,a.customer_surname,customer_email_7503,a.customer_activated FROM customers a,
+						customer_discount_customers_map b WHERE a.sites_site_id=$ecom_siteid AND 
+						b.customer_discount_group_cust_disc_grp_id=$custdiscgroup_id AND 
+						a.customer_id=b.customers_customer_id ";
+		
+		 
+		 $ret_customer_group = $db->query($sql_customer_group);
+	 ?>
+	 <table width="100%" cellpadding="0" cellspacing="1" border="0">
+				<?php
+				
+				if($alert)
+				{
+					?>
+							<tr>
+								<td colspan="5" align="center" class="errormsg"><?php echo $alert?></td>
+							</tr>
+				 <?php
+				}
+				if ($db->num_rows($ret_customer_group))
+		        {
+				$table_headers = array('<img src="images/checkbox.gif" border="0" onclick="select_all(document.frmEditCustomerGroup,\'checkboxdisplaycustomer[]\')"/><img src="images/uncheckbox.gif" border="0" onclick="select_none(document.frmEditCustomerGroup,\'checkboxdisplaycustomer[]\')"/>','Slno.','Customer Name','Email','InActive?');
+				$header_positions=array('center','center','left','left','left');
+				$colspan = count($table_headers);
+				echo table_header($table_headers,$header_positions); 
+				$cnt = 1;
+				while ($row_customer_group = $db->fetch_array($ret_customer_group))
+				{
+					
+					$cls = ($cnt%2==0)?'listingtablestyleA':'listingtablestyleB';
+				?>
+					
+					<tr>
+					<td width="5%" align="left" class="<?php echo $cls?>"><input type="checkbox" name="checkboxdisplaycustomer[]" value="<?php echo $row_customer_group['map_id'];?>" /></td>
+					<td width="5%" align="left" class="<?php echo $cls?>"><?php echo $cnt++?>.</td>
+					<td class="<?php echo $cls?>" align="left"><a href="home.php?request=customer_search&fpurpose=edit&checkbox[0]=<? echo $row_customer_group['customer_id']?>" class="edittextlink"><?php echo stripslashes($row_customer_group['customer_fname']);?>&nbsp;<?php echo stripslashes($row_customer_group['customer_surname']);?></a></td>
+					<td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['customer_email_7503'])?></td>
+					<td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['cust_disc_grp_active']=='0')?'Yes':'No'?></td>
+					</tr>
+				<?php
+				}
+				}
+				else
+				{
+				?>
+				<tr  >
+			  <td colspan="4" align="center" valign="middle" class="norecordredtext_small">No Customers assigned to  this Group
+			  <input type="hidden" name="customer_norec" id="customer_norec" value="1" />
+			  </td>
+			</tr>
+				<?
+				
+				}
+				?>
+</table> 
+	<?			
+	
+	 }
+	 
+	 
+	// ###############################################################################################################
+	// 				Function which holds the display logic of products assigned to customer discount group to be shown when called using ajax;
+	// ###############################################################################################################
+	function show_display_products_discountgroup_list($custdiscgroup_id,$alert='')
+	 {
+	 global $db,$ecom_siteid ;
+	 $sql_pdts_in_customer_group = "SELECT b.map_id,a.product_id,a.product_name,a.product_webprice,a.product_discount,a.product_hide FROM products a,
+						customer_discount_group_products_map b WHERE a.sites_site_id=$ecom_siteid AND 
+						b.customer_discount_group_cust_disc_grp_id=$custdiscgroup_id AND 
+						a.product_id=b.products_product_id ";
+		
+		 
+		 $ret_customer_group = $db->query($sql_pdts_in_customer_group);
+	 ?>
+	<table width="100%" cellpadding="0" cellspacing="1" border="0">
+      <?php
+				
+				if($alert)
+				{
+					?>
+      <tr>
+        <td colspan="6" align="center" class="errormsg"><?php echo $alert?></td>
+      </tr>
+      <?php
+				}
+				if ($db->num_rows($ret_customer_group))
+		        {
+				$table_headers = array('<img src="images/checkbox.gif" border="0" onclick="select_all(document.frmEditCustomerGroup,\'checkboxdisplayproducts[]\')"/><img src="images/uncheckbox.gif" border="0" onclick="select_none(document.frmEditCustomerGroup,\'checkboxdisplayproducts[]\')"/>','Slno.','Products Name','Price','Hidden?');
+				$header_positions=array('center','center','left','left','left','left');
+				$colspan = count($table_headers);
+				echo table_header($table_headers,$header_positions); 
+				$cnt = 1;
+				while ($row_customer_group = $db->fetch_array($ret_customer_group))
+				{
+					
+					$cls = ($cnt%2==0)?'listingtablestyleA':'listingtablestyleB';
+				?>
+      <tr>
+        <td width="5%" align="left" class="<?php echo $cls?>"><input type="checkbox" name="checkboxdisplayproducts[]" value="<?php echo $row_customer_group['map_id'];?>" /></td>
+        <td width="5%" align="left" class="<?php echo $cls?>"><?php echo $cnt++?>.</td>
+        <td class="<?php echo $cls?>" align="left"><a href="home.php?request=products&fpurpose=edit&checkbox[0]=<? echo $row_customer_group['product_id']?>" class="edittextlink"><?php echo stripslashes($row_customer_group['product_name']);?></a></td>
+        <td class="<?php echo $cls?>" align="left"><?php echo display_price($row_customer_group['product_webprice']);?></td>
+        <td class="<?php echo $cls?>" align="left"left><?php echo ($row_customer_group['product_hide']=='0')?'Yes':'No'?></td>
+      </tr>
+      <?php
+				}
+				}
+				else
+				{
+				?>
+      <tr  >
+        <td colspan="4" align="center" valign="middle" class="norecordredtext_small">No Products assigned to  this Group
+          <input type="hidden" name="products_norec" id="products_norec" value="1" />
+        </td>
+      </tr>
+      <?
+				
+				}
+				?>
+    </table>
+	<?			
+	
+	 }		
+?>

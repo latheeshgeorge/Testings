@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:20px 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+}
+.main_table{
+	background-color:#FBFBFB;
+	}
+
+.main_header{
+	padding:5px 10px;
+	background-color:#CEDDF4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+	}
+	
+.main_header_subtext{
+	padding:5px 5px 5px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}
+	
+.level1_header{
+	padding:5px 5px 5px 30px;
+	border-bottom:1px solid #e9e9e9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#E43019;
+	}
+	
+.level1_header_subtext{
+	padding:5px 5px 5px 40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}
+	
+.level2_header{
+	padding:5px 5px 5px 50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#000000;
+	}
+	
+.level2_header_subtext{
+	padding:5px 5px 5px 60px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}
+	
+	/*last level................*/
+	
+	
+	.level3_header{
+	padding:5px 5px 5px 70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#5c5c5c;
+	}
+	
+.level3_header_subtext{
+	padding:5px 5px 5px 80px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}
+	
+.level4_header{
+	padding:5px 5px 5px 90px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#5c5c5c;
+	}
+	
+.level4_header_subtext{
+	padding:5px 5px 5px 100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}
+.level5_header{
+	padding:5px 5px 5px 110px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#5c5c5c;
+	}
+	
+.level5_header_subtext{
+	padding:5px 5px 5px 120px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}	
+.level6_header{
+	padding:5px 5px 5px 130px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:11px;
+	color:#5c5c5c;
+	}
+	
+.level6_header_subtext{
+	padding:5px 5px 5px 140px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	}		

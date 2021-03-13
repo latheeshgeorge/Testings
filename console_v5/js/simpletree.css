@@ -1,0 +1,85 @@
+
+.treeview{
+margin:0px;
+padding:0px;
+font-size:11px;
+font-weight:normal;
+color:#767676;
+}
+
+.treeview ul{
+margin:0px;
+padding:0px;
+}
+
+.treeview li{ 
+background:url(./list.gif) no-repeat left center;
+list-style-type: none;
+padding:0px  0px 0px 18px;
+margin:0px 0px 3px 0px;
+}
+
+.treeview li.submenu{
+background:url(./closed.gif) no-repeat left 1px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul{
+display: none;
+}
+
+.treeview .submenu ul li{ 
+cursor: default;
+}
+a.treenode:link
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:normal;
+	color:#767676;
+	text-decoration:none;
+}
+a.treenode:visited
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:normal;
+	color:#767676;
+	text-decoration:none;
+}
+a.treenode:hover
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:normal;
+	color:#767676;
+	text-decoration:none;
+}
+a.treenode_head:link
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:bold;
+	color:#767676;
+	text-decoration:none;
+}
+a.treenode_head:visited
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:bold;
+	color:#767676;
+	text-decoration:none;
+}
+a.treenode_head:hover
+{
+	font-family:Arial, Helvetica, sans-serif
+	font-size:11px;
+	font-weight:bold;
+	color:#767676;
+	text-decoration:none;
+}
+
+

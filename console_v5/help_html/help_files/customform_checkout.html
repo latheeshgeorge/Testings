@@ -1,0 +1,526 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="main_table">
+<tr>
+  <td class="main_header"><a name="top" id="top"></a>How Custom Checkout Form Works? </td>
+</tr>
+<tr>
+	<td class="main_header_subtext"><p>Custom checkout form allows to define additional fields that need to be displayed in the checkout page. To add custom fields, first sections should be created. Each Section is a container for a set of additional fields. Once the section is created, the fields to be added to the section should be defined.<br />
+	</p>    </td>
+  </tr>
+<tr>
+  <td class="level1_header_topside">&nbsp;</td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#list" class="level1_header_a">1. List Checkout Form Sections </a> </td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#add_section" class="level1_header_a">2. Add Checkout Form Sections </a></td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#edit_section" class="level1_header_a">3. Edit Checkout Form Sections </a></td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#manage_form" class="level1_header_a">4. List Forms </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#text" class="level1_header_a">4.1. Add Textbox </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#area" class="level1_header_a">4.2. Add TextArea </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#radio" class="level1_header_a">4.3. Add Radio Button</a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#check" class="level1_header_a">4.4. Add CheckBox </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#combo" class="level1_header_a">4.5. Add ComboBox</a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#date" class="level1_header_a">4.6. Add Date </a></td>
+</tr>
+<tr>
+  <td class="level1_header_bottomside">&nbsp;</td>
+</tr>
+<tr>
+  <td class="level1_header"><a name="list" id="list"></a>List Checkout Form Sections </td>
+</tr>
+<tr>
+  <td class="main_header_subtext"><img src="img/Checkout-Form.jpg" width="702" height="415" /></td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Custom checkout sections  can be searched by giving the name of the section. Number of sections to be shown in  each of the page and also the sort order to be used in search result can be specified. Use &quot;Go&quot; button to begin the search operation. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Use &quot;Add&quot; link to go the section  add page. There are 2 ways to go to the edit page of an existing section. One method is by clicking the section name and another by tick marking the required sections and pressing the &quot;Edit&quot; icon.</td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Delete operation can be done to more than one sections at a time. Tick mark the sections to be deleted and press the &quot;Delete&quot; icon. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Status of sections  can be changed directly from the listing page. Tick mark the sections which need status changing. Select the required status from the drop down box provided at the section &quot;Change Status&quot; and press the &quot;Change&quot; button. If a section is marked as hidden, then it will not be displayed in the checkout page. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Page to define the fields to be included in a secion can be obtained by clicking the icon to the right hand side of each of the sections in the listing page. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level1_header"><a name="add_section" id="add_section"></a>Add Checkout Form Sections </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Checkout form sections can be added through this section. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/Checkoutadd.jpg" width="702" height="535" /></td>
+</tr>
+<tr>
+  <td class="level2_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level3_header">1. Section Name </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This is the name that will be used to identify the section. This name will be displayed as heading for the section while displaying the section in the checkout area. </td>
+</tr>
+<tr>
+  <td class="level3_header">2. Position</td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">Position decides the exact area where the section and its associated fields will be displayed. The values available for this field are </td>
+</tr>
+<tr>
+  <td class="level4_header">1. Top</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Top&quot; will be shown above the common billing address fields in checkout section as a seperate block. The heading for the block will be the section name itself. </td>
+</tr>
+<tr>
+  <td class="level4_header">2. Top with in the Static Section</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Top with in the Static Section &quot; will be shown above the common billing address fields in checkout section. The fields will not be displayed as a seperate block; instead they will be placed just above the normal billing address fields. The section name will not be displayed in this case.</td>
+</tr>
+<tr>
+  <td class="level4_header">3. Bottom within the Static Section</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Bottom with in the Static Section &quot; will be shown below the common  delivery address fields in checkout section. The fields will not be displayed as a seperate block; instead they will be placed just below the normal delivery address fields. The section name will not be displayed in this case.</td>
+</tr>
+<tr>
+  <td class="level4_header">4. Bottom </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Bottom&quot; will be shown below the common delivery address fields in checkout section as a seperate block. The heading for the block will be the section name itself. </td>
+</tr>
+<tr>
+  <td class="level3_header">3. Only for specific products </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This option allows to decide whether a custom checkout section should be displayed every time a customer checks out or only if certain products are included in the order. If the checkout section is to be displayed only if certain products are there in the order, then select &quot;Yes&quot; for this option. If &quot;No&quot; is selected, then the section will be displayed everytime the checkout page is viewed. If &quot;Yes&quot; is selected, the option to select the products will be shown in the edit page of the section. </td>
+</tr>
+<tr>
+  <td class="level3_header">4. Help Instructions </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">While displaying a section in checkout page, if any description or help message is to be included, then it should be specified in this field. The help instruction will be displayed only for those sections for which the positions are set as &quot;Top&quot; or &quot;Bottom&quot;. This description or help will be displayed as the first thing in the section block; above the fields in the section. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level1_header"><a name="edit_section" id="edit_section"></a>Edit Checkout Form Sections </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Checkout form sections can be edited through this section. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/Checkoutadd-A.jpg" width="702" height="430" /></td>
+</tr>
+<tr>
+  <td class="level2_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level3_header">1. Section Name </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This is the name that will be used to identify the section. This name will be displayed as heading for the section while displaying the section in the checkout area. </td>
+</tr>
+<tr>
+  <td class="level3_header">2. Position</td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">Position decides the exact area where the section and its associated fields will be displayed. The values available for this field are </td>
+</tr>
+<tr>
+  <td class="level4_header">1. Top</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Top&quot; will be shown above the common billing address fields in checkout section as a seperate block. The heading for the block will be the section name itself. </td>
+</tr>
+<tr>
+  <td class="level4_header">2. Top with in the Static Section</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Top with in the Static Section &quot; will be shown above the common billing address fields in checkout section. The fields will not be displayed as a seperate block; instead they will be placed just above the normal billing address fields. The section name will not be displayed in this case.</td>
+</tr>
+<tr>
+  <td class="level4_header">3. Bottom within the Static Section</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Bottom with in the Static Section &quot; will be shown below the common  delivery address fields in checkout section. The fields will not be displayed as a seperate block; instead they will be placed just below the normal delivery address fields. The section name will not be displayed in this case.</td>
+</tr>
+<tr>
+  <td class="level4_header">4. Bottom </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Section which have position set to &quot;Bottom&quot; will be shown below the common delivery address fields in checkout section as a seperate block. The heading for the block will be the section name itself. </td>
+</tr>
+<tr>
+  <td class="level3_header">3. Only for specific products </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This option allows to decide whether a custom checkout section should be displayed every time a customer checks out or only if certain products are included in the order. If the checkout section is to be displayed only if certain products are there in the order, then select &quot;Yes&quot; for this option. If &quot;No&quot; is selected, then the section will be displayed everytime the checkout page is viewed. </td>
+</tr>
+<tr>
+  <td class="level3_header">4. Help Instructions </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">While displaying a section in checkout page, if any description or help message is to be included, then it should be specified in this field. The help instruction will be displayed only for those sections for which the positions are set as &quot;Top&quot; or &quot;Bottom&quot;. This description or help will be displayed as the first thing in the section block; above the fields in the section. </td>
+</tr>
+<tr>
+  <td class="level3_header">5. Products to which this dynamic section is linked to </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This section will be visible only if the option &quot;Only for specific products&quot; is set to &quot;Yes&quot;. &quot;Assign More&quot; button can be used to assign more products and &quot;Unassign&quot; to unassign the already assigned products. If products are assigned to this section, the section will be visible only if any of the assigned products exists in cart. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level1_header"><a name="manage_form" id="manage_form"></a>List Forms </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">The fields that are required in each of the sections are defined from this area. User will be taken to this page when clicked on the icon to the right hand side or each of the sections listed in the section listing page. The fields that are already set will be shown in a list. The sort order for the fields can be set using the textbox shown with each of the existing fileds. In order to make the field as compulsory, tick mark the mandatory checkbox. The error message to be shown if the mandatory field if left blank can be specified when clicked on the &quot;ErrorMsg&quot; button. If mandatory checkbox is ticked and if error message is not specified, then also the field will be considered as mandatory in the checkout area. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/Checkout-object.jpg" width="702" height="460" /></td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Field details can be edited by tick marking the field and clicking on the edit icon. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">One or more fields can be deleted by marking the fields to be deleted and clicking the delete icon. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">New fields can be added by click respective button in this listing page. The available buttons are </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="text" id="text"></a>1. Add Textbox </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">This button show a popup page which allows to specify the details for the textbox to be added to the form.  </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/txtbox.gif" width="403" height="186" /></td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the textbox should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the textbox can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the textbox can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Size</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The size of textbox can be set from here.</td>
+</tr>
+<tr>
+  <td class="level4_header">Character Limit </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Maximum number of characters allowed for the textbox can be set from here </td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="area" id="area"></a>2. Add TextArea </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/txtarea.gif" width="403" height="186" /></td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the textarea should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the textarea can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the textarea can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Rows</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">This defines the height of the textarea. This allows to set the number of rows visible to customer. </td>
+</tr>
+<tr>
+  <td class="level4_header">Cols </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">This defines the width of the textarea. This allows to set the number of columns visible to customer. </td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="radio" id="radio"></a>3. Add Radio Button </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/radio.gif" width="403" height="234" /></td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the radio button group should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the  radio button group can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the  radio button group can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Values</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The values to be shown for each of the radio buttons in the radion button groupshould be set from this area. Use &quot;Add Values&quot; button to add move values </td>
+</tr>
+<tr>
+  <td class="level4_header">Selected</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">This field should be selected for the values of radio button which should be shown as selected by default.</td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="check" id="check"></a>4. Add CheckBox </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/check.gif" width="403" height="207" /></td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the checkbox group should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the  checkbox group can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the  checkbox group can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Values</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The values to be shown for each of the checkboxes in the checkbox group should be set from this area. Use &quot;Add Values&quot; button to add move values </td>
+</tr>
+<tr>
+  <td class="level4_header">Selected</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">This field should be selected for the values of checkbox which should be shown as selected by default.</td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="combo" id="combo"></a>5. Add ComboBox </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/combo.gif" width="403" height="208" /></td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the combo box should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the  combo box can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the  combo box can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Values</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The values to be shown for  the combo box should be set from this area. Use &quot;Add Values&quot; button to add move values </td>
+</tr>
+<tr>
+  <td class="level4_header">Selected</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">This field should be selected for the values of checkbox which should be shown as selected by default.</td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level2_header"><a name="date" id="date"></a>6. Add Date </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/date-txt.gif" width="403" height="192" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">By default an icon will be displayed next to the date field which shows a date picker when a date field is displayed in the checkout section. </td>
+</tr>
+<tr>
+  <td class="level3_header">Key Fields </td>
+</tr>
+<tr>
+  <td class="level4_header">Label</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The caption to be shown for the date box should be specified here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Horizontal Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The horizontal alignment for the date box can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Vertical Align </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The vertical alignment for the date box can be set from here. </td>
+</tr>
+<tr>
+  <td class="level4_header">Size</td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The size of date box can be set from here.</td>
+</tr>
+<tr>
+  <td class="level4_header">Character Limit </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">Maximum number of characters allowed for the date box can be set from here </td>
+</tr>
+<tr>
+  <td class="level4_header">Error Message </td>
+</tr>
+<tr>
+  <td class="level4_header_subtext">The error message to be displayed to the customer, in case if the field is compulsory. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+ <tr>
+    <td align="center"><input type="button" value="Click to close" onclick="window.close();" class="red"></td>
+  </tr>
+	</table>

@@ -1,0 +1,130 @@
+/* Event Calendar Styles */
+.calendar_outer_table{
+width: 100%;
+border:0px solid #0000000;background-color:#fff;font-family:Arial, Helvetica, sans-serif;
+}
+.calendar_outer_inner_table{
+width: 100%;
+}
+.calendar_inner_table_ot{
+width: 100%;
+border:0px;
+}
+.calendar_inner_table{
+width: 100%;
+border:0px;
+font-size:15px;background-color:#CCC;
+}
+.calendar_main_header{
+color:#FFFFFF;
+}
+.calendar_previous{
+color:#FFFFFF;
+}
+.calendar_next{
+color:#FFFFFF;
+}
+.calendar_monthhead{
+background-color:#fff;
+color:#000000;
+padding:0 0 3px 0;font-size:12px;text-align:left;
+}
+.calendar_weekday{
+font-size:11px;
+color:#3F3F3D;background-color:#fff;
+padding:10px 0 5px 0;
+}
+.caleandar_td {
+text-align:center;
+height:50px;
+background-color:#FFF;
+width:70px;
+}
+.calendar_icons{
+float:right;
+width:100%;text-align:right;
+}
+.calendar_date{
+float:right;
+width:100%;
+}
+.calendar_eventlist{
+	float:right;
+width:100%;text-align:center;
+}
+.event_title{
+background-color:#97C426;
+color:#FFF;margin:0 0 2px 5px;
+text-align:center;
+width:70px;
+font-size:9px;
+cursor:pointer;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	border:1px solid #97C426;	
+}
+.event_title_suspended{
+background-color:#999999;
+color:#FFFFFF;margin:0 0 2px 5px;
+text-align:center;
+width:70px;
+font-size:9px;
+cursor:pointer;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	border:1px solid #999999;
+}
+.event_editdiv_cls{
+	position:absolute;
+	left:20%;
+	top:25%;
+	width:400px;padding:15px;
+		background-color:#7FAFAE;
+	color:#CCCCCC;
+	 -moz-border-radius:12px;
+    -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
+    border-radius: 12px;
+	border:2px solid #000;	font-family:Arial, Helvetica, sans-serif;
+}
+.event_header{
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+}
+.event_td{
+font-size:11px;
+font-weight:normal;
+color:#FFFFFF;
+padding:2px;
+}
+.event_td input[type="text"]{
+font-size:12px;
+font-weight:normal;
+color:#000;
+padding:2px;
+border:1px solid #666;background-color:#FFF;
+}
+.event_td input[type="button"]{
+font-size:12px;
+font-weight:bold;
+color:#FFF;
+padding:5px;
+ -moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius:3px;
+border:1px solid #B84542;background-color:#C30;
+}
+.event_close{
+	float:right;
+}
+.calendar_error_msg{
+color:#FF0000;font-size:11px;
+font-weight:bold;
+}
+

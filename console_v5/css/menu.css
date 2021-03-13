@@ -1,0 +1,52 @@
+<style>
+BODY {	margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+		
+.leftMenu {	text-align: left; }
+		
+.centerMenu { text-align: center;}
+		
+.rightMenu { text-align: right;	}
+		
+a.MenuLabelLink	{ 	FONT-SIZE: 100%;
+FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None;
+margin: 0px; padding: 3px; }
+a.MenuLabelLink:link { 	FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuLabelLink:visited	{  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None;	}
+a.MenuLabelLink:hover{  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+		
+a.MenuLabelLinkOn {	COLOR: #ffffff; FONT-SIZE: 100%;
+FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None;
+margin: 0px; padding: 3px; }
+a.MenuLabelLinkOn:link { COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuLabelLinkOn:visited { COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuLabelLinkOn:hover { COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+		
+a.MenuItemLink {  FONT-SIZE: 100%;
+FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None;
+margin: 0px; padding: 3px; }
+a.MenuItemLink:link {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuItemLink:visited {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuItemLink:hover {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+		
+a.MenuItemLinkOn {  FONT-SIZE: 100%;
+FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None;
+margin: 0px; padding: 3px; }
+a.MenuItemLinkOn:link {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuItemLinkOn:visited {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+a.MenuItemLinkOn:hover {  FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: None; }
+		
+.myMenu { position: absolute; visibility: hidden; z-index: 5; }		
+		
+.myMenuLabelleft { padding: 3px 3px 3px 3px; text-align: left; }		
+.myMenuLabelcenter { padding: 3px 3px 3px 3px; text-align: center; }		
+.myMenuLabelright { padding: 3px 3px 3px 3px; text-align: right; }		
+.myMenuItemleft { padding: 3px 3px 3px 3px; text-align: left; }		
+.myMenuItemcenter { padding: 3px 3px 3px 3px; text-align: center; }		
+.myMenuItemright { padding: 3px 3px 3px 3px; text-align: right; }		
+		
+#myTest { 
+width: 880px;
+padding: 3px 3px 3px 3px;
+z-index: 1;
+}
+</style>

@@ -1,0 +1,307 @@
+<div style="display:none;" id="middle_console_area">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+          <td align="right" valign="top"><a href="#" onclick="javascript:infodethide1()"><img src="images/show_info.gif" width="114" height="23" border="0" /></a></td>
+        </tr>
+		</table>
+	<div  class="divstyle">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+	          <tr>
+          <td align="left" valign="top"><img src="images/account.gif" alt="" width="109" height="69" /></td>
+        </tr>
+        <tr>
+          <td class="homequicklinktableheader">
+		  <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Account']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Account'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			</td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+        <tr>
+          <td align="left" valign="top"><img src="images/cataloge.gif" width="109" height="69" /></td>
+        </tr>
+        <tr>
+          <td class="homequicklinktableheader">
+		  <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 
+						AND services_service_id = ".$defmenu_arr['Catalogue']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Catalogue'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+        <tr>
+          <td align="left" valign="top"><img src="images/sitesetting.gif" width="109" height="69" /></td>
+        </tr>
+        <tr>
+          <td class="homequicklinktableheader">
+		  <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 AND feature_displaytouser=1 
+						AND feature_hide = 0 AND services_service_id = ".$defmenu_arr['Web_settings']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Web_settings'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+		  </td>
+        </tr>
+      </table>
+    </div>
+        <div  class="divstyle">
+          <table  border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+            <tr>
+              <td align="left" valign="top" ><img src="images/promotions.gif" width="109" height="69" /></td>
+            </tr>
+            <tr>
+              <td class="homequicklinktableheader">
+			 <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Promotions']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Promotions'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			  </td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+            <tr>
+              <td align="left" valign="top"><img src="images/coustmers.gif" width="109" height="69" /></td>
+            </tr>
+            <tr>
+              <td class="homequicklinktableheader">
+			   <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Customers']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Customers'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			  </td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+            <tr>
+              <td align="left" valign="top"><img src="images/shopsettings.gif" width="109" height="69" /></td>
+            </tr>
+            <tr>
+              <td class="homequicklinktableheader">
+			  <?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Marketing']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Marketing'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			  </td>
+            </tr>
+          </table>
+        </div>
+      <div class="divstyle">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+            <tr>
+              <td align="left" valign="top"><img src="images/orders.gif" width="109" height="69" /></td>
+            </tr>
+            <tr>
+              <td class="homequicklinktableheader">
+			<?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Enquiry']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Enquiry'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			  </td>
+            </tr>
+          </table>
+		  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="homequicklinktable">
+            <tr>
+              <td align="left" valign="top"><img src="images/enquiries.gif" width="109" height="69" /></td>
+            </tr>
+            <tr>
+              <td class="homequicklinktableheader">
+			<?php 
+		  	// Get the menu items 
+			$sql_feat = "SELECT feature_title,feature_consoleurl FROM features WHERE parent_id= 0 
+						AND feature_displaytouser=1 AND feature_hide = 0 AND 
+						services_service_id = ".$defmenu_arr['Orders']." ORDER BY feature_ordering";
+			$ret_feat = $db->query($sql_feat);
+			// Get the name of service
+			$sql_serv = "SELECT service_name FROM services WHERE service_id=".$defmenu_arr['Orders'];
+			$ret_serv = $db->query($sql_serv);
+			if ($db->num_rows($ret_serv))
+			{
+				$row_serv = $db->fetch_array($ret_serv);
+				echo stripslashes($row_serv['service_name']);
+			}	
+		  ?>
+            <ul>
+			<?php
+				if ($db->num_rows($ret_feat))
+				{
+					while ($row_feat = $db->fetch_array($ret_feat))
+					{
+			?>
+              		<li><a href="<?php echo $row_feat['feature_consoleurl']?>" class="hometextlink" title="<?php echo stripslashes($row_feat['feature_title'])?>"><?php echo stripslashes($row_feat['feature_title'])?></a></li>
+			<?php
+					}
+				}
+			?>  
+            </ul>
+			  </td>
+            </tr>
+          </table>
+      </div>
+	  </div>

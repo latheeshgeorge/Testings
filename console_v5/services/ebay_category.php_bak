@@ -1,0 +1,14 @@
+<?php
+	if($_REQUEST['fpurpose']=='')
+	{ 
+		$ajax_return_function = 'ajax_return_contents';
+		include "ajax/ajax.php";
+		include ('includes/ebay_category/list_ebay_category.php');
+	}	
+	else if($_REQUEST['fpurpose']=='subcategoryAssign') // Case of selecting categgories to groups
+	{
+		
+		include ('includes/product_category/list_category_ass_selcat.php');
+	}	
+?>
+

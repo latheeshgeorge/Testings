@@ -1,0 +1,25 @@
+<?php 
+	$ecom_bypass_loggedin_check = 1; // done to bypass the "is logged in?" checking inside the session.php file
+	include_once("functions/functions.php");
+	include_once('session.php');
+	include_once("config.php");
+	
+	if($ecom_siteid==61)
+		$gp_width = 948;
+	else
+		$gp_width = 848;
+?>
+<html>
+<head>
+<script type="text/javascript" src="openflashchart/js/swfobject.js"></script>
+<script type="text/javascript">
+swfobject.embedSWF(
+"openflashchart/open-flash-chart.swf", "my_chart",
+"<?php echo $gp_width?>", "400", "9.0.0", "openflashchart/expressInstall.swf",
+{"data-file":"do_show_order_past7_graph.php"},{"wmode" : "transparent"});
+</script>
+</head>
+<body>
+<div id="my_chart"></div>
+</body>
+</html>

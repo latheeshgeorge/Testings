@@ -1,0 +1,829 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="main_table">
+<tr>
+  <td class="main_header"><a name="top" id="top"></a>How Delivery Option Works? </td>
+</tr>
+<tr>
+	<td class="main_header_subtext"><p>The delivery method to be used in the website can be managed from this section. Depending on the selected delivery method, different options will be displayed for setting up the delivery method.</p>    </td>
+  </tr>
+<tr>
+  <td class="level1_header_topside">&nbsp;</td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#list" class="level1_header_a">1. List Delivery Methods</a> </td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#none" class="level1_header_a">1.1. None </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#weight" class="level1_header_a">1.2. Charge Delivery by Weight  </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#amount" class="level1_header_a">1.3. Charge Delivery by Amount Spent </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#number" class="level1_header_a">1.4. Charge Delivery by Number of Items Bought </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#loc" class="level1_header_a">1.5. Charge Delivery by Location </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#loc_weight" class="level1_header_a">1.6. Charge Delivery by Location and Weight </a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#loc_amount" class="level1_header_a">1.7. Charge Delivery by Location and Amount Spent</a></td>
+</tr>
+<tr>
+  <td class="level2_header_top"><a href="#loc_number" class="level1_header_a">1.8. Charge Delivery by Location and Number of Items Bought </a></td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#list_delmethod_groups" class="level1_header_a">2. List Delivery Method Groups </a> </td>
+</tr>
+<tr>
+  <td class="level1_header_top"><a href="#add_methodgroups" class="level1_header_a">3. Add/Edit Delivery Method Groups</a> </td>
+</tr>
+<tr>
+  <td class="level1_header_bottomside">&nbsp;</td>
+</tr>
+<tr>
+  <td class="level1_header"><a name="list" id="list"></a>List Delivery Methods </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">The list of delivery methods that can be used in your website will be listed in this section. At a time only of them can be used. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/delivery-charges/delivery-charges1.jpg" width="702" height="494" /></td>
+</tr>
+
+
+<tr>
+  <td class="level1_header_subtext">Select the required delivery method and click on &quot;Save&quot; button. This will save the selection and when retunred to the page a new button will be displayed next to the selected delivery method. When clicked on this button, various options to be set for the selected delivery method will be displayed in a new page. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Split delivery is a facility which allows to send items in one order at different periods. For example if an order has 2 products. If one of the products is in pre order and another is in stock. The product in preorder   will be available only at a future date. In such situation customers can decide whether they want the available product to be delivered at the earliest and the product in pre order product at the time it comes in stock or both the products should be sent together when both are in stock. Customers will be given the option to make this decision only if the &quot;Allow Split Delivery&quot; is set to 'Y' in this page.  </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">It is possible to specify groups for delivery methods. Groups allows to define different price groups for the selected delivery method. For e.g. With in 7 days, next day itself etc. The price and delivery calculation criteria can be different for each of such groups. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">The list of delivery methods are the following</td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="none" id="none"></a>1. None </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If no delivery method is to be set in your website, then select this option. </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="weight" id="weight"></a>2. Charge Delivery by Weight </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on the total weight of products in the order, then this option should be selected. If this is the delivery method you wish to use in your website, then the weight for each of the products should be set correctly from the product add/edit page in your site console. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to this page, a new button will be displayed next to this option with the caption &quot;Set Values&quot;. When clicked on this button, a new page will be displayed which allows to set the conditions to be used to calculate the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges2.jpg" width="702" height="489" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="86%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="3" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select">
+        <option>0</option>
+        <option selected="selected">100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select>      </td>
+      <td width="6%" align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select3">
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option selected="selected">400</option>
+        <option>500</option>
+            </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select3">
+        <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+                  </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select7">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select8">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">This allows to specify the criteria and the charges to be used to calculate the delivery charges in your website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">By default 5 rows will be displayed, but when details are saved, 5 new rows will be automatically created to specify more values. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The above settings will work as  </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">a. If total weight of products in order is less than 100kg, then &pound;10 will be the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">b. If total weight is less than 400kg, but greater than or equal to 100kg, then &pound;20 will be the delivery charge.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">c. If total weight is greater than or equal to 400kg, then also  &pound;20 will be taken as the delivery charge. That is if the total weight of order does not fall in any of the criteria specified above, then the price set for the last option will be considered. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If delivery method groups exists in your website, then option to specify the calculation criteria and the charges seperately for each of the delivery method groups will be displayed in this page. That is, the above given tabular section will be displayed under each of the delivery method groups. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="amount" id="amount"></a>3. Charge Delivery by Amount Spent </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on the order grand total, then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to this page, a new button will be displayed next to this option with the caption &quot;Set Values&quot;. When clicked on this button, a new page will be displayed which allows to set the conditions to be used to calculate the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges3.jpg" width="702" height="517" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="73%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select">
+        <option>0</option>
+        <option selected="selected">100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select>      </td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select3">
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option selected="selected">400</option>
+        <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select3">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select7">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select8">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>100</option>
+        <option>200</option>
+        <option>300</option>
+        <option>400</option>
+        <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">This allows to specify the criteria and the charges to be used to calculate the delivery charges in your website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">By default 5 rows will be displayed, but when details are saved, 5 new rows will be automatically created to specify more values. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The above settings will work as </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">a. If order total is less than &pound;100, then &pound;10 will be the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">b. If order total is less than &pound;400, but greater than or equal to &pound;100, then &pound;20 will be the delivery charge.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">c. If order total is greater than or equal to &pound;400, then also  &pound;20 will be taken as the delivery charge. That is if the order total  does not fall in any of the criteria specified above, then the price set for the last option will be considered. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If delivery method groups exists in your website, then option to specify the calculation criteria and the charges seperately for each of the delivery method groups will be displayed in this page. That is, the above given tabular section will be displayed under each of the delivery method groups. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="number" id="number"></a>4. Charge Delivery by Number of Items Bought </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on the number of items in order, then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to this page, a new button will be displayed next to this option with the caption &quot;Set Values&quot;. When clicked on this button, a new page will be displayed which allows to set the conditions to be used to calculate the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges4.jpg" width="702" height="441" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="73%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select">
+        <option>0</option>
+        <option>1</option>
+        <option selected="selected">2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>      </td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select9">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option selected="selected">4</option>
+        <option>5</option>
+                  </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select3">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select10">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select11">
+        <option selected="selected"> </option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">This allows to specify the criteria and the charges to be used to calculate the delivery charges in your website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">By default 5 rows will be displayed, but when details are saved, 5 new rows will be automatically created to specify more values. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The above settings will work as </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">a. If number of products in order  is less than 2, then &pound;10 will be the delivery charge. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">b. If number of products in order  is less than 4, but greater than or equal to 2, then &pound;20 will be the delivery charge.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">c. If number of products in order is greater than or equal to 4, then also  &pound;20 will be taken as the delivery charge. That is if the number of products in order does not fall in any of the criteria specified above, then the price set for the last option will be considered. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If delivery method groups exists in your website, then option to specify the calculation criteria and the charges seperately for each of the delivery method groups will be displayed in this page. That is, the above given tabular section will be displayed under each of the delivery method groups. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="loc" id="loc"></a>5. Charge Delivery by Location </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on delivery location, then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to this page, a new button will be displayed next to this option with the caption &quot;'Edit by Location&quot;. When clicked on this button, a new page will be displayed which allows to set the locations to be displayed to the customer in the website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges5.jpg" width="702" height="316" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The list of location which are already added will be listed in this section. Two links, &quot;Edit&quot; and &quot;Delete&quot; is displayed with each of the locations.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Edit&quot; link to go the page where the location name can be edited and also the charge for the location can be set. Modify the details and click on &quot;Submit Rates&quot; button to save the details. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Delete&quot; link to delete the location and its associated details. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">To add new locations, click on the link &quot;Please Click here to add more Locations )&quot;. When clicked on this link a new page will be displayed where the location name  and also the charge for the location can be set. Specify the details and click on &quot;Submit Rates&quot; button to save the details. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="loc_amount" id="loc_amount"></a>6. Charge Delivery by Location and Amount Spent </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on both delivery location and amount spent (order total), then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to this page, a new button will be displayed next to this option with the caption &quot;'Edit by Location&quot;. When clicked on this button, a new page will be displayed which allows to set the locations to be displayed to the customer in the website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The list of location which are already added will be listed in this section. Two links, &quot;Edit&quot; and &quot;Delete&quot; is displayed with each of the locations.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Delete&quot; link to delete the location and its associated details. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">To add new locations, click on the link &quot;Please Click here to add more Locations )&quot;. When clicked on this link a new page will be displayed with the option to specify the location name and also following details.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges6.jpg" width="702" height="414" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="73%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select12">
+          <option>0</option>
+          <option selected="selected">100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+        </select>      </td>
+      <td align="right" class="related_topic_text"><input name="textfield2" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select12">
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option selected="selected">400</option>
+          <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield2" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select12">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield2" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select12">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield2" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select12">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield2" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Edit&quot; link to go the page where the location name can be edited and also the option simillar to that in add location section will be displayed. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="loc_weight" id="loc_weight"></a>7. Charge Delivery by Location and Weight </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on both delivery location and weight, then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to the page, a new button will be displayed next to this option with the caption &quot;'Edit by Location&quot;. When clicked on this button, a new page will be displayed which allows to set the locations to be displayed to the customer in the website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The list of location which are already added will be listed in this section. Two links, &quot;Edit&quot; and &quot;Delete&quot; is displayed with each of the locations.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Delete&quot; link to delete the location and its associated details. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">To add new locations, click on the link &quot;Please Click here to add more Locations )&quot;. When clicked on this link a new page will be displayed with the option to specify the location name and also following details.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges7.jpg" width="702" height="407" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="86%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="3" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select13">
+          <option>0</option>
+          <option selected="selected">100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+        </select>      </td>
+      <td width="6%" align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield3" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select13">
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option selected="selected">400</option>
+          <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield3" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select13">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield3" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select13">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield3" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select13">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>100</option>
+          <option>200</option>
+          <option>300</option>
+          <option>400</option>
+          <option>500</option>
+      </select></td>
+      <td align="center" class="related_topic_text">kg</td>
+      <td align="right" class="related_topic_text"><input name="textfield3" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Edit&quot; link to go the page where the location name can be edited and also the option simillar to that as explained in  location add section will be displayed. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+<tr>
+  <td class="level2_header"><a name="loc_number" id="loc_number"></a>8. Charge Delivery by Location and Number of Items Bought </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">If the delivery charge is to be calculated based on both delivery location and number of products in order, then this option should be selected. When clicked on the &quot;Save&quot; button, the selection will be saved and when returned to the page, a new button will be displayed next to this option with the caption &quot;'Edit by Location&quot;. When clicked on this button, a new page will be displayed which allows to set the locations to be displayed to the customer in the website. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The list of location which are already added will be listed in this section. Two links, &quot;Edit&quot; and &quot;Delete&quot; is displayed with each of the locations.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Delete&quot; link to delete the location and its associated details. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">To add new locations, click on the link &quot;Please Click here to add more Locations )&quot;. When clicked on this link a new page will be displayed with the option to specify the location name and also following details.</td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><img src="img/delivery-charges/delivery-charges8.jpg" width="702" height="453" /></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">The options that will be displayed are </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext"><table width="73%" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center" class="related_topic_head">Option</td>
+      <td width="26%" align="right" class="related_topic_head">Charge (&pound;) </td>
+    </tr>
+    <tr>
+      <td width="54%" align="right" class="related_topic_text">More than zero but less than&nbsp;&nbsp; </td>
+      <td width="6%" align="left" class="related_topic_text"><select name="select14">
+          <option>0</option>
+          <option>1</option>
+          <option selected="selected">2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>      </td>
+      <td align="right" class="related_topic_text"><input name="textfield4" type="text" value="10" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select14">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option selected="selected">4</option>
+          <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield4" type="text" value="20" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select14">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield4" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select14">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield4" type="text" size="6" /></td>
+    </tr>
+    <tr>
+      <td align="right" class="related_topic_text">More than previous but less than&nbsp;&nbsp; </td>
+      <td align="left" class="related_topic_text"><select name="select14">
+          <option selected="selected"> </option>
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+      </select></td>
+      <td align="right" class="related_topic_text"><input name="textfield4" type="text" size="6" /></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Use &quot;Edit&quot; link to go the page where the location name can be edited and also the option simillar to that as explained in  location add section will be displayed. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit Rates&quot; to save the details and return back to delivery settings page. </td>
+</tr>
+<tr>
+  <td class="level2_header_subtext">Click on &quot;Submit and enter more rates&quot; to save the details and return back to the current page to enter more values. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+
+<tr>
+  <td class="level1_header"><a name="list_delmethod_groups" id="list_delmethod_groups"></a>List Delivery Method Groups </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Delivery method groups allows to define different price groups for  the selected delivery method. For e.g. With in 7 days, next day itself etc. The price and delivery calculation criteria can be different for each of such groups. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext"><img src="img/delivery-charges/delivery-charges9.jpg" width="702" height="428" /></td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Delivery method groups  can be searched by entering the group name . Sort order and the number of groups to be listed per page in the search result can be set. Click the &quot;Go&quot; button to search for the users. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Use &quot;Add&quot; link to go to the page which allows to add new delivery method groups. There are 2 ways to go to the edit page of an existing delivery method group. One method is by clicking the name in the list and another method is by ticking the delivery method group to be edited and clicking the &quot;Edit&quot; icon. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">In order to delete delivery method group(s), mark the tick box of respective delivery method group(s) and click the &quot;Delete&quot; icon. It is possible to delete more than one group at a time. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">Status of groups can be changed using the section &quot;Change Hide Status to&quot;. Tick mark the group whos status are to be changed and select the required status from the drop down and then press the &quot;Change&quot; button. </td>
+</tr>
+<tr>
+  <td class="level1_header_subtext">The sort order in which the delivery method is to be displayed in the website can be set with the help of the textbox shown with each of the groups in the list. Specify the sort order in the textboxes and click on &quot;Save Order&quot; button to save the sort orders. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td class="level1_header"><a name="add_methodgroups" id="add_methodgroups"></a>Add/Edit Delivery Method Groups<a name="edit_methodgroups" id="edit_methodgroups"></a></td>
+</tr>
+<tr>
+  <td class="level1_header"><img src="img/delivery-charges/delivery-charges10.jpg" width="702" height="318" /></td>
+</tr>
+<tr>
+  <td class="level2_header">Key Fields </td>
+</tr>
+
+<tr>
+  <td class="level3_header">1. Group Name</td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">The name of the delivery method group should be displayed in this field. </td>
+</tr>
+<tr>
+  <td class="level3_header">2. Order</td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">The sort order for the delivery method group should be specified in this field. </td>
+</tr>
+<tr>
+  <td class="level3_header">3. Hide Group </td>
+</tr>
+<tr>
+  <td class="level3_header_subtext">This field allows to decide whether the delivery method groups is to be displayed in the website. </td>
+</tr>
+<tr>
+  <td align="right" class="level1_header_bottom"><a href="#top" class="level1_header_bottom_a">Back to Top</a> </td>
+</tr>
+
+<tr>
+  <td align="center"><input type="button" value="Click to close" onclick="window.close();" class="red" /></td>
+</tr>
+</table>
