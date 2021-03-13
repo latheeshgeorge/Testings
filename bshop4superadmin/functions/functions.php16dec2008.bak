@@ -1,0 +1,656 @@
+<?php
+#################################################################
+	# Script Name 	: functions.php
+	# Description 	: General Functions page
+	# Coded by 		: SG
+	# Created on	: 09-Jun-2006
+	# Modified by	: SG
+	# Modified On	: 12-June-2006
+#################################################################
+function redirect($url,$arg = "")
+{
+	if($arg) {
+		@header("Location: ".$url."?".session_name()."=".session_id()."&".$arg);
+	} else {
+		@header("Location: ".$url."?".session_name()."=".session_id());
+	}
+	exit;
+}
+function generateselectbox($name,$option_values,$selected,$onblur='',$onchange='') {
+	$return_value = "<select name='$name' id='$name'";
+	if($onblur) {
+		$return_value .= " onblur='$onblur'";
+	}
+	if($onchange) {
+		$return_value .= " onchange='$onchange'";
+	}
+	$return_value .= ">";
+	foreach($option_values as $k => $v) {
+		if($selected == $k) {
+			$return_value .= "<option value='$k' selected>$v</option>";
+		} else {
+			$return_value .= "<option value='$k'>$v</option>";
+		}
+	}
+	
+	$return_value .= "</select>";
+	return $return_value;
+}
+
+function add_slash($varial,$strip_tags=true)
+{
+    #checking whether magic quotes are on
+	if (!get_magic_quotes_gpc()){
+		$ret=addslashes(trim($varial));
+	} else {
+		$ret=trim($varial);
+	}
+	if($strip_tags==true)
+	$ret = strip_tags($ret);
+	return $ret;
+	#checking whether magic quotes are on
+	/*if (!get_magic_quotes_gpc()){
+		$ret=addslashes(trim($varial));
+	} else {
+		$ret=trim($varial);
+	}
+	return $ret;*/
+}
+function serverside_validation($fieldRequired, $fieldDescription, $fieldEmail, $fieldConfirm, $fieldConfirmDesc, $fieldNumeric, $fieldNumericDesc) {
+	global $alert;
+	foreach($fieldRequired as $k => $v) {
+		if(trim($v) == "" || $v == '0') {
+			$alert = "Enter ".$fieldDescription[$k];
+			return false;
+		}
+	}
+	foreach($fieldEmail as $v) {
+		if(!ereg("^[a-z0-9_.]+@[a-z0-9]+\.([a-z.]{2,15})",trim($v))) {
+			$alert = "Enter a valid Email address";
+			return false;
+		}
+	}
+	if (isset($fieldConfirm[0])) {
+		if($fieldConfirm[0] != $fieldConfirm[1]) {
+			$alert = "Your ".$fieldConfirmDesc[0]." and ".$fieldConfirmDesc[1]." does not match";
+			return false;
+		}
+	}
+	foreach($fieldNumeric as $k => $v) {
+		if(!is_numeric($v)) {
+			$alert = "Enter numeric value for ".$fieldNumericDesc[$k];
+			return false;
+		}
+	}
+	return true;
+}
+/****************Check date difference***********************/
+function check_date_difference($from,$to)
+{
+	$from_date_array = explode("-",$from);
+	$from_date_time = mktime(0,0,0,$from_date_array[1],$from_date_array[2],$from_date_array[0]);
+	$to_date_array = explode("-",$to);
+	$to_date_time = mktime(0,0,0,$to_date_array[1],$to_date_array[2],$to_date_array[0]);
+	if($from_date_time <= $to_date_time) {
+		return true;
+	} else {
+		return false;
+	}
+}
+/*******************Function to validate Password**********************/
+function check_password($password)
+{
+	If (ereg('^([a-zA-Z0-9_]{4,12})$', $password)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+function dateFormat($passdt, $type = "default") {
+	#############fromat of displaying date '4:21pm -Mar 11 Sat'
+	//$arow[orddt] in yyyy-mm-dd hh:mm:sec format
+	$sp_dt1=explode(" ",$passdt);
+	$sp_dt = explode("-",$sp_dt1[0]);
+	$rt_year=$sp_dt[0];
+	$rt_month=$sp_dt[1];
+	$rt_day=$sp_dt[2];
+	$sp_dt2 = explode(":",$sp_dt1[1]);
+	$rt_hr = $sp_dt2[0];
+	$rt_min = $sp_dt2[1];
+	$rt_sec = $sp_dt2[2];
+	$unixstamp=mktime ($rt_hr,$rt_min,$rt_sec,$rt_month,$rt_day,$rt_year);
+	// $dtdisp=@date("h :i a"." - "."M d Y D",$unixstamp);
+	if($type == 'time') {
+		$dtdisp = @date("h :i a",$unixstamp);
+	} else {
+		$dtdisp = @date("d-M-Y",$unixstamp);
+	}
+	return $dtdisp;
+	//int mktime (int hour, int minute, int second, int month, int day, int year [, int is_dst])
+}
+//Function for urldecode
+function urlExtract( $foo ) {
+	$temp = array();
+	$foo = urldecode(base64_decode($foo));
+	$vars = explode('&',$foo);
+	$i = 0;
+	while ($i < count($vars)) {
+		$b = split('=', $vars[$i]);
+		$temp[$b[0]] = $b[1];
+		$i++;
+	}
+	return $temp;
+}
+//Functions for Paging
+function pageNavApp ($pagenum, $pages, $query_str='') {
+	global $pg, $records_per_page;
+	// offset = (page - 1) * thumbs
+	//$a = "<a href='$query_str&amp;pg=";
+	//$b = "'>";
+	//$c = "</a>\n";
+		if($query_str) {
+			$a = "<a href='home.php?$query_str&records_per_page=$records_per_page&pg=";
+		} else {
+			$a = "<a href='home.php?records_per_page=$records_per_page&pg=";
+		}
+	$b = "'>";
+	$c = "</a>\n";
+	$nav = ""; // init page nav string
+	if ($pagenum == 1) {
+		
+			//$nav .= "<img src='images/paging/left2_disabled.gif' border='0'>[First]&nbsp;&nbsp;";
+			$nav .= "<img src='images/paging/left2_disabled.gif' border='0' alt='First'>&nbsp;&nbsp;";
+			//$nav .= "<img src='images/paging/left_disabled.gif' border='0'>[Prev]&nbsp;&nbsp;&nbsp;&nbsp;";
+			$nav .= "<img src='images/paging/left_disabled.gif' border='0' alt='Prev'>&nbsp;&nbsp;&nbsp;&nbsp;";
+		
+	} else {
+		
+			//$nav .= $a."1".$b."<img src='images/paging/left2.gif' border='0'>[First]".$c."&nbsp;&nbsp;";
+			$nav .= $a."1".$b."<img src='images/paging/left2.gif' border='0' alt='First'>".$c."&nbsp;&nbsp;";
+			//$nav .= $a.($pagenum - 1).$b."<img src='images/paging/left.gif' border='0'>[Prev]".$c."&nbsp;&nbsp;&nbsp;&nbsp;";
+			$nav .= $a.($pagenum - 1).$b."<img src='images/paging/left.gif' border='0' alt='Prev'>".$c."&nbsp;&nbsp;&nbsp;&nbsp;";
+		
+	}
+	if ($pagenum == $pages) {
+		
+			//$nav .= "<img src='images/paging/right_disabled.gif' border='0'>[Next]&nbsp;&nbsp;";
+			$nav .= "<img src='images/paging/right_disabled.gif' border='0' alt='Next'>&nbsp;&nbsp;";
+			//$nav .= "<img src='images/paging/right2_disabled.gif' border='0'>[Last]<br>";
+			$nav .= "<img src='images/paging/right2_disabled.gif' border='0' alt='Last'><br>";
+			
+	} else {
+			//$nav .= $a.($pagenum +1).$b."<img src='images/paging/right.gif' border='0'>[Next]".$c."&nbsp;&nbsp;";
+			$nav .= $a.($pagenum +1).$b."<img src='images/paging/right.gif' border='0' alt='Next'>".$c."&nbsp;&nbsp;";
+			//$nav .= $a.($pages).$b."<img src='images/paging/right2.gif' border='0'>[Last]".$c."<br>";
+			$nav .= $a.($pages).$b."<img src='images/paging/right2.gif' border='0' alt='Last'>".$c."<br>";
+		
+	}
+	$nav .= makeNavApp ($pages, $pagenum, $query_str, $javascript_fn);
+	return $nav;
+}
+function makeNavApp ($pages, $pagenum, $query_str='', $nav = "", $mag = 1) {
+	global $pg, $records_per_page, $theme_folder;
+	$n = 10; // Number of pages or groupings
+	$m = 10; // Order of magnitude of groupings
+	//$a = "<a href='$query_str&amp;pg=";
+	//$b = "'>";
+	//$c = "</a>\n";
+	if($query_str) {
+		$a = "<a href='home.php?$query_str&records_per_page=$records_per_page&pg=";
+	} else {
+		$a = "<a href='home.php?records_per_page=$records_per_page&pg=";
+	}
+	$b = "'>";
+	$c = "</a>\n";
+	if ($mag == 1) {
+		// single page level
+		$minpage = (ceil ($pagenum/$n) * $n) + (1-$n);
+		for ($i = $minpage; $i < $pagenum; $i++) {
+			if ( isset($nav[1]) ) {
+				$nav[1] .= $a.($i).$b;
+			} else {
+				$nav[1] = $a.($i).$b;
+			}
+			$nav[1] .= "$i";
+			$nav[1] .= $c;
+		}
+		if ( isset($nav[1]) ) {
+			$nav[1] .= "$pagenum ";
+		} else {
+			$nav[1] = "$pagenum ";
+		}
+		$maxpage = ceil ($pagenum/$n) * $n;
+		if ( $pages >= $maxpage ) {
+			for ($i = ($pagenum+1); $i <= $maxpage; $i++) {
+				$nav[1] .= $a.($i).$b;
+				$nav[1] .= "$i";
+				$nav[1] .= $c;
+			}
+			$nav[1] .= "<br>";
+		} else {
+			for ($i = ($pagenum+1); $i <= $pages; $i++) {
+				$nav[1] .= $a.($i).$b;
+				$nav[1] .= "$i";
+				$nav[1] .= $c;
+			}
+			$nav[1] .= "<br>";
+		}
+		if ( $minpage > 1 || $pages > $n ) {
+			// go to next level
+			$nav = makeNavApp ($pages, $pagenum, $query_str, $nav, $n);
+		}
+		// Construct outgoing string from pieces in the array
+		$out = $nav[1];
+		for ($i = $n; isset ($nav[$i]); $i = $i * $m) {
+			if (isset($nav[$i][1]) && isset($nav[$i][2])) {
+				$out = $nav[$i][1].$out.$nav[$i][2];
+			} else if (isset($nav[$i][1])) {
+				$out = $nav[$i][1].$out;
+			} else if (isset($nav[$i][2])) {
+				$out = $out.$nav[$i][2];
+			} else {
+				$out = $out;
+			}
+		}
+		return $out;
+	}
+	$minpage = (ceil ($pagenum/$mag/$m) * $mag * $m) + (1-($mag * $m));
+	$prevpage = (ceil ($pagenum/$mag) * $mag) - $mag; // Page # of last pagegroup before pagenum's page group
+	if ( $prevpage > $minpage ) {
+		for ($i = ($minpage - 1); $i < $prevpage; $i = $i + $mag) {
+			if (isset($nav[$mag][1])) {
+				$nav[$mag][1] .= $a.($i+1).$b;
+			} else {
+				$nav[$mag][1] = $a.($i+1).$b;
+			}
+			$nav[$mag][1] .= $a.($i+1).$b;
+			$nav[$mag][1] .= "[".($i+1)."-".($i+$mag)."]";
+			$nav[$mag][1] .= $c;
+		}
+		$nav[$mag][1] .= "<br>";
+	} // Otherwise, it's this page's group, which is handled the mag level below, so skip
+	$maxpage = ceil ($pagenum/$mag/$m) * $mag * $m;
+	if ( $pages >= $maxpage ) {
+		// If there are more pages than we are accounting for here
+		$nextpage = ceil ($pagenum/$mag) * $mag;
+		if ($maxpage > $nextpage) {
+			for ($i = $nextpage; $i < $maxpage; $i = $i + $mag) {
+				if (isset($nav[$mag][2])) {
+					$nav[$mag][2] .= $a.($i+1).$b;
+				} else {
+					$nav[$mag][2] = $a.($i+1).$b;
+				}
+				$nav[$mag][2] .= $a.($i+1).$b;
+				$nav[$mag][2] .= "[".($i+1)."-".($i+$mag)."]";
+				$nav[$mag][2] .= $c;
+			}
+			$nav[$mag][2] .= "<br>";
+		}
+	} else {
+		// This is the end
+		if ( $pages >= ((ceil ($pagenum/$mag) * $mag) + 1) ) {
+			// If there are more pages than just this page's group
+			for ($i = (ceil ($pagenum/$mag) * $mag); $i < ($pages-$mag); $i = $i + $mag) {
+				if (isset($nav[$mag][2])) {
+					$nav[$mag][2] .= $a.($i+1).$b;
+				} else {
+					$nav[$mag][2] = $a.($i+1).$b;
+				}
+				$nav[$mag][2] .= "[".($i+1)."-".($i+$mag)."]";
+				$nav[$mag][2] .= $c;
+			}
+			$nav[$mag][2] .= $a.($i+1).$b;
+			$nav[$mag][2] .= "[".($i+1)."-".$pages."]";
+			$nav[$mag][2] .= $c;
+			$nav[$mag][2] .= "<br>";
+		}
+	}
+	if ( $minpage > 1 || $pages >= $maxpage ) {
+		$nav = makeNavApp ($pages, $pagenum, $query_str, $nav, $mag * $m);
+	}
+	return $nav;
+}
+
+function paging_footer($query_string,$numcount,$pg,$pages,$page_type,$colspan) {
+	echo "<tr class=\"maininnertabletd1\">
+		<td colspan=\"$colspan\" align=\"center\">$numcount $page_type found. 
+			Page <b>$pg</b> of <b>$pages</b>
+		</td>
+	</tr>";
+	if($numcount) {
+		echo "<tr class=\"maininnertabletd1\">
+			<td colspan=\"$colspan\" align=\"center\">";
+			echo pageNavApp ($pg, $pages, $query_string,$directpage);
+			echo '</td>
+		</tr>';
+	}
+}
+function table_header($array,$header_positions) {
+
+	$return_value = '<tr class="maininnertabletd1">';
+	foreach ($array as $k=>$value) {
+		$align='center';
+		if($header_positions[$k])
+		{
+			$align=$header_positions[$k];
+		}
+		$return_value .= '<td align="'.$align.'" valign="middle" class="maininnertabletd1"><strong class="fontredheading">'.$value.'</strong></td>';
+	}
+	$return_value .= '</tr>';
+	return $return_value;
+}
+
+function writeSiteList() {
+		global $db;
+		$rstSiteList=$db->query("SELECT site_domain FROM sites ORDER BY domain");
+		$siteList = "";
+		while($siteListR = $db->fetch_array($rstSiteList)) {
+			$siteList .= $siteListR['site_domain']."\n";
+		}
+
+		$fileHandle = fopen(SITE_DOCUMENT_ROOT."/conf/siteList", "w");
+		fwrite($fileHandle,trim($siteList));
+		fclose($fileHandle);
+
+		if(file_exists(SITE_DOCUMENT_ROOT."/conf/siteList")) {
+			touch(SITE_DOCUMENT_ROOT."/conf/siteList_isUpdated.temp");
+		}
+
+	}
+function headed_email($to, $subject, $content, $attachments = array())
+{
+		global $insert_siteid;
+		$logo = 'logo.gif';
+			
+		$m = new Mime("Business 1st <support@business1st.uk.com>",	// From
+					  $to,											// To
+					  "Support <support@business1st.uk.com>",		// CC
+					  $subject, 									// Subject
+					  "multipart/mixed");							// Content-type
+
+		$b1st_logo_id = $m->generate_cid();
+		$msoft_logo_id = $m->generate_cid();
+
+		$message = file("emails/template.html");
+		$message = implode("", $message);
+		$message = str_replace("{ title }", $subject, $message);
+		$message = str_replace("{ content }", $content, $message);
+		$message = str_replace("{ b1st_logo }", "cid:$b1st_logo_id", $message);
+		$message = str_replace("{ msoft_logo }", "cid:$msoft_logo_id", $message);
+
+		$m->start_multipart("related");
+		$m->insert_text("html", $message);
+		$m->insert_image("emails/b1st-logo.jpg", $b1st_logo_id);
+		$m->insert_image("emails/$logo", $bshop_logo_id);
+		$m->end_multipart();
+
+		foreach($attachments as $attach) $m->insert_attachment($attach["type"], $attach["filename"]);
+		$m->send();
+}
+function generate_console_menu($site_id)
+{
+	global $db;
+	$show_tree = '';
+	// Find all root level menu items for current site from mod_menus table
+	$sql_mod = "SELECT distinct a.service_id,a.service_name FROM services a,mod_menu b WHERE b.sites_site_id=$site_id 
+				AND a.service_id = b.services_service_id ORDER BY a.ordering";
+	$ret_mod = $db->query($sql_mod);
+	if ($db->num_rows($ret_mod))
+	{
+		echo "<table width='100%' cellpadding=1 cellspacing=1 border='0'>";
+		while ($row_mod = $db->fetch_array($ret_mod))
+		{
+			echo "<tr><td align='left' class='maininnertabletd4'>&nbsp;<strong>".stripslashes($row_mod['service_name'])."</strong></td></tr>";
+			// Find the first level features under this service
+			$sql_feat = "SELECT a.feature_id,b.menu_title FROM features a,mod_menu b WHERE 
+						a.feature_id = b.features_feature_id AND b.sites_site_id=$site_id 
+						AND a.parent_id=0 AND b.services_service_id=".$row_mod['service_id']." ORDER BY menu_order";
+			$ret_feat = $db->query($sql_feat);
+			while ($row_feat = $db->fetch_array($ret_feat))
+			{
+				echo "<tr><td align='left'>&nbsp;&nbsp; <img src='../../images/leftline.gif' title=''>".stripslashes($row_feat['menu_title'])."</td></tr>";
+				$ret_tree = generate_console_menu_items($site_id,$row_feat['feature_id'],1);
+			}			
+		}	
+	}
+	echo "<tr><td align='center'><br><br><br><input type='button' value='Close' class='input-button' onclick='window.close();'></td></tr>";
+}
+function generate_service_hierarchy($service_id)
+{
+	global $db;
+	$show_tree = '';
+	$sql_service="SELECT service_name FROM services WHERE service_id=".$service_id;
+	$ret_service=$db->query($sql_service);
+	$row_service = $db->fetch_array($ret_service);
+	
+	echo "<table width='100%' cellpadding=1 cellspacing=1 border='0'>";
+	echo "<tr><td align='left' class='maininnertabletd4'>&nbsp;<strong>".stripslashes($row_service['service_name'])."</strong></td></tr>";
+	// Find the first level features under this service
+			$sql_feat = "SELECT feature_id,feature_title FROM features WHERE 
+						parent_id=0 AND services_service_id=".$service_id;
+						
+			$ret_feat = $db->query($sql_feat);
+			if(mysql_num_rows($ret_feat))
+			{
+				while ($row_feat = $db->fetch_array($ret_feat))
+				{
+					echo "<tr><td align='left'>&nbsp;&nbsp; <img src='../../images/leftline.gif' title=''>".stripslashes($row_feat['feature_title'])."</td></tr>";
+					$ret_tree = generate_hierarchy_menu_items($row_feat['feature_id'],1);
+				}			
+			}
+			else
+			{
+					echo "<tr><td align='left'>&nbsp;&nbsp;Sorry..No Features Listed</td></tr>";
+			}
+			
+	
+	echo "<tr><td align='center'><br><br><br><input type='button' value='Close' class='input-button' onclick='window.close();'></td></tr>";
+}
+function generate_hierarchy_menu_items($id,$level=0)
+{
+	global $db;
+	$query = "SELECT feature_id,feature_title FROM features WHERE 
+			  parent_id=$id";
+		  
+	$result = $db->query($query);
+	while(list($id,$title) = $db->fetch_array($result))
+	{
+		$space = '';
+		for($i=0; $i<=$level-1; $i++) {
+			$space .= '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+		}
+		echo  "<tr><td align='left'>". $space."<img src='../../images/leftline.gif' title=''>".$title."</td></tr>";
+		$features = generate_hierarchy_menu_items($id,$level+1);
+		if(is_array($features))
+		{
+			$space = '';
+			for($i=0; $i<=$level-1; $i++) {
+				$space .= '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			foreach($features as $k => $v)
+			{
+				echo "<tr><td align='left'>".$space."<img src='../../images/leftline.gif' title=''>".$v."</td></tr>";
+			}
+		}
+	}
+}
+/*function generate_parent_menu_items($id,$level,$str='')
+{
+	
+	global $db;
+	$query = "SELECT parent_id FROM features  WHERE 
+			  feature_id=$id";
+		  
+	
+	//echo $query;
+	$result = $db->query($query);
+	list($parent_id)=$db->fetch_array($result);
+	
+	if($parent_id<>0)
+	{
+		$query_parent="SELECT feature_title FROM features WHERE feature_id=".$parent_id;
+		$result_parent = $db->query($query_parent);
+		list($parent_name)=$db->fetch_array($result_parent);
+		//$str.=$parent_name;
+		$level++;
+		
+		for($i=1;$i<=$level;$i++)
+		{
+			$space.="&nbsp;";
+		}
+		
+		$str=$parent_name."<br>".$str;
+			
+			
+		
+		generate_parent_menu_items($parent_id,$level);
+		
+	}	
+	
+	echo $str;
+	
+	
+}*/
+function getParentTree($id,$level=0,$arr)
+{
+	global $db;
+	
+	$query = "SELECT parent_id FROM features  WHERE 
+			  feature_id=$id";
+	
+	$result = $db->query($query);
+	list($parent_id)=$db->fetch_array($result);
+	$arr[$level]=$id;
+	if($parent_id>0)
+	{
+		$level++;
+		getParentTree($parent_id,$level,$arr);
+	}
+	else
+	{
+		generateFatureTree($arr);
+    }
+}
+function generateFatureTree($arr)
+{
+	global $db;
+	$res_arr=array_reverse($arr);
+	
+	$space='';
+	$img='';	
+	foreach($res_arr as $v)
+	{
+		$query="SELECT feature_name FROM features WHERE feature_id=".$v;
+		$result = $db->query($query);
+		list($feature_name)=$db->fetch_array($result);
+		$space.="&nbsp;&nbsp;&nbsp;";
+		echo  "<tr><td align='left'>".$space.$img.$feature_name."</td></tr>";
+		$img="<img src='../../images/leftline.gif' title=''>";
+	}
+	
+	echo "<tr><td align='center'><br><br><br><input type='button' value='Close' class='input-button' onclick='window.close();'></td></tr>";
+}
+function getParentTreeCat($id,$level=0,$arr)
+{
+	global $db;
+	
+	$query = "SELECT parent_id FROM product_categories  WHERE 
+			  category_id=$id";
+	
+	$result = $db->query($query);
+	list($parent_id)=$db->fetch_array($result);
+	$arr[$level]=$id;
+	if($parent_id>0)
+	{
+		$level++;
+		getParentTreeCat($parent_id,$level,$arr);
+	}
+	else
+	{
+		generateCatTree($arr);
+    }
+}
+function generateCatTree($arr)
+{
+	global $db;
+	$res_arr=array_reverse($arr);
+	
+	$space='';
+	$img='';	
+	foreach($res_arr as $v)
+	{
+		$query="SELECT category_name FROM product_categories WHERE category_id=".$v;
+		$result = $db->query($query);
+		list($cat_name)=$db->fetch_array($result);
+		$space.="&nbsp;&nbsp;&nbsp;";
+		echo  "<tr><td align='left'>".$space.$img.$cat_name."</td></tr>";
+		$img="<img src='../../images/leftline.gif' title=''>";
+	}
+	
+	echo "<tr><td align='center'><br><br><br><input type='button' value='Close' class='input-button' onclick='window.close();'></td></tr>";
+}
+function generate_console_menu_items($site_id,$id,$level=0)
+{
+	global $db;
+	$query = "SELECT a.feature_id,b.menu_title FROM features a,mod_menu b WHERE 
+						a.feature_id = b.features_feature_id AND b.sites_site_id=$site_id 
+						AND a.parent_id=$id ORDER BY menu_order";
+	$result = $db->query($query);
+	while(list($id,$title) = $db->fetch_array($result))
+	{
+		$space = '';
+		for($i=0; $i<=$level-1; $i++) {
+			$space .= '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+		}
+		echo  "<tr><td align='left'>". $space."<img src='../../images/leftline.gif' title=''>".$title."</td></tr>";
+		$features = generate_console_menu_items($site_id,$id,$level+1);
+		if(is_array($features))
+		{
+			$space = '';
+			for($i=0; $i<=$level-1; $i++) {
+				$space .= '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			foreach($features as $k => $v)
+			{
+				echo "<tr><td align='left'>".$space."<img src='../../images/leftline.gif' title=''>".$v."</td></tr>";
+			}
+		}
+	}
+}
+
+function generate_category_tree($id,$level=0,$all=false,$only_cat=false,$select=false)
+{
+	global $db,$cbo_sites;
+	if($id == 0) {
+		if(!$only_cat) {
+			if($all)  $categories[0] = '--- All ---';
+			elseif($select) $categories[0] = '--- Select ---';
+			else $categories[0] = '--- Root Level ---';
+		}
+	}
+	$query = "select category_id,category_name from product_categories where parent_id=$id AND sites_site_id=$cbo_sites";
+	$result = $db->query($query);
+	while(list($id,$name) = $db->fetch_array($result))
+	{
+		$space = '';
+		for($i=0; $i<=$level-1; $i++) {
+			$space .= '--';
+		}
+		$categories[$id] = $space.$name;
+		$subcategories = generate_category_tree($id,$level+1);
+		if(is_array($subcategories))
+		{
+			$space = '';
+			for($i=0; $i<=$level-1; $i++) {
+				$space .= '--';
+			}
+			foreach($subcategories as $k => $v)
+			{
+				$categories[$k] = $space.$v;
+			}
+		}
+	}
+	return $categories;
+}
+
+?>

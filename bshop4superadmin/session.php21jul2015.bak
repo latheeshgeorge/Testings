@@ -1,0 +1,9 @@
+<?php
+session_start();
+if($_SESSION['user_id'] == '') {
+	redirect('index.php','session=true');
+}
+if($_REQUEST['request'] == 'logout') {
+	include('logout.php');
+}
+?>
